@@ -22,65 +22,65 @@
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="9" lineNum="30" parent="globals/WatchFace1View" pc="268435681" symbol="onLayout"/>
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="9" lineNum="31" parent="globals/WatchFace1View" pc="268435693" symbol="onLayout"/>
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="9" lineNum="33" parent="globals/WatchFace1View" pc="268435721" symbol="onLayout"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="162" parent="globals/WatchFace1View" pc="268435755" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="163" parent="globals/WatchFace1View" pc="268435758" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="164" parent="globals/WatchFace1View" pc="268435769" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="165" parent="globals/WatchFace1View" pc="268435794" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="166" parent="globals/WatchFace1View" pc="268435801" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="169" parent="globals/WatchFace1View" pc="268435808" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="170" parent="globals/WatchFace1View" pc="268435836" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="173" parent="globals/WatchFace1View" pc="268435864" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="174" parent="globals/WatchFace1View" pc="268435874" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="175" parent="globals/WatchFace1View" pc="268435899" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="178" parent="globals/WatchFace1View" pc="268435924" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="179" parent="globals/WatchFace1View" pc="268435942" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="181" parent="globals/WatchFace1View" pc="268435958" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="182" parent="globals/WatchFace1View" pc="268435968" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="183" parent="globals/WatchFace1View" pc="268435978" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="184" parent="globals/WatchFace1View" pc="268435988" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="187" parent="globals/WatchFace1View" pc="268435998" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="187" parent="globals/WatchFace1View" pc="268436014" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="188" parent="globals/WatchFace1View" pc="268436030" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="188" parent="globals/WatchFace1View" pc="268436046" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="189" parent="globals/WatchFace1View" pc="268436062" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="189" parent="globals/WatchFace1View" pc="268436078" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="191" parent="globals/WatchFace1View" pc="268436094" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="192" parent="globals/WatchFace1View" pc="268436111" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="110" parent="globals/WatchFace1View" pc="268436187" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="111" parent="globals/WatchFace1View" pc="268436190" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="112" parent="globals/WatchFace1View" pc="268436201" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="114" parent="globals/WatchFace1View" pc="268436226" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="115" parent="globals/WatchFace1View" pc="268436235" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="117" parent="globals/WatchFace1View" pc="268436244" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="118" parent="globals/WatchFace1View" pc="268436249" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="119" parent="globals/WatchFace1View" pc="268436256" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="122" parent="globals/WatchFace1View" pc="268436263" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="123" parent="globals/WatchFace1View" pc="268436291" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="126" parent="globals/WatchFace1View" pc="268436319" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="127" parent="globals/WatchFace1View" pc="268436329" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="128" parent="globals/WatchFace1View" pc="268436354" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="131" parent="globals/WatchFace1View" pc="268436379" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="132" parent="globals/WatchFace1View" pc="268436397" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="134" parent="globals/WatchFace1View" pc="268436413" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="135" parent="globals/WatchFace1View" pc="268436423" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="136" parent="globals/WatchFace1View" pc="268436433" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="137" parent="globals/WatchFace1View" pc="268436443" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="140" parent="globals/WatchFace1View" pc="268436453" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="140" parent="globals/WatchFace1View" pc="268436469" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="141" parent="globals/WatchFace1View" pc="268436485" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="141" parent="globals/WatchFace1View" pc="268436501" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="142" parent="globals/WatchFace1View" pc="268436517" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="142" parent="globals/WatchFace1View" pc="268436533" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="144" parent="globals/WatchFace1View" pc="268436549" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="145" parent="globals/WatchFace1View" pc="268436566" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="147" parent="globals/WatchFace1View" pc="268436634" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="148" parent="globals/WatchFace1View" pc="268436641" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="150" parent="globals/WatchFace1View" pc="268436667" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="151" parent="globals/WatchFace1View" pc="268436692" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="152" parent="globals/WatchFace1View" pc="268436717" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="153" parent="globals/WatchFace1View" pc="268436742" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="155" parent="globals/WatchFace1View" pc="268436767" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="156" parent="globals/WatchFace1View" pc="268436796" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="160" parent="globals/WatchFace1View" pc="268435755" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="161" parent="globals/WatchFace1View" pc="268435758" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="162" parent="globals/WatchFace1View" pc="268435769" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="163" parent="globals/WatchFace1View" pc="268435794" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="164" parent="globals/WatchFace1View" pc="268435801" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="167" parent="globals/WatchFace1View" pc="268435808" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="168" parent="globals/WatchFace1View" pc="268435836" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="171" parent="globals/WatchFace1View" pc="268435864" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="172" parent="globals/WatchFace1View" pc="268435874" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="173" parent="globals/WatchFace1View" pc="268435899" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="176" parent="globals/WatchFace1View" pc="268435924" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="177" parent="globals/WatchFace1View" pc="268435942" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="179" parent="globals/WatchFace1View" pc="268435958" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="180" parent="globals/WatchFace1View" pc="268435968" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="181" parent="globals/WatchFace1View" pc="268435978" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="182" parent="globals/WatchFace1View" pc="268435988" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="185" parent="globals/WatchFace1View" pc="268435998" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="185" parent="globals/WatchFace1View" pc="268436014" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="186" parent="globals/WatchFace1View" pc="268436030" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="186" parent="globals/WatchFace1View" pc="268436046" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="187" parent="globals/WatchFace1View" pc="268436062" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="187" parent="globals/WatchFace1View" pc="268436078" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="189" parent="globals/WatchFace1View" pc="268436094" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="190" parent="globals/WatchFace1View" pc="268436111" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="108" parent="globals/WatchFace1View" pc="268436187" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="109" parent="globals/WatchFace1View" pc="268436190" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="110" parent="globals/WatchFace1View" pc="268436201" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="112" parent="globals/WatchFace1View" pc="268436226" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="113" parent="globals/WatchFace1View" pc="268436235" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="115" parent="globals/WatchFace1View" pc="268436244" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="116" parent="globals/WatchFace1View" pc="268436249" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="117" parent="globals/WatchFace1View" pc="268436256" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="120" parent="globals/WatchFace1View" pc="268436263" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="121" parent="globals/WatchFace1View" pc="268436291" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="124" parent="globals/WatchFace1View" pc="268436319" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="125" parent="globals/WatchFace1View" pc="268436329" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="126" parent="globals/WatchFace1View" pc="268436354" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="129" parent="globals/WatchFace1View" pc="268436379" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="130" parent="globals/WatchFace1View" pc="268436397" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="132" parent="globals/WatchFace1View" pc="268436413" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="133" parent="globals/WatchFace1View" pc="268436423" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="134" parent="globals/WatchFace1View" pc="268436433" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="135" parent="globals/WatchFace1View" pc="268436443" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="138" parent="globals/WatchFace1View" pc="268436453" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="138" parent="globals/WatchFace1View" pc="268436469" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="139" parent="globals/WatchFace1View" pc="268436485" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="139" parent="globals/WatchFace1View" pc="268436501" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="140" parent="globals/WatchFace1View" pc="268436517" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="140" parent="globals/WatchFace1View" pc="268436533" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="142" parent="globals/WatchFace1View" pc="268436549" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="143" parent="globals/WatchFace1View" pc="268436566" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="145" parent="globals/WatchFace1View" pc="268436634" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="146" parent="globals/WatchFace1View" pc="268436641" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="148" parent="globals/WatchFace1View" pc="268436667" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="149" parent="globals/WatchFace1View" pc="268436692" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="150" parent="globals/WatchFace1View" pc="268436717" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="151" parent="globals/WatchFace1View" pc="268436742" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="153" parent="globals/WatchFace1View" pc="268436767" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="154" parent="globals/WatchFace1View" pc="268436796" symbol="drawHexagonalTicks"/>
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="13" lineNum="22" parent="globals/WatchFace1View" pc="268436825" symbol="initialize"/>
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="13" lineNum="23" parent="globals/WatchFace1View" pc="268436827" symbol="initialize"/>
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="15" lineNum="36" parent="globals/WatchFace1View" pc="268436840" symbol="onUpdate"/>
@@ -97,21 +97,24 @@
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="15" lineNum="70" parent="globals/WatchFace1View" pc="268436992" symbol="onUpdate"/>
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="15" lineNum="71" parent="globals/WatchFace1View" pc="268437021" symbol="onUpdate"/>
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="15" lineNum="72" parent="globals/WatchFace1View" pc="268437038" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="15" lineNum="82" parent="globals/WatchFace1View" pc="268437058" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="15" lineNum="83" parent="globals/WatchFace1View" pc="268437083" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="15" lineNum="84" parent="globals/WatchFace1View" pc="268437100" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="16" lineNum="12" parent="globals/WatchFace1App" pc="268437185" symbol="onStart"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="17" lineNum="25" parent="globals/WatchFace1App" pc="268437188" symbol="onSettingsChanged"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="17" lineNum="26" parent="globals/WatchFace1App" pc="268437190" symbol="onSettingsChanged"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="18" lineNum="20" parent="globals/WatchFace1App" pc="268437202" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="18" lineNum="21" parent="globals/WatchFace1App" pc="268437204" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="19" lineNum="7" parent="globals/WatchFace1App" pc="268437230" symbol="initialize"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="19" lineNum="8" parent="globals/WatchFace1App" pc="268437232" symbol="initialize"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="20" lineNum="16" parent="globals/WatchFace1App" pc="268437245" symbol="onStop"/>
-        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="21" lineNum="13" parent="globals/Rez/Layouts" pc="268437248" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="21" lineNum="14" parent="globals/Rez/Layouts" pc="268437259" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="21" lineNum="16" parent="globals/Rez/Layouts" pc="268437283" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="21" lineNum="18" parent="globals/Rez/Layouts" pc="268437387" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="15" lineNum="75" parent="globals/WatchFace1View" pc="268437058" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="15" lineNum="76" parent="globals/WatchFace1View" pc="268437092" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="15" lineNum="77" parent="globals/WatchFace1View" pc="268437109" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="15" lineNum="80" parent="globals/WatchFace1View" pc="268437193" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="15" lineNum="81" parent="globals/WatchFace1View" pc="268437218" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="15" lineNum="82" parent="globals/WatchFace1View" pc="268437235" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="16" lineNum="12" parent="globals/WatchFace1App" pc="268437320" symbol="onStart"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="17" lineNum="25" parent="globals/WatchFace1App" pc="268437323" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="17" lineNum="26" parent="globals/WatchFace1App" pc="268437325" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="18" lineNum="20" parent="globals/WatchFace1App" pc="268437337" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="18" lineNum="21" parent="globals/WatchFace1App" pc="268437339" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="19" lineNum="7" parent="globals/WatchFace1App" pc="268437365" symbol="initialize"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="19" lineNum="8" parent="globals/WatchFace1App" pc="268437367" symbol="initialize"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="20" lineNum="16" parent="globals/WatchFace1App" pc="268437380" symbol="onStop"/>
+        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="21" lineNum="13" parent="globals/Rez/Layouts" pc="268437383" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="21" lineNum="14" parent="globals/Rez/Layouts" pc="268437394" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="21" lineNum="16" parent="globals/Rez/Layouts" pc="268437418" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\bin\\gen\\006-B3907-00\\source\\Rez.mcgen" id="21" lineNum="18" parent="globals/Rez/Layouts" pc="268437522" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -221,19 +224,20 @@
         <entry endPc="268436813" name="yOuter" stackId="23" startPc="268436634"/>
         <entry endPc="268436813" name="xInner" stackId="24" startPc="268436634"/>
         <entry endPc="268436813" name="yInner" stackId="25" startPc="268436634"/>
-        <entry arg="true" endPc="268437184" name="dc" stackId="1" startPc="268436840"/>
-        <entry endPc="268437183" name="now" stackId="2" startPc="268436843"/>
-        <entry endPc="268437183" name="hour" stackId="3" startPc="268436843"/>
-        <entry endPc="268437183" name="minute" stackId="4" startPc="268436843"/>
-        <entry endPc="268437183" name="textR" stackId="5" startPc="268436843"/>
-        <entry endPc="268437183" name="a" stackId="6" startPc="268436843"/>
-        <entry endPc="268437183" name="tx" stackId="7" startPc="268436843"/>
-        <entry endPc="268437183" name="ty" stackId="8" startPc="268436843"/>
-        <entry endPc="268437183" name="label" stackId="9" startPc="268436843"/>
-        <entry endPc="268437183" name="minAngle" stackId="10" startPc="268436843"/>
-        <entry arg="true" endPc="268437401" name="dc" stackId="1" startPc="268437248"/>
-        <entry endPc="268437401" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="2" startPc="268437259"/>
-        <entry endPc="268437401" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268437259"/>
+        <entry arg="true" endPc="268437319" name="dc" stackId="1" startPc="268436840"/>
+        <entry endPc="268437318" name="now" stackId="2" startPc="268436843"/>
+        <entry endPc="268437318" name="hour" stackId="3" startPc="268436843"/>
+        <entry endPc="268437318" name="minute" stackId="4" startPc="268436843"/>
+        <entry endPc="268437318" name="textR" stackId="5" startPc="268436843"/>
+        <entry endPc="268437318" name="a" stackId="6" startPc="268436843"/>
+        <entry endPc="268437318" name="tx" stackId="7" startPc="268436843"/>
+        <entry endPc="268437318" name="ty" stackId="8" startPc="268436843"/>
+        <entry endPc="268437318" name="label" stackId="9" startPc="268436843"/>
+        <entry endPc="268437318" name="hourAngle" stackId="10" startPc="268436843"/>
+        <entry endPc="268437318" name="minAngle" stackId="11" startPc="268436843"/>
+        <entry arg="true" endPc="268437536" name="dc" stackId="1" startPc="268437383"/>
+        <entry endPc="268437536" name="rez_cmp_local_custom_drawable_11939594661139614796" stackId="2" startPc="268437394"/>
+        <entry endPc="268437536" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268437394"/>
     </localVars>
     <deviceInfo deviceVersion="90325a5ba4f163ec5ad32845d0e0beee034c6cee" partNumber="006-B3907-00"/>
     <annotations>
@@ -316,28 +320,28 @@
         <functionEntry accessMode="public" name="onHide" parent="WatchFace1View">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437184" name="onUpdate" parent="WatchFace1View" startPc="268436840">
+        <functionEntry accessMode="public" endPc="268437319" name="onUpdate" parent="WatchFace1View" startPc="268436840">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437187" name="onStart" parent="WatchFace1App" startPc="268437185">
+        <functionEntry accessMode="public" endPc="268437322" name="onStart" parent="WatchFace1App" startPc="268437320">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437201" name="onSettingsChanged" parent="WatchFace1App" startPc="268437188">
+        <functionEntry accessMode="public" endPc="268437336" name="onSettingsChanged" parent="WatchFace1App" startPc="268437323">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437229" name="getInitialView" parent="WatchFace1App" startPc="268437202">
+        <functionEntry accessMode="public" endPc="268437364" name="getInitialView" parent="WatchFace1App" startPc="268437337">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437244" name="initialize" parent="WatchFace1App" startPc="268437230">
+        <functionEntry accessMode="public" endPc="268437379" name="initialize" parent="WatchFace1App" startPc="268437365">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437247" name="onStop" parent="WatchFace1App" startPc="268437245">
+        <functionEntry accessMode="public" endPc="268437382" name="onStop" parent="WatchFace1App" startPc="268437380">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437401" name="WatchFace" parent="Layouts" startPc="268437248">
+        <functionEntry accessMode="public" endPc="268437536" name="WatchFace" parent="Layouts" startPc="268437383">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

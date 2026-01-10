@@ -17,8 +17,6 @@ class WatchFace1View extends WatchUi.WatchFace {
     const J = Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER;
     const JR = Graphics.TEXT_JUSTIFY_RIGHT | Graphics.TEXT_JUSTIFY_CENTER;
 
-    var today = Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
-
     function initialize() {
         WatchFace.initialize();
     }
@@ -72,11 +70,9 @@ class WatchFace1View extends WatchUi.WatchFace {
         dc.drawText(tx, ty, Graphics.FONT_NUMBER_MEDIUM, label, J);
 
         // Draw Hour hand
-        /*
         var hourAngle = ((hour + minute / 60.0) / 12.0) * 2 * Math.PI - Math.PI/2;
         dc.setColor(FG, Graphics.COLOR_TRANSPARENT);
         dc.drawLine(cx, cy, cx + Math.cos(hourAngle) * (radius * 0.5), cy + Math.sin(hourAngle) * (radius * 0.5)); 
-        */
 
         // Draw Minute hand
         var minAngle = (minute / 60.0) * 2 * Math.PI - Math.PI/2;
@@ -108,7 +104,7 @@ class WatchFace1View extends WatchUi.WatchFace {
 
     // Draw inward trangles at every 10 min mark
     function drawHexagonalTicks(dc as Dc, minute as Number) as Void {
-        for (var i = 0; i <= 60; i += 1) {
+        for (var i = 0; i <= minute; i += 1) {
             var angle = (i / 60.0) * 2 * Math.PI - Math.PI/2;
 
             var isMajor = (i % 5 == 0);
