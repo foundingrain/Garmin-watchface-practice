@@ -39,6 +39,7 @@ class WatchFace1View extends WatchUi.WatchFace {
         var now = System.getClockTime();
         var hour = now.hour % 12;
         var minute = now.min;
+        var second = now.sec;
 
         // Draws inward-facing triangles at 12, 3, 6, and 9 o'clock positions, but no minute ticks
         // drawCardinalTicks(dc);
@@ -60,7 +61,15 @@ class WatchFace1View extends WatchUi.WatchFace {
         } 
         */
 
-        // Draw only the active hour (aka if it's 7 o'clock, no other numbers will render on screen)
+        // Dial numbers
+        drawActiveHour(dc, hour);
+
+        // Hands
+        drawHourHand(dc, hour, minute);
+        drawMinuteHand(dc, minute);
+        drawSecondHand(dc, second);
+    }
+    function drawActiveHour(dc as Dc, hour as Number) {
         var textR = radius - 32;
         var a = (hour / 12.0) * 2 * Math.PI - Math.PI/2;
         var tx = cx + Math.cos(a) * textR;
@@ -68,24 +77,21 @@ class WatchFace1View extends WatchUi.WatchFace {
         var label = hour.toNumber() == 0 ? "12" : hour.toString();
         dc.setColor(HL, Graphics.COLOR_TRANSPARENT);
         dc.drawText(tx, ty, Graphics.FONT_NUMBER_MEDIUM, label, J);
-
-        // Draw Hour hand
+    }
+    function drawHourHand(dc as Dc, hour as Number, minute as Number) {
         var hourAngle = ((hour + minute / 60.0) / 12.0) * 2 * Math.PI - Math.PI/2;
         dc.setColor(FG, Graphics.COLOR_TRANSPARENT);
         dc.drawLine(cx, cy, cx + Math.cos(hourAngle) * (radius * 0.5), cy + Math.sin(hourAngle) * (radius * 0.5)); 
-
-        // Draw Minute hand
+    }
+    function drawMinuteHand(dc as Dc, minute as Number) {
         var minAngle = (minute / 60.0) * 2 * Math.PI - Math.PI/2;
         dc.setColor(FG, Graphics.COLOR_TRANSPARENT);
         dc.drawLine(cx, cy, cx + Math.cos(minAngle) * (radius * 0.8), cy + Math.sin(minAngle) * (radius * 0.8));
-
-        // Draw Second Hand
-        /* 
-        var second = now.sec;
+    }
+    function drawSecondHand(dc as Dc, second as Number) {
         var secAngle = (second / 60.0) * 2 * Math.PI - Math.PI/2;
-        dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(SEC, Graphics.COLOR_TRANSPARENT);
         dc.drawLine(cx, cy, cx + Math.cos(secAngle) * (radius * 0.9), cy + Math.sin(secAngle) * (radius * 0.9)); 
-        */
     }
 
     // Called when this View is removed from the screen. Save the
