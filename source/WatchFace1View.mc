@@ -5,6 +5,7 @@ import Toybox.System;
 import Toybox.Time;
 import Toybox.Time.Gregorian;
 import Toybox.WatchUi;
+import ClassSchedule;
 
 class WatchFace1View extends WatchUi.WatchFace {
     var cx, cy, radius;
@@ -62,12 +63,19 @@ class WatchFace1View extends WatchUi.WatchFace {
         */
 
         // Dial numbers
-        drawActiveHour(dc, hour);
+        // drawActiveHour(dc, hour);
+        drawActiveHourCentered(dc, hour);
+        drawHourCircle(dc);
 
         // Hands
-        drawHourHand(dc, hour, minute);
-        drawMinuteHand(dc, minute);
+        // drawHourHand(dc, hour, minute);
+        // drawMinuteHand(dc, minute);
+        drawMinuteHandPointer(dc, minute);
         drawSecondHand(dc, second);
+
+        // Text
+        drawDateString(dc);
+        drawClasses(dc);
     }
     function drawActiveHour(dc as Dc, hour as Number) {
         var textR = radius - 32;
@@ -78,20 +86,130 @@ class WatchFace1View extends WatchUi.WatchFace {
         dc.setColor(HL, Graphics.COLOR_TRANSPARENT);
         dc.drawText(tx, ty, Graphics.FONT_NUMBER_MEDIUM, label, J);
     }
+    function drawActiveHourCentered(dc as Dc, hour as Number) {
+        var label = hour.toNumber() == 0 ? "12" : hour.toString();
+        var labelHeight = dc.getFontHeight(Graphics.FONT_NUMBER_MEDIUM);
+        dc.setColor(HL, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(cx, cy - labelHeight / 2, Graphics.FONT_NUMBER_MEDIUM, label, Graphics.TEXT_JUSTIFY_CENTER);
+    }
+    function drawHourCircle(dc as Dc) {
+        var radius = dc.getFontHeight(Graphics.FONT_NUMBER_MEDIUM) / 2;
+        dc.setPenWidth(2);
+        dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+        dc.drawCircle(cx, cy, radius);
+    }
     function drawHourHand(dc as Dc, hour as Number, minute as Number) {
         var hourAngle = ((hour + minute / 60.0) / 12.0) * 2 * Math.PI - Math.PI/2;
+        dc.setPenWidth(2);
         dc.setColor(FG, Graphics.COLOR_TRANSPARENT);
         dc.drawLine(cx, cy, cx + Math.cos(hourAngle) * (radius * 0.5), cy + Math.sin(hourAngle) * (radius * 0.5)); 
     }
     function drawMinuteHand(dc as Dc, minute as Number) {
         var minAngle = (minute / 60.0) * 2 * Math.PI - Math.PI/2;
+        dc.setPenWidth(2);
         dc.setColor(FG, Graphics.COLOR_TRANSPARENT);
         dc.drawLine(cx, cy, cx + Math.cos(minAngle) * (radius * 0.8), cy + Math.sin(minAngle) * (radius * 0.8));
     }
+    function drawMinuteHandPointer(dc as Dc, minute as Number) as Void {
+        var a = (minute / 60.0) * 2 * Math.PI - Math.PI/2;
+
+        // Where the chevron sits (near the edge)
+        var tipR   = radius - 9;
+        var wingR  = radius - 19; 
+        var wingW  = 10.0;
+
+        var tipX = cx + Math.cos(a) * tipR;
+        var tipY = cy + Math.sin(a) * tipR;
+
+        // Unit perpendicular to the radial angle
+        var px = -Math.sin(a);
+        var py =  Math.cos(a);
+
+        // Base center (inward from tip)
+        var baseX = cx + Math.cos(a) * wingR;
+        var baseY = cy + Math.sin(a) * wingR;
+
+        // Two wing endpoints
+        var leftX  = baseX + px * wingW;
+        var leftY  = baseY + py * wingW;
+        var rightX = baseX - px * wingW;
+        var rightY = baseY - py * wingW;
+
+        // Optional rounding
+        tipX = Math.round(tipX);   tipY = Math.round(tipY);
+        leftX = Math.round(leftX); leftY = Math.round(leftY);
+        rightX = Math.round(rightX); rightY = Math.round(rightY);
+
+        dc.setColor(HL, Graphics.COLOR_TRANSPARENT);
+        dc.setPenWidth(2);
+        dc.drawLine(leftX, leftY, tipX, tipY);
+        dc.drawLine(rightX, rightY, tipX, tipY);
+    }
     function drawSecondHand(dc as Dc, second as Number) {
         var secAngle = (second / 60.0) * 2 * Math.PI - Math.PI/2;
+        var startR = dc.getFontHeight(Graphics.FONT_NUMBER_MEDIUM) / 2;
+        var endR = radius * 0.9;
+
+        var x1 = cx + Math.cos(secAngle) * startR;
+        var y1 = cx + Math.sin(secAngle) * startR;
+        var x2 = cx + Math.cos(secAngle) * endR;
+        var y2 = cx + Math.sin(secAngle) * endR;
+
+        dc.setPenWidth(1);
         dc.setColor(SEC, Graphics.COLOR_TRANSPARENT);
-        dc.drawLine(cx, cy, cx + Math.cos(secAngle) * (radius * 0.9), cy + Math.sin(secAngle) * (radius * 0.9)); 
+        dc.drawLine(x1, y1, x2, y2);
+    }
+    function formatTime(h as Number, m as Number) as String {
+        var hour = h % 12;
+        if (hour == 0) { hour = 12; }
+
+        var minStr = (m < 10) ? ("0" + m) : m.toString();
+        return hour + ":" + minStr;
+    }
+    function drawDateString(dc as Dc) {
+        // Where to draw date
+        var x = cx * 1.5;
+        var y = cy;
+
+        var now = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+        var day_of_week = now.day_of_week;
+        var month = now.month;
+        var day = now.day;
+
+        var dateStr = (day_of_week + ", " + month + " " + day);       
+        var textHeight = dc.getFontHeight(Graphics.FONT_XTINY);
+
+        dc.setColor(FG, Graphics.COLOR_TRANSPARENT);
+        dc.drawText(x, y - textHeight / 2, Graphics.FONT_XTINY, dateStr, Graphics.TEXT_JUSTIFY_CENTER);
+    }
+    function drawClasses(dc as Dc) {
+        // Where to draw classes
+        var x = cx;
+        var y = cy * 1.2;
+        var lineH = 20; // How far to separate lines
+
+        var now = Time.Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var day_of_week = now.day_of_week;
+
+        var classes = ClassSchedule.getClassesForDow(day_of_week);
+
+        if (classes.size() == 0) {
+            return;
+        }
+
+        for (var i = 0; i < classes.size(); i++) {
+            var c = classes[i];
+            var start = c[:start]; // [h, m]
+            var end   = c[:end];
+            var loc   = c[:loc];
+
+            var timeStr = formatTime(start[0], start[1]) + "-" + formatTime(end[0], end[1]);
+            var line = c[:title] + " " + timeStr + " " + loc;
+
+            dc.setColor(FG, Graphics.COLOR_TRANSPARENT);
+            dc.drawText(x, y, Graphics.FONT_XTINY, line, Graphics.TEXT_JUSTIFY_CENTER);
+            y += lineH;
+        }
     }
 
     // Called when this View is removed from the screen. Save the
@@ -154,6 +272,7 @@ class WatchFace1View extends WatchUi.WatchFace {
                 var xInner = cx + Math.cos(angle) * rInner;
                 var yInner = cy + Math.sin(angle) * rInner;
 
+                dc.setPenWidth(1);
                 dc.setColor(isMajor ? FG : 0x666666, Graphics.COLOR_TRANSPARENT);
                 dc.drawLine(xInner, yInner, xOuter, yOuter);
             }
