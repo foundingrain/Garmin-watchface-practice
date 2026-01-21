@@ -20,41 +20,41 @@
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="9" lineNum="103" parent="globals/WatchFace1View" pc="268435978" symbol="drawHourHand"/>
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="9" lineNum="104" parent="globals/WatchFace1View" pc="268435990" symbol="drawHourHand"/>
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="9" lineNum="105" parent="globals/WatchFace1View" pc="268436007" symbol="drawHourHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="283" parent="globals/WatchFace1View" pc="268436092" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="284" parent="globals/WatchFace1View" pc="268436095" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="285" parent="globals/WatchFace1View" pc="268436106" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="286" parent="globals/WatchFace1View" pc="268436131" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="287" parent="globals/WatchFace1View" pc="268436138" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="290" parent="globals/WatchFace1View" pc="268436145" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="291" parent="globals/WatchFace1View" pc="268436173" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="294" parent="globals/WatchFace1View" pc="268436201" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="295" parent="globals/WatchFace1View" pc="268436211" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="296" parent="globals/WatchFace1View" pc="268436236" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="299" parent="globals/WatchFace1View" pc="268436261" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="300" parent="globals/WatchFace1View" pc="268436279" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="302" parent="globals/WatchFace1View" pc="268436295" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="303" parent="globals/WatchFace1View" pc="268436305" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="304" parent="globals/WatchFace1View" pc="268436315" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="305" parent="globals/WatchFace1View" pc="268436325" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="308" parent="globals/WatchFace1View" pc="268436335" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="308" parent="globals/WatchFace1View" pc="268436351" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="309" parent="globals/WatchFace1View" pc="268436367" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="309" parent="globals/WatchFace1View" pc="268436383" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="310" parent="globals/WatchFace1View" pc="268436399" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="310" parent="globals/WatchFace1View" pc="268436415" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="312" parent="globals/WatchFace1View" pc="268436431" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="313" parent="globals/WatchFace1View" pc="268436448" symbol="drawCardinalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="148" parent="globals/WatchFace1View" pc="268436524" symbol="drawSecondHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="149" parent="globals/WatchFace1View" pc="268436527" symbol="drawSecondHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="150" parent="globals/WatchFace1View" pc="268436552" symbol="drawSecondHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="151" parent="globals/WatchFace1View" pc="268436568" symbol="drawSecondHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="153" parent="globals/WatchFace1View" pc="268436581" symbol="drawSecondHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="154" parent="globals/WatchFace1View" pc="268436606" symbol="drawSecondHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="155" parent="globals/WatchFace1View" pc="268436631" symbol="drawSecondHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="156" parent="globals/WatchFace1View" pc="268436656" symbol="drawSecondHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="158" parent="globals/WatchFace1View" pc="268436681" symbol="drawSecondHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="159" parent="globals/WatchFace1View" pc="268436693" symbol="drawSecondHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="160" parent="globals/WatchFace1View" pc="268436710" symbol="drawSecondHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="293" parent="globals/WatchFace1View" pc="268436092" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="294" parent="globals/WatchFace1View" pc="268436095" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="295" parent="globals/WatchFace1View" pc="268436106" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="296" parent="globals/WatchFace1View" pc="268436131" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="297" parent="globals/WatchFace1View" pc="268436138" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="300" parent="globals/WatchFace1View" pc="268436145" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="301" parent="globals/WatchFace1View" pc="268436173" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="304" parent="globals/WatchFace1View" pc="268436201" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="305" parent="globals/WatchFace1View" pc="268436211" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="306" parent="globals/WatchFace1View" pc="268436236" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="309" parent="globals/WatchFace1View" pc="268436261" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="310" parent="globals/WatchFace1View" pc="268436279" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="312" parent="globals/WatchFace1View" pc="268436295" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="313" parent="globals/WatchFace1View" pc="268436305" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="314" parent="globals/WatchFace1View" pc="268436315" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="315" parent="globals/WatchFace1View" pc="268436325" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="318" parent="globals/WatchFace1View" pc="268436335" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="318" parent="globals/WatchFace1View" pc="268436351" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="319" parent="globals/WatchFace1View" pc="268436367" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="319" parent="globals/WatchFace1View" pc="268436383" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="320" parent="globals/WatchFace1View" pc="268436399" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="320" parent="globals/WatchFace1View" pc="268436415" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="322" parent="globals/WatchFace1View" pc="268436431" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="10" lineNum="323" parent="globals/WatchFace1View" pc="268436448" symbol="drawCardinalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="156" parent="globals/WatchFace1View" pc="268436524" symbol="drawSecondHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="157" parent="globals/WatchFace1View" pc="268436527" symbol="drawSecondHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="158" parent="globals/WatchFace1View" pc="268436552" symbol="drawSecondHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="159" parent="globals/WatchFace1View" pc="268436568" symbol="drawSecondHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="161" parent="globals/WatchFace1View" pc="268436581" symbol="drawSecondHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="162" parent="globals/WatchFace1View" pc="268436606" symbol="drawSecondHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="163" parent="globals/WatchFace1View" pc="268436631" symbol="drawSecondHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="164" parent="globals/WatchFace1View" pc="268436656" symbol="drawSecondHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="166" parent="globals/WatchFace1View" pc="268436681" symbol="drawSecondHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="167" parent="globals/WatchFace1View" pc="268436693" symbol="drawSecondHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="11" lineNum="168" parent="globals/WatchFace1View" pc="268436710" symbol="drawSecondHand"/>
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="80" parent="globals/WatchFace1View" pc="268436729" symbol="drawActiveHour"/>
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="81" parent="globals/WatchFace1View" pc="268436732" symbol="drawActiveHour"/>
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="12" lineNum="82" parent="globals/WatchFace1View" pc="268436742" symbol="drawActiveHour"/>
@@ -72,184 +72,192 @@
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="14" lineNum="96" parent="globals/WatchFace1View" pc="268436982" symbol="drawHourCircle"/>
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="14" lineNum="97" parent="globals/WatchFace1View" pc="268436998" symbol="drawHourCircle"/>
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="14" lineNum="98" parent="globals/WatchFace1View" pc="268437010" symbol="drawHourCircle"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="14" lineNum="99" parent="globals/WatchFace1View" pc="268437027" symbol="drawHourCircle"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="169" parent="globals/WatchFace1View" pc="268437050" symbol="drawDateString"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="171" parent="globals/WatchFace1View" pc="268437053" symbol="drawDateString"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="172" parent="globals/WatchFace1View" pc="268437066" symbol="drawDateString"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="174" parent="globals/WatchFace1View" pc="268437073" symbol="drawDateString"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="175" parent="globals/WatchFace1View" pc="268437099" symbol="drawDateString"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="176" parent="globals/WatchFace1View" pc="268437107" symbol="drawDateString"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="177" parent="globals/WatchFace1View" pc="268437115" symbol="drawDateString"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="179" parent="globals/WatchFace1View" pc="268437123" symbol="drawDateString"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="180" parent="globals/WatchFace1View" pc="268437145" symbol="drawDateString"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="182" parent="globals/WatchFace1View" pc="268437157" symbol="drawDateString"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="183" parent="globals/WatchFace1View" pc="268437174" symbol="drawDateString"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="18" lineNum="25" parent="globals/WatchFace1View" pc="268437200" symbol="onLayout"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="18" lineNum="26" parent="globals/WatchFace1View" pc="268437203" symbol="onLayout"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="18" lineNum="27" parent="globals/WatchFace1View" pc="268437212" symbol="onLayout"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="18" lineNum="28" parent="globals/WatchFace1View" pc="268437221" symbol="onLayout"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="18" lineNum="29" parent="globals/WatchFace1View" pc="268437233" symbol="onLayout"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="18" lineNum="30" parent="globals/WatchFace1View" pc="268437245" symbol="onLayout"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="18" lineNum="32" parent="globals/WatchFace1View" pc="268437273" symbol="onLayout"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="107" parent="globals/WatchFace1View" pc="268437307" symbol="drawMinuteHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="108" parent="globals/WatchFace1View" pc="268437310" symbol="drawMinuteHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="109" parent="globals/WatchFace1View" pc="268437335" symbol="drawMinuteHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="110" parent="globals/WatchFace1View" pc="268437347" symbol="drawMinuteHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="111" parent="globals/WatchFace1View" pc="268437364" symbol="drawMinuteHand"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="113" parent="globals/WatchFace1View" pc="268437449" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="114" parent="globals/WatchFace1View" pc="268437452" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="117" parent="globals/WatchFace1View" pc="268437477" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="118" parent="globals/WatchFace1View" pc="268437487" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="119" parent="globals/WatchFace1View" pc="268437497" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="121" parent="globals/WatchFace1View" pc="268437504" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="122" parent="globals/WatchFace1View" pc="268437529" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="125" parent="globals/WatchFace1View" pc="268437554" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="126" parent="globals/WatchFace1View" pc="268437572" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="129" parent="globals/WatchFace1View" pc="268437588" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="130" parent="globals/WatchFace1View" pc="268437613" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="133" parent="globals/WatchFace1View" pc="268437638" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="134" parent="globals/WatchFace1View" pc="268437648" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="135" parent="globals/WatchFace1View" pc="268437658" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="136" parent="globals/WatchFace1View" pc="268437668" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="139" parent="globals/WatchFace1View" pc="268437678" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="139" parent="globals/WatchFace1View" pc="268437694" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="140" parent="globals/WatchFace1View" pc="268437710" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="140" parent="globals/WatchFace1View" pc="268437726" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="141" parent="globals/WatchFace1View" pc="268437742" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="141" parent="globals/WatchFace1View" pc="268437758" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="143" parent="globals/WatchFace1View" pc="268437774" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="144" parent="globals/WatchFace1View" pc="268437791" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="145" parent="globals/WatchFace1View" pc="268437803" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="146" parent="globals/WatchFace1View" pc="268437821" symbol="drawMinuteHandPointer"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="21" lineNum="162" parent="globals/WatchFace1View" pc="268437840" symbol="formatTime"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="21" lineNum="163" parent="globals/WatchFace1View" pc="268437843" symbol="formatTime"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="21" lineNum="164" parent="globals/WatchFace1View" pc="268437850" symbol="formatTime"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="21" lineNum="164" parent="globals/WatchFace1View" pc="268437857" symbol="formatTime"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="21" lineNum="166" parent="globals/WatchFace1View" pc="268437861" symbol="formatTime"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="21" lineNum="167" parent="globals/WatchFace1View" pc="268437889" symbol="formatTime"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="230" parent="globals/WatchFace1View" pc="268437901" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="231" parent="globals/WatchFace1View" pc="268437904" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="232" parent="globals/WatchFace1View" pc="268437915" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="234" parent="globals/WatchFace1View" pc="268437940" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="235" parent="globals/WatchFace1View" pc="268437949" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="237" parent="globals/WatchFace1View" pc="268437958" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="238" parent="globals/WatchFace1View" pc="268437963" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="239" parent="globals/WatchFace1View" pc="268437970" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="242" parent="globals/WatchFace1View" pc="268437977" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="243" parent="globals/WatchFace1View" pc="268438005" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="246" parent="globals/WatchFace1View" pc="268438033" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="247" parent="globals/WatchFace1View" pc="268438043" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="248" parent="globals/WatchFace1View" pc="268438068" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="251" parent="globals/WatchFace1View" pc="268438093" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="252" parent="globals/WatchFace1View" pc="268438111" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="254" parent="globals/WatchFace1View" pc="268438127" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="255" parent="globals/WatchFace1View" pc="268438137" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="256" parent="globals/WatchFace1View" pc="268438147" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="257" parent="globals/WatchFace1View" pc="268438157" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="260" parent="globals/WatchFace1View" pc="268438167" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="260" parent="globals/WatchFace1View" pc="268438183" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="261" parent="globals/WatchFace1View" pc="268438199" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="261" parent="globals/WatchFace1View" pc="268438215" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="262" parent="globals/WatchFace1View" pc="268438231" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="262" parent="globals/WatchFace1View" pc="268438247" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="264" parent="globals/WatchFace1View" pc="268438263" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="265" parent="globals/WatchFace1View" pc="268438280" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="267" parent="globals/WatchFace1View" pc="268438348" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="268" parent="globals/WatchFace1View" pc="268438355" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="270" parent="globals/WatchFace1View" pc="268438381" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="271" parent="globals/WatchFace1View" pc="268438406" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="272" parent="globals/WatchFace1View" pc="268438431" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="273" parent="globals/WatchFace1View" pc="268438456" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="275" parent="globals/WatchFace1View" pc="268438481" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="276" parent="globals/WatchFace1View" pc="268438493" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="277" parent="globals/WatchFace1View" pc="268438522" symbol="drawHexagonalTicks"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="24" lineNum="21" parent="globals/WatchFace1View" pc="268438551" symbol="initialize"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="24" lineNum="22" parent="globals/WatchFace1View" pc="268438553" symbol="initialize"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="35" parent="globals/WatchFace1View" pc="268438566" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="36" parent="globals/WatchFace1View" pc="268438569" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="37" parent="globals/WatchFace1View" pc="268438581" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="40" parent="globals/WatchFace1View" pc="268438589" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="41" parent="globals/WatchFace1View" pc="268438601" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="42" parent="globals/WatchFace1View" pc="268438612" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="43" parent="globals/WatchFace1View" pc="268438620" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="49" parent="globals/WatchFace1View" pc="268438628" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="67" parent="globals/WatchFace1View" pc="268438641" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="68" parent="globals/WatchFace1View" pc="268438654" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="73" parent="globals/WatchFace1View" pc="268438665" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="74" parent="globals/WatchFace1View" pc="268438678" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="77" parent="globals/WatchFace1View" pc="268438691" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="78" parent="globals/WatchFace1View" pc="268438702" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="185" parent="globals/WatchFace1View" pc="268438714" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="187" parent="globals/WatchFace1View" pc="268438717" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="188" parent="globals/WatchFace1View" pc="268438724" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="189" parent="globals/WatchFace1View" pc="268438737" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="191" parent="globals/WatchFace1View" pc="268438741" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="192" parent="globals/WatchFace1View" pc="268438766" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="194" parent="globals/WatchFace1View" pc="268438774" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="196" parent="globals/WatchFace1View" pc="268438790" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="197" parent="globals/WatchFace1View" pc="268438802" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="200" parent="globals/WatchFace1View" pc="268438803" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="201" parent="globals/WatchFace1View" pc="268438819" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="202" parent="globals/WatchFace1View" pc="268438826" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="203" parent="globals/WatchFace1View" pc="268438836" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="204" parent="globals/WatchFace1View" pc="268438846" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="14" lineNum="99" parent="globals/WatchFace1View" pc="268437026" symbol="drawHourCircle"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="177" parent="globals/WatchFace1View" pc="268437049" symbol="drawDateString"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="180" parent="globals/WatchFace1View" pc="268437052" symbol="drawDateString"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="181" parent="globals/WatchFace1View" pc="268437065" symbol="drawDateString"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="183" parent="globals/WatchFace1View" pc="268437072" symbol="drawDateString"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="184" parent="globals/WatchFace1View" pc="268437098" symbol="drawDateString"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="185" parent="globals/WatchFace1View" pc="268437106" symbol="drawDateString"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="186" parent="globals/WatchFace1View" pc="268437114" symbol="drawDateString"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="189" parent="globals/WatchFace1View" pc="268437122" symbol="drawDateString"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="190" parent="globals/WatchFace1View" pc="268437135" symbol="drawDateString"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="192" parent="globals/WatchFace1View" pc="268437147" symbol="drawDateString"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="16" lineNum="193" parent="globals/WatchFace1View" pc="268437164" symbol="drawDateString"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="18" lineNum="25" parent="globals/WatchFace1View" pc="268437190" symbol="onLayout"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="18" lineNum="26" parent="globals/WatchFace1View" pc="268437193" symbol="onLayout"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="18" lineNum="27" parent="globals/WatchFace1View" pc="268437202" symbol="onLayout"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="18" lineNum="28" parent="globals/WatchFace1View" pc="268437211" symbol="onLayout"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="18" lineNum="29" parent="globals/WatchFace1View" pc="268437223" symbol="onLayout"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="18" lineNum="30" parent="globals/WatchFace1View" pc="268437235" symbol="onLayout"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="18" lineNum="32" parent="globals/WatchFace1View" pc="268437263" symbol="onLayout"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="107" parent="globals/WatchFace1View" pc="268437297" symbol="drawMinuteHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="108" parent="globals/WatchFace1View" pc="268437300" symbol="drawMinuteHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="109" parent="globals/WatchFace1View" pc="268437325" symbol="drawMinuteHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="110" parent="globals/WatchFace1View" pc="268437341" symbol="drawMinuteHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="112" parent="globals/WatchFace1View" pc="268437354" symbol="drawMinuteHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="113" parent="globals/WatchFace1View" pc="268437379" symbol="drawMinuteHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="114" parent="globals/WatchFace1View" pc="268437404" symbol="drawMinuteHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="115" parent="globals/WatchFace1View" pc="268437429" symbol="drawMinuteHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="117" parent="globals/WatchFace1View" pc="268437454" symbol="drawMinuteHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="118" parent="globals/WatchFace1View" pc="268437466" symbol="drawMinuteHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="19" lineNum="119" parent="globals/WatchFace1View" pc="268437483" symbol="drawMinuteHand"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="121" parent="globals/WatchFace1View" pc="268437502" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="122" parent="globals/WatchFace1View" pc="268437505" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="125" parent="globals/WatchFace1View" pc="268437530" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="126" parent="globals/WatchFace1View" pc="268437540" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="127" parent="globals/WatchFace1View" pc="268437550" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="129" parent="globals/WatchFace1View" pc="268437557" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="130" parent="globals/WatchFace1View" pc="268437582" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="133" parent="globals/WatchFace1View" pc="268437607" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="134" parent="globals/WatchFace1View" pc="268437625" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="137" parent="globals/WatchFace1View" pc="268437641" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="138" parent="globals/WatchFace1View" pc="268437666" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="141" parent="globals/WatchFace1View" pc="268437691" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="142" parent="globals/WatchFace1View" pc="268437701" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="143" parent="globals/WatchFace1View" pc="268437711" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="144" parent="globals/WatchFace1View" pc="268437721" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="147" parent="globals/WatchFace1View" pc="268437731" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="147" parent="globals/WatchFace1View" pc="268437747" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="148" parent="globals/WatchFace1View" pc="268437763" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="148" parent="globals/WatchFace1View" pc="268437779" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="149" parent="globals/WatchFace1View" pc="268437795" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="149" parent="globals/WatchFace1View" pc="268437811" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="151" parent="globals/WatchFace1View" pc="268437827" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="152" parent="globals/WatchFace1View" pc="268437844" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="153" parent="globals/WatchFace1View" pc="268437856" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="20" lineNum="154" parent="globals/WatchFace1View" pc="268437874" symbol="drawMinuteHandPointer"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="21" lineNum="170" parent="globals/WatchFace1View" pc="268437893" symbol="formatTime"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="21" lineNum="171" parent="globals/WatchFace1View" pc="268437896" symbol="formatTime"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="21" lineNum="172" parent="globals/WatchFace1View" pc="268437903" symbol="formatTime"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="21" lineNum="172" parent="globals/WatchFace1View" pc="268437910" symbol="formatTime"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="21" lineNum="174" parent="globals/WatchFace1View" pc="268437914" symbol="formatTime"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="21" lineNum="175" parent="globals/WatchFace1View" pc="268437942" symbol="formatTime"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="240" parent="globals/WatchFace1View" pc="268437954" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="241" parent="globals/WatchFace1View" pc="268437957" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="242" parent="globals/WatchFace1View" pc="268437968" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="244" parent="globals/WatchFace1View" pc="268437993" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="245" parent="globals/WatchFace1View" pc="268438002" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="247" parent="globals/WatchFace1View" pc="268438011" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="248" parent="globals/WatchFace1View" pc="268438016" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="249" parent="globals/WatchFace1View" pc="268438023" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="252" parent="globals/WatchFace1View" pc="268438030" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="253" parent="globals/WatchFace1View" pc="268438058" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="256" parent="globals/WatchFace1View" pc="268438086" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="257" parent="globals/WatchFace1View" pc="268438096" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="258" parent="globals/WatchFace1View" pc="268438121" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="261" parent="globals/WatchFace1View" pc="268438146" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="262" parent="globals/WatchFace1View" pc="268438164" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="264" parent="globals/WatchFace1View" pc="268438180" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="265" parent="globals/WatchFace1View" pc="268438190" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="266" parent="globals/WatchFace1View" pc="268438200" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="267" parent="globals/WatchFace1View" pc="268438210" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="270" parent="globals/WatchFace1View" pc="268438220" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="270" parent="globals/WatchFace1View" pc="268438236" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="271" parent="globals/WatchFace1View" pc="268438252" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="271" parent="globals/WatchFace1View" pc="268438268" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="272" parent="globals/WatchFace1View" pc="268438284" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="272" parent="globals/WatchFace1View" pc="268438300" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="274" parent="globals/WatchFace1View" pc="268438316" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="275" parent="globals/WatchFace1View" pc="268438333" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="277" parent="globals/WatchFace1View" pc="268438401" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="278" parent="globals/WatchFace1View" pc="268438408" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="280" parent="globals/WatchFace1View" pc="268438434" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="281" parent="globals/WatchFace1View" pc="268438459" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="282" parent="globals/WatchFace1View" pc="268438484" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="283" parent="globals/WatchFace1View" pc="268438509" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="285" parent="globals/WatchFace1View" pc="268438534" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="286" parent="globals/WatchFace1View" pc="268438546" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="23" lineNum="287" parent="globals/WatchFace1View" pc="268438575" symbol="drawHexagonalTicks"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="24" lineNum="21" parent="globals/WatchFace1View" pc="268438604" symbol="initialize"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="24" lineNum="22" parent="globals/WatchFace1View" pc="268438606" symbol="initialize"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="35" parent="globals/WatchFace1View" pc="268438619" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="36" parent="globals/WatchFace1View" pc="268438622" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="37" parent="globals/WatchFace1View" pc="268438634" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="40" parent="globals/WatchFace1View" pc="268438642" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="41" parent="globals/WatchFace1View" pc="268438654" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="42" parent="globals/WatchFace1View" pc="268438665" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="43" parent="globals/WatchFace1View" pc="268438673" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="49" parent="globals/WatchFace1View" pc="268438681" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="67" parent="globals/WatchFace1View" pc="268438694" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="68" parent="globals/WatchFace1View" pc="268438707" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="72" parent="globals/WatchFace1View" pc="268438718" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="73" parent="globals/WatchFace1View" pc="268438731" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="74" parent="globals/WatchFace1View" pc="268438744" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="77" parent="globals/WatchFace1View" pc="268438757" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="25" lineNum="78" parent="globals/WatchFace1View" pc="268438768" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="195" parent="globals/WatchFace1View" pc="268438780" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="197" parent="globals/WatchFace1View" pc="268438783" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="198" parent="globals/WatchFace1View" pc="268438790" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="199" parent="globals/WatchFace1View" pc="268438803" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="201" parent="globals/WatchFace1View" pc="268438807" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="202" parent="globals/WatchFace1View" pc="268438832" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="204" parent="globals/WatchFace1View" pc="268438840" symbol="drawClasses"/>
         <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="206" parent="globals/WatchFace1View" pc="268438856" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="207" parent="globals/WatchFace1View" pc="268438899" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="209" parent="globals/WatchFace1View" pc="268438927" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="210" parent="globals/WatchFace1View" pc="268438944" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="211" parent="globals/WatchFace1View" pc="268438963" symbol="drawClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="28" lineNum="25" parent="globals/WatchFace1App" pc="268438981" symbol="onSettingsChanged"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="28" lineNum="26" parent="globals/WatchFace1App" pc="268438983" symbol="onSettingsChanged"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="29" lineNum="20" parent="globals/WatchFace1App" pc="268438995" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="29" lineNum="21" parent="globals/WatchFace1App" pc="268438997" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="30" lineNum="7" parent="globals/WatchFace1App" pc="268439023" symbol="initialize"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="30" lineNum="8" parent="globals/WatchFace1App" pc="268439025" symbol="initialize"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="32" lineNum="82" parent="globals/ClassSchedule" pc="268439038" symbol="compareByStart"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="32" lineNum="83" parent="globals/ClassSchedule" pc="268439048" symbol="compareByStart"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="33" lineNum="29" parent="globals/ClassSchedule" pc="268439070" symbol="classEndMinutes"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="33" lineNum="30" parent="globals/ClassSchedule" pc="268439081" symbol="classEndMinutes"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="33" lineNum="31" parent="globals/ClassSchedule" pc="268439091" symbol="classEndMinutes"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="34" lineNum="25" parent="globals/ClassSchedule" pc="268439109" symbol="classStartMinutes"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="34" lineNum="26" parent="globals/ClassSchedule" pc="268439120" symbol="classStartMinutes"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="34" lineNum="27" parent="globals/ClassSchedule" pc="268439130" symbol="classStartMinutes"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="35" lineNum="22" parent="globals/ClassSchedule" pc="268439148" symbol="minutesOfDay"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="35" lineNum="23" parent="globals/ClassSchedule" pc="268439158" symbol="minutesOfDay"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="36" lineNum="86" parent="globals/ClassSchedule" pc="268439167" symbol="getTodaysClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="36" lineNum="87" parent="globals/ClassSchedule" pc="268439178" symbol="getTodaysClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="36" lineNum="88" parent="globals/ClassSchedule" pc="268439203" symbol="getTodaysClasses"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="34" parent="globals/ClassSchedule" pc="268439218" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="35" parent="globals/ClassSchedule" pc="268439229" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="37" parent="globals/ClassSchedule" pc="268439233" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="38" parent="globals/ClassSchedule" pc="268439253" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="41" parent="globals/ClassSchedule" pc="268439263" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="42" parent="globals/ClassSchedule" pc="268439273" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="42" parent="globals/ClassSchedule" pc="268439279" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="45" parent="globals/ClassSchedule" pc="268439282" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="46" parent="globals/ClassSchedule" pc="268439285" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="47" parent="globals/ClassSchedule" pc="268439301" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="48" parent="globals/ClassSchedule" pc="268439312" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="49" parent="globals/ClassSchedule" pc="268439315" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="52" parent="globals/ClassSchedule" pc="268439328" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="52" parent="globals/ClassSchedule" pc="268439334" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="55" parent="globals/ClassSchedule" pc="268439337" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="56" parent="globals/ClassSchedule" pc="268439349" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="58" parent="globals/ClassSchedule" pc="268439358" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="59" parent="globals/ClassSchedule" pc="268439374" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="60" parent="globals/ClassSchedule" pc="268439393" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="61" parent="globals/ClassSchedule" pc="268439397" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="65" parent="globals/ClassSchedule" pc="268439410" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="66" parent="globals/ClassSchedule" pc="268439414" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="67" parent="globals/ClassSchedule" pc="268439430" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="68" parent="globals/ClassSchedule" pc="268439438" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="70" parent="globals/ClassSchedule" pc="268439450" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="72" parent="globals/ClassSchedule" pc="268439475" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="73" parent="globals/ClassSchedule" pc="268439488" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="76" parent="globals/ClassSchedule" pc="268439500" symbol="getClassesForDow"/>
-        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="79" parent="globals/ClassSchedule" pc="268439514" symbol="getClassesForDow"/>
-        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\Out\\gen\\006-B3907-00\\source\\Rez.mcgen" id="38" lineNum="13" parent="globals/Rez/Layouts" pc="268439517" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\Out\\gen\\006-B3907-00\\source\\Rez.mcgen" id="38" lineNum="14" parent="globals/Rez/Layouts" pc="268439528" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\Out\\gen\\006-B3907-00\\source\\Rez.mcgen" id="38" lineNum="16" parent="globals/Rez/Layouts" pc="268439552" symbol="WatchFace"/>
-        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\Out\\gen\\006-B3907-00\\source\\Rez.mcgen" id="38" lineNum="18" parent="globals/Rez/Layouts" pc="268439668" symbol="WatchFace"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="207" parent="globals/WatchFace1View" pc="268438868" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="210" parent="globals/WatchFace1View" pc="268438869" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="211" parent="globals/WatchFace1View" pc="268438885" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="212" parent="globals/WatchFace1View" pc="268438892" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="213" parent="globals/WatchFace1View" pc="268438902" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="214" parent="globals/WatchFace1View" pc="268438912" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="216" parent="globals/WatchFace1View" pc="268438922" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="217" parent="globals/WatchFace1View" pc="268438965" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="219" parent="globals/WatchFace1View" pc="268438993" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="220" parent="globals/WatchFace1View" pc="268439010" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1View.mc" id="26" lineNum="221" parent="globals/WatchFace1View" pc="268439029" symbol="drawClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="28" lineNum="25" parent="globals/WatchFace1App" pc="268439047" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="28" lineNum="26" parent="globals/WatchFace1App" pc="268439049" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="29" lineNum="20" parent="globals/WatchFace1App" pc="268439061" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="29" lineNum="21" parent="globals/WatchFace1App" pc="268439063" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="30" lineNum="7" parent="globals/WatchFace1App" pc="268439089" symbol="initialize"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\WatchFace1App.mc" id="30" lineNum="8" parent="globals/WatchFace1App" pc="268439091" symbol="initialize"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="32" lineNum="83" parent="globals/ClassSchedule" pc="268439104" symbol="compareByStart"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="32" lineNum="84" parent="globals/ClassSchedule" pc="268439114" symbol="compareByStart"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="33" lineNum="29" parent="globals/ClassSchedule" pc="268439136" symbol="classEndMinutes"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="33" lineNum="30" parent="globals/ClassSchedule" pc="268439147" symbol="classEndMinutes"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="33" lineNum="31" parent="globals/ClassSchedule" pc="268439157" symbol="classEndMinutes"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="34" lineNum="25" parent="globals/ClassSchedule" pc="268439175" symbol="classStartMinutes"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="34" lineNum="26" parent="globals/ClassSchedule" pc="268439186" symbol="classStartMinutes"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="34" lineNum="27" parent="globals/ClassSchedule" pc="268439196" symbol="classStartMinutes"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="35" lineNum="22" parent="globals/ClassSchedule" pc="268439214" symbol="minutesOfDay"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="35" lineNum="23" parent="globals/ClassSchedule" pc="268439224" symbol="minutesOfDay"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="36" lineNum="87" parent="globals/ClassSchedule" pc="268439233" symbol="getTodaysClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="36" lineNum="88" parent="globals/ClassSchedule" pc="268439244" symbol="getTodaysClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="36" lineNum="89" parent="globals/ClassSchedule" pc="268439269" symbol="getTodaysClasses"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="34" parent="globals/ClassSchedule" pc="268439284" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="35" parent="globals/ClassSchedule" pc="268439295" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="36" parent="globals/ClassSchedule" pc="268439299" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="38" parent="globals/ClassSchedule" pc="268439306" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="39" parent="globals/ClassSchedule" pc="268439326" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="42" parent="globals/ClassSchedule" pc="268439336" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="43" parent="globals/ClassSchedule" pc="268439346" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="43" parent="globals/ClassSchedule" pc="268439352" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="46" parent="globals/ClassSchedule" pc="268439355" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="47" parent="globals/ClassSchedule" pc="268439358" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="48" parent="globals/ClassSchedule" pc="268439374" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="49" parent="globals/ClassSchedule" pc="268439385" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="50" parent="globals/ClassSchedule" pc="268439388" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="53" parent="globals/ClassSchedule" pc="268439401" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="53" parent="globals/ClassSchedule" pc="268439407" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="56" parent="globals/ClassSchedule" pc="268439410" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="57" parent="globals/ClassSchedule" pc="268439422" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="59" parent="globals/ClassSchedule" pc="268439431" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="60" parent="globals/ClassSchedule" pc="268439447" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="61" parent="globals/ClassSchedule" pc="268439466" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="62" parent="globals/ClassSchedule" pc="268439470" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="66" parent="globals/ClassSchedule" pc="268439483" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="67" parent="globals/ClassSchedule" pc="268439487" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="68" parent="globals/ClassSchedule" pc="268439503" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="69" parent="globals/ClassSchedule" pc="268439511" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="71" parent="globals/ClassSchedule" pc="268439523" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="73" parent="globals/ClassSchedule" pc="268439548" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="74" parent="globals/ClassSchedule" pc="268439561" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="77" parent="globals/ClassSchedule" pc="268439573" symbol="getClassesForDow"/>
+        <entry filename="C:\\Users\\swoli\\Garmin Dev\\WatchFace1\\source\\.env\\ClassSchedule.mc" id="37" lineNum="80" parent="globals/ClassSchedule" pc="268439587" symbol="getClassesForDow"/>
+        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\Out\\gen\\006-B3907-00\\source\\Rez.mcgen" id="38" lineNum="13" parent="globals/Rez/Layouts" pc="268439590" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\Out\\gen\\006-B3907-00\\source\\Rez.mcgen" id="38" lineNum="14" parent="globals/Rez/Layouts" pc="268439601" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\Out\\gen\\006-B3907-00\\source\\Rez.mcgen" id="38" lineNum="16" parent="globals/Rez/Layouts" pc="268439625" symbol="WatchFace"/>
+        <entry filename="c:\\Users\\swoli\\Garmin Dev\\WatchFace1\\Out\\gen\\006-B3907-00\\source\\Rez.mcgen" id="38" lineNum="18" parent="globals/Rez/Layouts" pc="268439741" symbol="WatchFace"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -378,103 +386,109 @@
         <entry arg="true" endPc="268436978" name="hour" stackId="2" startPc="268436884"/>
         <entry endPc="268436977" name="label" stackId="3" startPc="268436887"/>
         <entry endPc="268436977" name="labelHeight" stackId="4" startPc="268436887"/>
-        <entry arg="true" endPc="268437049" name="dc" stackId="1" startPc="268436979"/>
-        <entry endPc="268437048" name="radius" stackId="2" startPc="268436982"/>
-        <entry arg="true" endPc="268437199" name="dc" stackId="1" startPc="268437050"/>
-        <entry endPc="268437198" name="x" stackId="2" startPc="268437053"/>
-        <entry endPc="268437198" name="y" stackId="3" startPc="268437053"/>
-        <entry endPc="268437198" name="now" stackId="4" startPc="268437053"/>
-        <entry endPc="268437198" name="day_of_week" stackId="5" startPc="268437053"/>
-        <entry endPc="268437198" name="month" stackId="6" startPc="268437053"/>
-        <entry endPc="268437198" name="day" stackId="7" startPc="268437053"/>
-        <entry endPc="268437198" name="dateStr" stackId="8" startPc="268437053"/>
-        <entry endPc="268437198" name="textHeight" stackId="9" startPc="268437053"/>
-        <entry arg="true" endPc="268437306" name="dc" stackId="1" startPc="268437200"/>
-        <entry endPc="268437305" name="w" stackId="2" startPc="268437203"/>
-        <entry endPc="268437305" name="h" stackId="3" startPc="268437203"/>
-        <entry arg="true" endPc="268437448" name="dc" stackId="1" startPc="268437307"/>
-        <entry arg="true" endPc="268437448" name="minute" stackId="2" startPc="268437307"/>
-        <entry endPc="268437447" name="minAngle" stackId="3" startPc="268437310"/>
-        <entry arg="true" endPc="268437839" name="dc" stackId="1" startPc="268437449"/>
-        <entry arg="true" endPc="268437839" name="minute" stackId="2" startPc="268437449"/>
-        <entry endPc="268437838" name="a" stackId="3" startPc="268437452"/>
-        <entry endPc="268437838" name="tipR" stackId="4" startPc="268437452"/>
-        <entry endPc="268437838" name="wingR" stackId="5" startPc="268437452"/>
-        <entry endPc="268437838" name="wingW" stackId="6" startPc="268437452"/>
-        <entry endPc="268437838" name="tipX" stackId="7" startPc="268437452"/>
-        <entry endPc="268437838" name="tipY" stackId="8" startPc="268437452"/>
-        <entry endPc="268437838" name="px" stackId="9" startPc="268437452"/>
-        <entry endPc="268437838" name="py" stackId="10" startPc="268437452"/>
-        <entry endPc="268437838" name="baseX" stackId="11" startPc="268437452"/>
-        <entry endPc="268437838" name="baseY" stackId="12" startPc="268437452"/>
-        <entry endPc="268437838" name="leftX" stackId="13" startPc="268437452"/>
-        <entry endPc="268437838" name="leftY" stackId="14" startPc="268437452"/>
-        <entry endPc="268437838" name="rightX" stackId="15" startPc="268437452"/>
-        <entry endPc="268437838" name="rightY" stackId="16" startPc="268437452"/>
-        <entry arg="true" endPc="268437900" name="h" stackId="1" startPc="268437840"/>
-        <entry arg="true" endPc="268437900" name="m" stackId="2" startPc="268437840"/>
-        <entry arg="true" endPc="268438550" name="dc" stackId="1" startPc="268437901"/>
-        <entry arg="true" endPc="268438550" name="minute" stackId="2" startPc="268437901"/>
-        <entry endPc="268438549" name="i" stackId="3" startPc="268437915"/>
-        <entry endPc="268438539" name="angle" stackId="4" startPc="268437915"/>
-        <entry endPc="268438539" name="isMajor" stackId="5" startPc="268437915"/>
-        <entry endPc="268438539" name="isCardinal" stackId="6" startPc="268437915"/>
-        <entry endPc="268438344" name="tipLen" stackId="7" startPc="268437963"/>
-        <entry endPc="268438344" name="baseHalf" stackId="8" startPc="268437963"/>
-        <entry endPc="268438344" name="baseCx" stackId="9" startPc="268437963"/>
-        <entry endPc="268438344" name="baseCy" stackId="10" startPc="268437963"/>
-        <entry endPc="268438344" name="tipR" stackId="11" startPc="268437963"/>
-        <entry endPc="268438344" name="tipX" stackId="12" startPc="268437963"/>
-        <entry endPc="268438344" name="tipY" stackId="13" startPc="268437963"/>
-        <entry endPc="268438344" name="px" stackId="14" startPc="268437963"/>
-        <entry endPc="268438344" name="py" stackId="15" startPc="268437963"/>
-        <entry endPc="268438344" name="b1x" stackId="16" startPc="268437963"/>
-        <entry endPc="268438344" name="b1y" stackId="17" startPc="268437963"/>
-        <entry endPc="268438344" name="b2x" stackId="18" startPc="268437963"/>
-        <entry endPc="268438344" name="b2y" stackId="19" startPc="268437963"/>
-        <entry endPc="268438539" name="rOuter" stackId="20" startPc="268438348"/>
-        <entry endPc="268438539" name="rInner" stackId="21" startPc="268438348"/>
-        <entry endPc="268438539" name="xOuter" stackId="22" startPc="268438348"/>
-        <entry endPc="268438539" name="yOuter" stackId="23" startPc="268438348"/>
-        <entry endPc="268438539" name="xInner" stackId="24" startPc="268438348"/>
-        <entry endPc="268438539" name="yInner" stackId="25" startPc="268438348"/>
-        <entry arg="true" endPc="268438713" name="dc" stackId="1" startPc="268438566"/>
-        <entry endPc="268438712" name="now" stackId="2" startPc="268438569"/>
-        <entry endPc="268438712" name="hour" stackId="3" startPc="268438569"/>
-        <entry endPc="268438712" name="minute" stackId="4" startPc="268438569"/>
-        <entry endPc="268438712" name="second" stackId="5" startPc="268438569"/>
-        <entry arg="true" endPc="268438980" name="dc" stackId="1" startPc="268438714"/>
-        <entry endPc="268438979" name="x" stackId="2" startPc="268438717"/>
-        <entry endPc="268438979" name="y" stackId="3" startPc="268438717"/>
-        <entry endPc="268438979" name="lineH" stackId="4" startPc="268438717"/>
-        <entry endPc="268438979" name="now" stackId="5" startPc="268438717"/>
-        <entry endPc="268438979" name="day_of_week" stackId="6" startPc="268438717"/>
-        <entry endPc="268438979" name="classes" stackId="7" startPc="268438717"/>
-        <entry endPc="268438979" name="i" stackId="8" startPc="268438819"/>
-        <entry endPc="268438969" name="c" stackId="9" startPc="268438819"/>
-        <entry endPc="268438969" name="start" stackId="10" startPc="268438819"/>
-        <entry endPc="268438969" name="end" stackId="11" startPc="268438819"/>
-        <entry endPc="268438969" name="loc" stackId="12" startPc="268438819"/>
-        <entry endPc="268438969" name="timeStr" stackId="13" startPc="268438819"/>
-        <entry endPc="268438969" name="line" stackId="14" startPc="268438819"/>
-        <entry arg="true" endPc="268439069" name="a" stackId="1" startPc="268439038"/>
-        <entry arg="true" endPc="268439069" name="b" stackId="2" startPc="268439038"/>
-        <entry arg="true" endPc="268439108" name="c" stackId="1" startPc="268439070"/>
-        <entry arg="true" endPc="268439147" name="c" stackId="1" startPc="268439109"/>
-        <entry arg="true" endPc="268439166" name="h" stackId="1" startPc="268439148"/>
-        <entry arg="true" endPc="268439166" name="m" stackId="2" startPc="268439148"/>
-        <entry arg="true" endPc="268439516" name="dow" stackId="1" startPc="268439218"/>
-        <entry endPc="268439513" name="i" stackId="3" startPc="268439253"/>
-        <entry endPc="268439503" name="c" stackId="4" startPc="268439253"/>
-        <entry endPc="268439503" name="dows" stackId="5" startPc="268439253"/>
-        <entry endPc="268439503" name="meetsToday" stackId="6" startPc="268439253"/>
-        <entry endPc="268439327" name="d" stackId="7" startPc="268439301"/>
-        <entry endPc="268439503" name="cStart" stackId="8" startPc="268439253"/>
-        <entry endPc="268439503" name="pos" stackId="9" startPc="268439253"/>
-        <entry endPc="268439409" name="j" stackId="10" startPc="268439374"/>
-        <entry endPc="268439503" name="newOut" stackId="11" startPc="268439253"/>
-        <entry endPc="268439474" name="k" stackId="12" startPc="268439430"/>
-        <entry arg="true" endPc="268439682" name="dc" stackId="1" startPc="268439517"/>
+        <entry arg="true" endPc="268437048" name="dc" stackId="1" startPc="268436979"/>
+        <entry endPc="268437047" name="radius" stackId="2" startPc="268436982"/>
+        <entry arg="true" endPc="268437189" name="dc" stackId="1" startPc="268437049"/>
+        <entry endPc="268437188" name="x" stackId="2" startPc="268437052"/>
+        <entry endPc="268437188" name="y" stackId="3" startPc="268437052"/>
+        <entry endPc="268437188" name="now" stackId="4" startPc="268437052"/>
+        <entry endPc="268437188" name="day_of_week" stackId="5" startPc="268437052"/>
+        <entry endPc="268437188" name="month" stackId="6" startPc="268437052"/>
+        <entry endPc="268437188" name="day" stackId="7" startPc="268437052"/>
+        <entry endPc="268437188" name="dateStr" stackId="8" startPc="268437052"/>
+        <entry endPc="268437188" name="textHeight" stackId="9" startPc="268437052"/>
+        <entry arg="true" endPc="268437296" name="dc" stackId="1" startPc="268437190"/>
+        <entry endPc="268437295" name="w" stackId="2" startPc="268437193"/>
+        <entry endPc="268437295" name="h" stackId="3" startPc="268437193"/>
+        <entry arg="true" endPc="268437501" name="dc" stackId="1" startPc="268437297"/>
+        <entry arg="true" endPc="268437501" name="minute" stackId="2" startPc="268437297"/>
+        <entry endPc="268437500" name="minAngle" stackId="3" startPc="268437300"/>
+        <entry endPc="268437500" name="startR" stackId="4" startPc="268437300"/>
+        <entry endPc="268437500" name="endR" stackId="5" startPc="268437300"/>
+        <entry endPc="268437500" name="x1" stackId="6" startPc="268437300"/>
+        <entry endPc="268437500" name="y1" stackId="7" startPc="268437300"/>
+        <entry endPc="268437500" name="x2" stackId="8" startPc="268437300"/>
+        <entry endPc="268437500" name="y2" stackId="9" startPc="268437300"/>
+        <entry arg="true" endPc="268437892" name="dc" stackId="1" startPc="268437502"/>
+        <entry arg="true" endPc="268437892" name="minute" stackId="2" startPc="268437502"/>
+        <entry endPc="268437891" name="a" stackId="3" startPc="268437505"/>
+        <entry endPc="268437891" name="tipR" stackId="4" startPc="268437505"/>
+        <entry endPc="268437891" name="wingR" stackId="5" startPc="268437505"/>
+        <entry endPc="268437891" name="wingW" stackId="6" startPc="268437505"/>
+        <entry endPc="268437891" name="tipX" stackId="7" startPc="268437505"/>
+        <entry endPc="268437891" name="tipY" stackId="8" startPc="268437505"/>
+        <entry endPc="268437891" name="px" stackId="9" startPc="268437505"/>
+        <entry endPc="268437891" name="py" stackId="10" startPc="268437505"/>
+        <entry endPc="268437891" name="baseX" stackId="11" startPc="268437505"/>
+        <entry endPc="268437891" name="baseY" stackId="12" startPc="268437505"/>
+        <entry endPc="268437891" name="leftX" stackId="13" startPc="268437505"/>
+        <entry endPc="268437891" name="leftY" stackId="14" startPc="268437505"/>
+        <entry endPc="268437891" name="rightX" stackId="15" startPc="268437505"/>
+        <entry endPc="268437891" name="rightY" stackId="16" startPc="268437505"/>
+        <entry arg="true" endPc="268437953" name="h" stackId="1" startPc="268437893"/>
+        <entry arg="true" endPc="268437953" name="m" stackId="2" startPc="268437893"/>
+        <entry arg="true" endPc="268438603" name="dc" stackId="1" startPc="268437954"/>
+        <entry arg="true" endPc="268438603" name="minute" stackId="2" startPc="268437954"/>
+        <entry endPc="268438602" name="i" stackId="3" startPc="268437968"/>
+        <entry endPc="268438592" name="angle" stackId="4" startPc="268437968"/>
+        <entry endPc="268438592" name="isMajor" stackId="5" startPc="268437968"/>
+        <entry endPc="268438592" name="isCardinal" stackId="6" startPc="268437968"/>
+        <entry endPc="268438397" name="tipLen" stackId="7" startPc="268438016"/>
+        <entry endPc="268438397" name="baseHalf" stackId="8" startPc="268438016"/>
+        <entry endPc="268438397" name="baseCx" stackId="9" startPc="268438016"/>
+        <entry endPc="268438397" name="baseCy" stackId="10" startPc="268438016"/>
+        <entry endPc="268438397" name="tipR" stackId="11" startPc="268438016"/>
+        <entry endPc="268438397" name="tipX" stackId="12" startPc="268438016"/>
+        <entry endPc="268438397" name="tipY" stackId="13" startPc="268438016"/>
+        <entry endPc="268438397" name="px" stackId="14" startPc="268438016"/>
+        <entry endPc="268438397" name="py" stackId="15" startPc="268438016"/>
+        <entry endPc="268438397" name="b1x" stackId="16" startPc="268438016"/>
+        <entry endPc="268438397" name="b1y" stackId="17" startPc="268438016"/>
+        <entry endPc="268438397" name="b2x" stackId="18" startPc="268438016"/>
+        <entry endPc="268438397" name="b2y" stackId="19" startPc="268438016"/>
+        <entry endPc="268438592" name="rOuter" stackId="20" startPc="268438401"/>
+        <entry endPc="268438592" name="rInner" stackId="21" startPc="268438401"/>
+        <entry endPc="268438592" name="xOuter" stackId="22" startPc="268438401"/>
+        <entry endPc="268438592" name="yOuter" stackId="23" startPc="268438401"/>
+        <entry endPc="268438592" name="xInner" stackId="24" startPc="268438401"/>
+        <entry endPc="268438592" name="yInner" stackId="25" startPc="268438401"/>
+        <entry arg="true" endPc="268438779" name="dc" stackId="1" startPc="268438619"/>
+        <entry endPc="268438778" name="now" stackId="2" startPc="268438622"/>
+        <entry endPc="268438778" name="hour" stackId="3" startPc="268438622"/>
+        <entry endPc="268438778" name="minute" stackId="4" startPc="268438622"/>
+        <entry endPc="268438778" name="second" stackId="5" startPc="268438622"/>
+        <entry arg="true" endPc="268439046" name="dc" stackId="1" startPc="268438780"/>
+        <entry endPc="268439045" name="x" stackId="2" startPc="268438783"/>
+        <entry endPc="268439045" name="y" stackId="3" startPc="268438783"/>
+        <entry endPc="268439045" name="lineH" stackId="4" startPc="268438783"/>
+        <entry endPc="268439045" name="now" stackId="5" startPc="268438783"/>
+        <entry endPc="268439045" name="day_of_week" stackId="6" startPc="268438783"/>
+        <entry endPc="268439045" name="classes" stackId="7" startPc="268438783"/>
+        <entry endPc="268439045" name="i" stackId="8" startPc="268438885"/>
+        <entry endPc="268439035" name="c" stackId="9" startPc="268438885"/>
+        <entry endPc="268439035" name="start" stackId="10" startPc="268438885"/>
+        <entry endPc="268439035" name="end" stackId="11" startPc="268438885"/>
+        <entry endPc="268439035" name="loc" stackId="12" startPc="268438885"/>
+        <entry endPc="268439035" name="timeStr" stackId="13" startPc="268438885"/>
+        <entry endPc="268439035" name="line" stackId="14" startPc="268438885"/>
+        <entry arg="true" endPc="268439135" name="a" stackId="1" startPc="268439104"/>
+        <entry arg="true" endPc="268439135" name="b" stackId="2" startPc="268439104"/>
+        <entry arg="true" endPc="268439174" name="c" stackId="1" startPc="268439136"/>
+        <entry arg="true" endPc="268439213" name="c" stackId="1" startPc="268439175"/>
+        <entry arg="true" endPc="268439232" name="h" stackId="1" startPc="268439214"/>
+        <entry arg="true" endPc="268439232" name="m" stackId="2" startPc="268439214"/>
+        <entry arg="true" endPc="268439589" name="dow" stackId="1" startPc="268439284"/>
+        <entry endPc="268439586" name="i" stackId="3" startPc="268439326"/>
+        <entry endPc="268439576" name="c" stackId="4" startPc="268439326"/>
+        <entry endPc="268439576" name="dows" stackId="5" startPc="268439326"/>
+        <entry endPc="268439576" name="meetsToday" stackId="6" startPc="268439326"/>
+        <entry endPc="268439400" name="d" stackId="7" startPc="268439374"/>
+        <entry endPc="268439576" name="cStart" stackId="8" startPc="268439326"/>
+        <entry endPc="268439576" name="pos" stackId="9" startPc="268439326"/>
+        <entry endPc="268439482" name="j" stackId="10" startPc="268439447"/>
+        <entry endPc="268439576" name="newOut" stackId="11" startPc="268439326"/>
+        <entry endPc="268439547" name="k" stackId="12" startPc="268439503"/>
+        <entry arg="true" endPc="268439755" name="dc" stackId="1" startPc="268439590"/>
     </localVars>
     <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B3907-00"/>
     <annotations>
@@ -561,35 +575,35 @@
             <param id="hour"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437049" name="drawHourCircle" parent="WatchFace1View" startPc="268436979">
+        <functionEntry accessMode="public" endPc="268437048" name="drawHourCircle" parent="WatchFace1View" startPc="268436979">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="WatchFace1View">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437199" name="drawDateString" parent="WatchFace1View" startPc="268437050">
+        <functionEntry accessMode="public" endPc="268437189" name="drawDateString" parent="WatchFace1View" startPc="268437049">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onExitSleep" parent="WatchFace1View">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437306" name="onLayout" parent="WatchFace1View" startPc="268437200">
+        <functionEntry accessMode="public" endPc="268437296" name="onLayout" parent="WatchFace1View" startPc="268437190">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437448" name="drawMinuteHand" parent="WatchFace1View" startPc="268437307">
-            <param id="dc"/>
-            <param id="minute"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268437839" name="drawMinuteHandPointer" parent="WatchFace1View" startPc="268437449">
+        <functionEntry accessMode="public" endPc="268437501" name="drawMinuteHand" parent="WatchFace1View" startPc="268437297">
             <param id="dc"/>
             <param id="minute"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437900" name="formatTime" parent="WatchFace1View" startPc="268437840">
+        <functionEntry accessMode="public" endPc="268437892" name="drawMinuteHandPointer" parent="WatchFace1View" startPc="268437502">
+            <param id="dc"/>
+            <param id="minute"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437953" name="formatTime" parent="WatchFace1View" startPc="268437893">
             <param id="h"/>
             <param id="m"/>
             <documentation/>
@@ -597,19 +611,19 @@
         <functionEntry accessMode="public" name="onEnterSleep" parent="WatchFace1View">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438550" name="drawHexagonalTicks" parent="WatchFace1View" startPc="268437901">
+        <functionEntry accessMode="public" endPc="268438603" name="drawHexagonalTicks" parent="WatchFace1View" startPc="268437954">
             <param id="dc"/>
             <param id="minute"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438565" name="initialize" parent="WatchFace1View" startPc="268438551">
+        <functionEntry accessMode="public" endPc="268438618" name="initialize" parent="WatchFace1View" startPc="268438604">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438713" name="onUpdate" parent="WatchFace1View" startPc="268438566">
+        <functionEntry accessMode="public" endPc="268438779" name="onUpdate" parent="WatchFace1View" startPc="268438619">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438980" name="drawClasses" parent="WatchFace1View" startPc="268438714">
+        <functionEntry accessMode="public" endPc="268439046" name="drawClasses" parent="WatchFace1View" startPc="268438780">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
@@ -617,45 +631,45 @@
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438994" name="onSettingsChanged" parent="WatchFace1App" startPc="268438981">
+        <functionEntry accessMode="public" endPc="268439060" name="onSettingsChanged" parent="WatchFace1App" startPc="268439047">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439022" name="getInitialView" parent="WatchFace1App" startPc="268438995">
+        <functionEntry accessMode="public" endPc="268439088" name="getInitialView" parent="WatchFace1App" startPc="268439061">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439037" name="initialize" parent="WatchFace1App" startPc="268439023">
+        <functionEntry accessMode="public" endPc="268439103" name="initialize" parent="WatchFace1App" startPc="268439089">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onStop" parent="WatchFace1App">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439069" name="compareByStart" parent="ClassSchedule" startPc="268439038">
+        <functionEntry accessMode="public" endPc="268439135" name="compareByStart" parent="ClassSchedule" startPc="268439104">
             <param id="a"/>
             <param id="b"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439108" name="classEndMinutes" parent="ClassSchedule" startPc="268439070">
+        <functionEntry accessMode="public" endPc="268439174" name="classEndMinutes" parent="ClassSchedule" startPc="268439136">
             <param id="c"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439147" name="classStartMinutes" parent="ClassSchedule" startPc="268439109">
+        <functionEntry accessMode="public" endPc="268439213" name="classStartMinutes" parent="ClassSchedule" startPc="268439175">
             <param id="c"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439166" name="minutesOfDay" parent="ClassSchedule" startPc="268439148">
+        <functionEntry accessMode="public" endPc="268439232" name="minutesOfDay" parent="ClassSchedule" startPc="268439214">
             <param id="h"/>
             <param id="m"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439217" name="getTodaysClasses" parent="ClassSchedule" startPc="268439167">
+        <functionEntry accessMode="public" endPc="268439283" name="getTodaysClasses" parent="ClassSchedule" startPc="268439233">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439516" name="getClassesForDow" parent="ClassSchedule" startPc="268439218">
+        <functionEntry accessMode="public" endPc="268439589" name="getClassesForDow" parent="ClassSchedule" startPc="268439284">
             <param id="dow"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439682" name="WatchFace" parent="Layouts" startPc="268439517">
+        <functionEntry accessMode="public" endPc="268439755" name="WatchFace" parent="Layouts" startPc="268439590">
             <param id="dc"/>
             <documentation/>
         </functionEntry>

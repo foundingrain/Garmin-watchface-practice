@@ -69,7 +69,7 @@ class WatchFace1View extends WatchUi.WatchFace {
 
         // Hands
         // drawHourHand(dc, hour, minute);
-        // drawMinuteHand(dc, minute);
+        drawMinuteHand(dc, minute);
         drawMinuteHandPointer(dc, minute);
         drawSecondHand(dc, second);
 
@@ -95,7 +95,7 @@ class WatchFace1View extends WatchUi.WatchFace {
     function drawHourCircle(dc as Dc) {
         var radius = dc.getFontHeight(Graphics.FONT_NUMBER_MEDIUM) / 2;
         dc.setPenWidth(2);
-        dc.setColor(Graphics.COLOR_RED, Graphics.COLOR_TRANSPARENT);
+        dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_TRANSPARENT);
         dc.drawCircle(cx, cy, radius);
     }
     function drawHourHand(dc as Dc, hour as Number, minute as Number) {
@@ -106,9 +106,17 @@ class WatchFace1View extends WatchUi.WatchFace {
     }
     function drawMinuteHand(dc as Dc, minute as Number) {
         var minAngle = (minute / 60.0) * 2 * Math.PI - Math.PI/2;
+        var startR = dc.getFontHeight(Graphics.FONT_NUMBER_MEDIUM) / 2;
+        var endR = radius * 0.9;
+
+        var x1 = cx + Math.cos(minAngle) * startR;
+        var y1 = cx + Math.sin(minAngle) * startR;
+        var x2 = cx + Math.cos(minAngle) * endR;
+        var y2 = cx + Math.sin(minAngle) * endR;
+
         dc.setPenWidth(2);
-        dc.setColor(FG, Graphics.COLOR_TRANSPARENT);
-        dc.drawLine(cx, cy, cx + Math.cos(minAngle) * (radius * 0.8), cy + Math.sin(minAngle) * (radius * 0.8));
+        dc.setColor(HL, Graphics.COLOR_TRANSPARENT);
+        dc.drawLine(x1, y1, x2, y2);
     }
     function drawMinuteHandPointer(dc as Dc, minute as Number) as Void {
         var a = (minute / 60.0) * 2 * Math.PI - Math.PI/2;
@@ -168,7 +176,8 @@ class WatchFace1View extends WatchUi.WatchFace {
     }
     function drawDateString(dc as Dc) {
         // Where to draw date
-        var x = cx * 1.5;
+        // var x = cx * 1.5;
+        var x = cx * 1.6;
         var y = cy;
 
         var now = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
@@ -176,7 +185,8 @@ class WatchFace1View extends WatchUi.WatchFace {
         var month = now.month;
         var day = now.day;
 
-        var dateStr = (day_of_week + ", " + month + " " + day);       
+        //var dateStr = (day_of_week + ", " + month + " " + day);       
+        var dateStr = (day_of_week + " " + day);       
         var textHeight = dc.getFontHeight(Graphics.FONT_XTINY);
 
         dc.setColor(FG, Graphics.COLOR_TRANSPARENT);
@@ -185,7 +195,7 @@ class WatchFace1View extends WatchUi.WatchFace {
     function drawClasses(dc as Dc) {
         // Where to draw classes
         var x = cx;
-        var y = cy * 1.2;
+        var y = cy * 1.3;
         var lineH = 20; // How far to separate lines
 
         var now = Time.Gregorian.info(Time.now(), Time.FORMAT_SHORT);
@@ -204,7 +214,7 @@ class WatchFace1View extends WatchUi.WatchFace {
             var loc   = c[:loc];
 
             var timeStr = formatTime(start[0], start[1]) + "-" + formatTime(end[0], end[1]);
-            var line = c[:title] + " " + timeStr + " " + loc;
+            var line = c[:title] + " / " + timeStr + " / " + loc;
 
             dc.setColor(FG, Graphics.COLOR_TRANSPARENT);
             dc.drawText(x, y, Graphics.FONT_XTINY, line, Graphics.TEXT_JUSTIFY_CENTER);

@@ -267,38 +267,47 @@ C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_35_40_79_4_start:
         %tmp.30 = lgetv %dc;
         symbol [ dc %tmp.30 68 23 25 ];
         invoke %tmp.28 %tmp.29(%tmp.30);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 73 8 ]
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 72 8 ]
         %tmp.31 = self;
-        symbol [ drawMinuteHandPointer %tmp.32 73 8 29 ];
-        %tmp.32 = getv function %tmp.31 :drawMinuteHandPointer;
+        symbol [ drawMinuteHand %tmp.32 72 8 22 ];
+        %tmp.32 = getv function %tmp.31 :drawMinuteHand;
         %tmp.33 = lgetv %dc;
-        symbol [ dc %tmp.33 73 30 32 ];
+        symbol [ dc %tmp.33 72 23 25 ];
         %tmp.34 = lgetv %minute.3;
-        symbol [ minute %tmp.34 73 34 40 ];
+        symbol [ minute %tmp.34 72 27 33 ];
         invoke %tmp.31 %tmp.32(%tmp.33, %tmp.34);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 74 8 ]
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 73 8 ]
         %tmp.35 = self;
-        symbol [ drawSecondHand %tmp.36 74 8 22 ];
-        %tmp.36 = getv function %tmp.35 :drawSecondHand;
+        symbol [ drawMinuteHandPointer %tmp.36 73 8 29 ];
+        %tmp.36 = getv function %tmp.35 :drawMinuteHandPointer;
         %tmp.37 = lgetv %dc;
-        symbol [ dc %tmp.37 74 23 25 ];
-        %tmp.38 = lgetv %second.4;
-        symbol [ second %tmp.38 74 27 33 ];
+        symbol [ dc %tmp.37 73 30 32 ];
+        %tmp.38 = lgetv %minute.3;
+        symbol [ minute %tmp.38 73 34 40 ];
         invoke %tmp.35 %tmp.36(%tmp.37, %tmp.38);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 77 8 ]
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 74 8 ]
         %tmp.39 = self;
-        symbol [ drawDateString %tmp.40 77 8 22 ];
-        %tmp.40 = getv function %tmp.39 :drawDateString;
+        symbol [ drawSecondHand %tmp.40 74 8 22 ];
+        %tmp.40 = getv function %tmp.39 :drawSecondHand;
         %tmp.41 = lgetv %dc;
-        symbol [ dc %tmp.41 77 23 25 ];
-        invoke %tmp.39 %tmp.40(%tmp.41);
+        symbol [ dc %tmp.41 74 23 25 ];
+        %tmp.42 = lgetv %second.4;
+        symbol [ second %tmp.42 74 27 33 ];
+        invoke %tmp.39 %tmp.40(%tmp.41, %tmp.42);
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 77 8 ]
+        %tmp.43 = self;
+        symbol [ drawDateString %tmp.44 77 8 22 ];
+        %tmp.44 = getv function %tmp.43 :drawDateString;
+        %tmp.45 = lgetv %dc;
+        symbol [ dc %tmp.45 77 23 25 ];
+        invoke %tmp.43 %tmp.44(%tmp.45);
 [ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 78 8 ]
-        %tmp.42 = self;
-        symbol [ drawClasses %tmp.43 78 8 19 ];
-        %tmp.43 = getv function %tmp.42 :drawClasses;
-        %tmp.44 = lgetv %dc;
-        symbol [ dc %tmp.44 78 20 22 ];
-        invoke %tmp.42 %tmp.43(%tmp.44);
+        %tmp.46 = self;
+        symbol [ drawClasses %tmp.47 78 8 19 ];
+        %tmp.47 = getv function %tmp.46 :drawClasses;
+        %tmp.48 = lgetv %dc;
+        symbol [ dc %tmp.48 78 20 22 ];
+        invoke %tmp.46 %tmp.47(%tmp.48);
 C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_35_40_79_4_stop:
     }
     [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 80; @symbol_functiondef = [drawActiveHour,80,13,27]; @symbol_param<0> = [dc,80,28,30]; @symbol_param<0>_type<0> = [Dc,80,34,36]; @symbol_param<1> = [hour,80,38,42]; @symbol_param<1>_type<0> = [Number,80,46,52]; ]
@@ -555,11 +564,11 @@ C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_95_38_100_4_start:
         %tmp.12 = getv function %tmp.11 :setColor;
         symbol [ Graphics %tmp.13 98 20 28 ];
         %tmp.13 = getm $.Toybox.Graphics;
-        symbol [ COLOR_RED %tmp.14 98 29 38 ];
-        %tmp.14 = getv %tmp.13 :COLOR_RED;
-        symbol [ Graphics %tmp.15 98 40 48 ];
+        symbol [ COLOR_DK_GRAY %tmp.14 98 29 42 ];
+        %tmp.14 = getv %tmp.13 :COLOR_DK_GRAY;
+        symbol [ Graphics %tmp.15 98 44 52 ];
         %tmp.15 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.16 98 49 66 ];
+        symbol [ COLOR_TRANSPARENT %tmp.16 98 53 70 ];
         %tmp.16 = getv %tmp.15 :COLOR_TRANSPARENT;
         invoke %tmp.11 %tmp.12(%tmp.14, %tmp.16);
 [ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 99 8 ]
@@ -671,9 +680,9 @@ C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_101_70_106_4_stop:
     }
     [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 107; @symbol_functiondef = [drawMinuteHand,107,13,27]; @symbol_param<0> = [dc,107,28,30]; @symbol_param<0>_type<0> = [Dc,107,34,36]; @symbol_param<1> = [minute,107,38,44]; @symbol_param<1>_type<0> = [Number,107,48,54]; ]
     function drawMinuteHand(dc as Dc, minute as Number) {
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_112_4_start:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_start:
 [ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 108 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_112_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_112_4_stop" ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_stop" ]
         %minAngle.1 = local;
         symbol [ minAngle %minAngle.1 108 12 20 ];
         %tmp.1 = lgetv %minute;
@@ -697,1933 +706,2005 @@ C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_112_4_start
         lputv %minAngle.1 %tmp.15;
         symbol [ minAngle %minAngle.1 108 12 20 ];
 [ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 109 8 ]
-        %tmp.16 = lgetv %dc;
-        symbol [ dc %tmp.16 109 8 10 ];
-        symbol [ setPenWidth %tmp.17 109 11 22 ];
-        %tmp.17 = getv function %tmp.16 :setPenWidth;
-        %tmp.18 = 2;
-        invoke %tmp.16 %tmp.17(%tmp.18);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 110 8 ]
-        %tmp.19 = lgetv %dc;
-        symbol [ dc %tmp.19 110 8 10 ];
-        symbol [ setColor %tmp.20 110 11 19 ];
-        %tmp.20 = getv function %tmp.19 :setColor;
-        symbol [ FG %tmp.22 110 20 22 ];
-        %tmp.22 = getv ? :FG;
-        symbol [ Graphics %tmp.23 110 24 32 ];
-        %tmp.23 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.24 110 33 50 ];
-        %tmp.24 = getv %tmp.23 :COLOR_TRANSPARENT;
-        invoke %tmp.19 %tmp.20(%tmp.22, %tmp.24);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 111 8 ]
-        %tmp.25 = lgetv %dc;
-        symbol [ dc %tmp.25 111 8 10 ];
-        symbol [ drawLine %tmp.26 111 11 19 ];
-        %tmp.26 = getv function %tmp.25 :drawLine;
-        symbol [ cx %tmp.28 111 20 22 ];
-        %tmp.28 = getv ? :cx;
-        symbol [ cy %tmp.30 111 24 26 ];
-        %tmp.30 = getv ? :cy;
-        symbol [ cx %tmp.32 111 28 30 ];
-        %tmp.32 = getv ? :cx;
-        symbol [ Math %tmp.34 111 33 37 ];
-        %tmp.34 = getv ? :Math;
-        symbol [ cos %tmp.35 111 38 41 ];
-        %tmp.35 = getv function %tmp.34 :cos;
-        %tmp.36 = lgetv %minAngle.1;
-        symbol [ minAngle %tmp.36 111 42 50 ];
-        %tmp.37 = invoke %tmp.34 %tmp.35(%tmp.36);
-        symbol [ radius %tmp.39 111 55 61 ];
-        %tmp.39 = getv ? :radius;
-        %tmp.40 = 0.8;
-        %tmp.41 = mul %tmp.39 %tmp.40;
-        %tmp.42 = mul %tmp.37 %tmp.41;
-        %tmp.43 = add %tmp.32 %tmp.42;
-        symbol [ cy %tmp.45 111 70 72 ];
-        %tmp.45 = getv ? :cy;
-        symbol [ Math %tmp.47 111 75 79 ];
-        %tmp.47 = getv ? :Math;
-        symbol [ sin %tmp.48 111 80 83 ];
-        %tmp.48 = getv function %tmp.47 :sin;
-        %tmp.49 = lgetv %minAngle.1;
-        symbol [ minAngle %tmp.49 111 84 92 ];
-        %tmp.50 = invoke %tmp.47 %tmp.48(%tmp.49);
-        symbol [ radius %tmp.52 111 97 103 ];
-        %tmp.52 = getv ? :radius;
-        %tmp.53 = 0.8;
-        %tmp.54 = mul %tmp.52 %tmp.53;
-        %tmp.55 = mul %tmp.50 %tmp.54;
-        %tmp.56 = add %tmp.45 %tmp.55;
-        invoke %tmp.25 %tmp.26(%tmp.28, %tmp.30, %tmp.43, %tmp.56);
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_112_4_stop:
-    }
-    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 113; @symbol_functiondef = [drawMinuteHandPointer,113,13,34]; @symbol_param<0> = [dc,113,35,37]; @symbol_param<0>_type<0> = [Dc,113,41,43]; @symbol_param<1> = [minute,113,45,51]; @symbol_param<1>_type<0> = [Number,113,55,61]; ]
-    function drawMinuteHandPointer(dc as Dc, minute as Number) as Void {
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_start:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 114 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_stop" ]
-        %a.1 = local;
-        symbol [ a %a.1 114 12 13 ];
-        %tmp.1 = lgetv %minute;
-        symbol [ minute %tmp.1 114 17 23 ];
-        %tmp.2 = 60.0;
-        %tmp.3 = div %tmp.1 %tmp.2;
-        %tmp.4 = 2;
-        %tmp.5 = mul %tmp.3 %tmp.4;
-        symbol [ Math %tmp.7 114 38 42 ];
-        %tmp.7 = getv ? :Math;
-        symbol [ PI %tmp.8 114 43 45 ];
-        %tmp.8 = getv %tmp.7 :PI;
-        %tmp.9 = mul %tmp.5 %tmp.8;
-        symbol [ Math %tmp.11 114 48 52 ];
-        %tmp.11 = getv ? :Math;
-        symbol [ PI %tmp.12 114 53 55 ];
-        %tmp.12 = getv %tmp.11 :PI;
-        %tmp.13 = 2;
-        %tmp.14 = div %tmp.12 %tmp.13;
-        %tmp.15 = sub %tmp.9 %tmp.14;
-        lputv %a.1 %tmp.15;
-        symbol [ a %a.1 114 12 13 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 117 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_stop" ]
-        %tipR.2 = local;
-        symbol [ tipR %tipR.2 117 12 16 ];
-        symbol [ radius %tmp.17 117 21 27 ];
-        %tmp.17 = getv ? :radius;
-        %tmp.18 = 9;
-        %tmp.19 = sub %tmp.17 %tmp.18;
-        lputv %tipR.2 %tmp.19;
-        symbol [ tipR %tipR.2 117 12 16 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 118 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_stop" ]
-        %wingR.3 = local;
-        symbol [ wingR %wingR.3 118 12 17 ];
-        symbol [ radius %tmp.21 118 21 27 ];
-        %tmp.21 = getv ? :radius;
-        %tmp.22 = 19;
-        %tmp.23 = sub %tmp.21 %tmp.22;
-        lputv %wingR.3 %tmp.23;
-        symbol [ wingR %wingR.3 118 12 17 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 119 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_stop" ]
-        %wingW.4 = local;
-        symbol [ wingW %wingW.4 119 12 17 ];
-        %tmp.24 = 10.0;
-        lputv %wingW.4 %tmp.24;
-        symbol [ wingW %wingW.4 119 12 17 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 121 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_stop" ]
-        %tipX.5 = local;
-        symbol [ tipX %tipX.5 121 12 16 ];
-        symbol [ cx %tmp.26 121 19 21 ];
-        %tmp.26 = getv ? :cx;
-        symbol [ Math %tmp.28 121 24 28 ];
-        %tmp.28 = getv ? :Math;
-        symbol [ cos %tmp.29 121 29 32 ];
-        %tmp.29 = getv function %tmp.28 :cos;
-        %tmp.30 = lgetv %a.1;
-        symbol [ a %tmp.30 121 33 34 ];
-        %tmp.31 = invoke %tmp.28 %tmp.29(%tmp.30);
-        %tmp.32 = lgetv %tipR.2;
-        symbol [ tipR %tmp.32 121 38 42 ];
-        %tmp.33 = mul %tmp.31 %tmp.32;
-        %tmp.34 = add %tmp.26 %tmp.33;
-        lputv %tipX.5 %tmp.34;
-        symbol [ tipX %tipX.5 121 12 16 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 122 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_stop" ]
-        %tipY.6 = local;
-        symbol [ tipY %tipY.6 122 12 16 ];
-        symbol [ cy %tmp.36 122 19 21 ];
-        %tmp.36 = getv ? :cy;
-        symbol [ Math %tmp.38 122 24 28 ];
-        %tmp.38 = getv ? :Math;
-        symbol [ sin %tmp.39 122 29 32 ];
-        %tmp.39 = getv function %tmp.38 :sin;
-        %tmp.40 = lgetv %a.1;
-        symbol [ a %tmp.40 122 33 34 ];
-        %tmp.41 = invoke %tmp.38 %tmp.39(%tmp.40);
-        %tmp.42 = lgetv %tipR.2;
-        symbol [ tipR %tmp.42 122 38 42 ];
-        %tmp.43 = mul %tmp.41 %tmp.42;
-        %tmp.44 = add %tmp.36 %tmp.43;
-        lputv %tipY.6 %tmp.44;
-        symbol [ tipY %tipY.6 122 12 16 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 125 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_stop" ]
-        %px.7 = local;
-        symbol [ px %px.7 125 12 14 ];
-        symbol [ Math %tmp.46 125 18 22 ];
-        %tmp.46 = getv ? :Math;
-        symbol [ sin %tmp.47 125 23 26 ];
-        %tmp.47 = getv function %tmp.46 :sin;
-        %tmp.48 = lgetv %a.1;
-        symbol [ a %tmp.48 125 27 28 ];
-        %tmp.49 = invoke %tmp.46 %tmp.47(%tmp.48);
-        %tmp.50 = sub 0 %tmp.49;
-        lputv %px.7 %tmp.50;
-        symbol [ px %px.7 125 12 14 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 126 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_stop" ]
-        %py.8 = local;
-        symbol [ py %py.8 126 12 14 ];
-        symbol [ Math %tmp.52 126 18 22 ];
-        %tmp.52 = getv ? :Math;
-        symbol [ cos %tmp.53 126 23 26 ];
-        %tmp.53 = getv function %tmp.52 :cos;
-        %tmp.54 = lgetv %a.1;
-        symbol [ a %tmp.54 126 27 28 ];
-        %tmp.55 = invoke %tmp.52 %tmp.53(%tmp.54);
-        lputv %py.8 %tmp.55;
-        symbol [ py %py.8 126 12 14 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 129 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_stop" ]
-        %baseX.9 = local;
-        symbol [ baseX %baseX.9 129 12 17 ];
-        symbol [ cx %tmp.57 129 20 22 ];
-        %tmp.57 = getv ? :cx;
-        symbol [ Math %tmp.59 129 25 29 ];
-        %tmp.59 = getv ? :Math;
-        symbol [ cos %tmp.60 129 30 33 ];
-        %tmp.60 = getv function %tmp.59 :cos;
-        %tmp.61 = lgetv %a.1;
-        symbol [ a %tmp.61 129 34 35 ];
-        %tmp.62 = invoke %tmp.59 %tmp.60(%tmp.61);
-        %tmp.63 = lgetv %wingR.3;
-        symbol [ wingR %tmp.63 129 39 44 ];
-        %tmp.64 = mul %tmp.62 %tmp.63;
-        %tmp.65 = add %tmp.57 %tmp.64;
-        lputv %baseX.9 %tmp.65;
-        symbol [ baseX %baseX.9 129 12 17 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 130 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_stop" ]
-        %baseY.10 = local;
-        symbol [ baseY %baseY.10 130 12 17 ];
-        symbol [ cy %tmp.67 130 20 22 ];
-        %tmp.67 = getv ? :cy;
-        symbol [ Math %tmp.69 130 25 29 ];
-        %tmp.69 = getv ? :Math;
-        symbol [ sin %tmp.70 130 30 33 ];
-        %tmp.70 = getv function %tmp.69 :sin;
-        %tmp.71 = lgetv %a.1;
-        symbol [ a %tmp.71 130 34 35 ];
-        %tmp.72 = invoke %tmp.69 %tmp.70(%tmp.71);
-        %tmp.73 = lgetv %wingR.3;
-        symbol [ wingR %tmp.73 130 39 44 ];
-        %tmp.74 = mul %tmp.72 %tmp.73;
-        %tmp.75 = add %tmp.67 %tmp.74;
-        lputv %baseY.10 %tmp.75;
-        symbol [ baseY %baseY.10 130 12 17 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 133 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_stop" ]
-        %leftX.11 = local;
-        symbol [ leftX %leftX.11 133 12 17 ];
-        %tmp.76 = lgetv %baseX.9;
-        symbol [ baseX %tmp.76 133 21 26 ];
-        %tmp.77 = lgetv %px.7;
-        symbol [ px %tmp.77 133 29 31 ];
-        %tmp.78 = lgetv %wingW.4;
-        symbol [ wingW %tmp.78 133 34 39 ];
-        %tmp.79 = mul %tmp.77 %tmp.78;
-        %tmp.80 = add %tmp.76 %tmp.79;
-        lputv %leftX.11 %tmp.80;
-        symbol [ leftX %leftX.11 133 12 17 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 134 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_stop" ]
-        %leftY.12 = local;
-        symbol [ leftY %leftY.12 134 12 17 ];
-        %tmp.81 = lgetv %baseY.10;
-        symbol [ baseY %tmp.81 134 21 26 ];
-        %tmp.82 = lgetv %py.8;
-        symbol [ py %tmp.82 134 29 31 ];
-        %tmp.83 = lgetv %wingW.4;
-        symbol [ wingW %tmp.83 134 34 39 ];
-        %tmp.84 = mul %tmp.82 %tmp.83;
-        %tmp.85 = add %tmp.81 %tmp.84;
-        lputv %leftY.12 %tmp.85;
-        symbol [ leftY %leftY.12 134 12 17 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 135 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_stop" ]
-        %rightX.13 = local;
-        symbol [ rightX %rightX.13 135 12 18 ];
-        %tmp.86 = lgetv %baseX.9;
-        symbol [ baseX %tmp.86 135 21 26 ];
-        %tmp.87 = lgetv %px.7;
-        symbol [ px %tmp.87 135 29 31 ];
-        %tmp.88 = lgetv %wingW.4;
-        symbol [ wingW %tmp.88 135 34 39 ];
-        %tmp.89 = mul %tmp.87 %tmp.88;
-        %tmp.90 = sub %tmp.86 %tmp.89;
-        lputv %rightX.13 %tmp.90;
-        symbol [ rightX %rightX.13 135 12 18 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 136 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_stop" ]
-        %rightY.14 = local;
-        symbol [ rightY %rightY.14 136 12 18 ];
-        %tmp.91 = lgetv %baseY.10;
-        symbol [ baseY %tmp.91 136 21 26 ];
-        %tmp.92 = lgetv %py.8;
-        symbol [ py %tmp.92 136 29 31 ];
-        %tmp.93 = lgetv %wingW.4;
-        symbol [ wingW %tmp.93 136 34 39 ];
-        %tmp.94 = mul %tmp.92 %tmp.93;
-        %tmp.95 = sub %tmp.91 %tmp.94;
-        lputv %rightY.14 %tmp.95;
-        symbol [ rightY %rightY.14 136 12 18 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 139 8 ]
-        symbol [ Math %tmp.97 139 15 19 ];
-        %tmp.97 = getv ? :Math;
-        symbol [ round %tmp.98 139 20 25 ];
-        %tmp.98 = getv function %tmp.97 :round;
-        %tmp.99 = lgetv %tipX.5;
-        symbol [ tipX %tmp.99 139 26 30 ];
-        %tmp.100 = invoke %tmp.97 %tmp.98(%tmp.99);
-        lputv %tipX.5 %tmp.100;
-        symbol [ tipX %tipX.5 139 8 12 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 139 35 ]
-        symbol [ Math %tmp.102 139 42 46 ];
-        %tmp.102 = getv ? :Math;
-        symbol [ round %tmp.103 139 47 52 ];
-        %tmp.103 = getv function %tmp.102 :round;
-        %tmp.104 = lgetv %tipY.6;
-        symbol [ tipY %tmp.104 139 53 57 ];
-        %tmp.105 = invoke %tmp.102 %tmp.103(%tmp.104);
-        lputv %tipY.6 %tmp.105;
-        symbol [ tipY %tipY.6 139 35 39 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 140 8 ]
-        symbol [ Math %tmp.107 140 16 20 ];
-        %tmp.107 = getv ? :Math;
-        symbol [ round %tmp.108 140 21 26 ];
-        %tmp.108 = getv function %tmp.107 :round;
-        %tmp.109 = lgetv %leftX.11;
-        symbol [ leftX %tmp.109 140 27 32 ];
-        %tmp.110 = invoke %tmp.107 %tmp.108(%tmp.109);
-        lputv %leftX.11 %tmp.110;
-        symbol [ leftX %leftX.11 140 8 13 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 140 35 ]
-        symbol [ Math %tmp.112 140 43 47 ];
-        %tmp.112 = getv ? :Math;
-        symbol [ round %tmp.113 140 48 53 ];
-        %tmp.113 = getv function %tmp.112 :round;
-        %tmp.114 = lgetv %leftY.12;
-        symbol [ leftY %tmp.114 140 54 59 ];
-        %tmp.115 = invoke %tmp.112 %tmp.113(%tmp.114);
-        lputv %leftY.12 %tmp.115;
-        symbol [ leftY %leftY.12 140 35 40 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 141 8 ]
-        symbol [ Math %tmp.117 141 17 21 ];
-        %tmp.117 = getv ? :Math;
-        symbol [ round %tmp.118 141 22 27 ];
-        %tmp.118 = getv function %tmp.117 :round;
-        %tmp.119 = lgetv %rightX.13;
-        symbol [ rightX %tmp.119 141 28 34 ];
-        %tmp.120 = invoke %tmp.117 %tmp.118(%tmp.119);
-        lputv %rightX.13 %tmp.120;
-        symbol [ rightX %rightX.13 141 8 14 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 141 37 ]
-        symbol [ Math %tmp.122 141 46 50 ];
-        %tmp.122 = getv ? :Math;
-        symbol [ round %tmp.123 141 51 56 ];
-        %tmp.123 = getv function %tmp.122 :round;
-        %tmp.124 = lgetv %rightY.14;
-        symbol [ rightY %tmp.124 141 57 63 ];
-        %tmp.125 = invoke %tmp.122 %tmp.123(%tmp.124);
-        lputv %rightY.14 %tmp.125;
-        symbol [ rightY %rightY.14 141 37 43 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 143 8 ]
-        %tmp.126 = lgetv %dc;
-        symbol [ dc %tmp.126 143 8 10 ];
-        symbol [ setColor %tmp.127 143 11 19 ];
-        %tmp.127 = getv function %tmp.126 :setColor;
-        symbol [ HL %tmp.129 143 20 22 ];
-        %tmp.129 = getv ? :HL;
-        symbol [ Graphics %tmp.130 143 24 32 ];
-        %tmp.130 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.131 143 33 50 ];
-        %tmp.131 = getv %tmp.130 :COLOR_TRANSPARENT;
-        invoke %tmp.126 %tmp.127(%tmp.129, %tmp.131);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 144 8 ]
-        %tmp.132 = lgetv %dc;
-        symbol [ dc %tmp.132 144 8 10 ];
-        symbol [ setPenWidth %tmp.133 144 11 22 ];
-        %tmp.133 = getv function %tmp.132 :setPenWidth;
-        %tmp.134 = 2;
-        invoke %tmp.132 %tmp.133(%tmp.134);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 145 8 ]
-        %tmp.135 = lgetv %dc;
-        symbol [ dc %tmp.135 145 8 10 ];
-        symbol [ drawLine %tmp.136 145 11 19 ];
-        %tmp.136 = getv function %tmp.135 :drawLine;
-        %tmp.137 = lgetv %leftX.11;
-        symbol [ leftX %tmp.137 145 20 25 ];
-        %tmp.138 = lgetv %leftY.12;
-        symbol [ leftY %tmp.138 145 27 32 ];
-        %tmp.139 = lgetv %tipX.5;
-        symbol [ tipX %tmp.139 145 34 38 ];
-        %tmp.140 = lgetv %tipY.6;
-        symbol [ tipY %tmp.140 145 40 44 ];
-        invoke %tmp.135 %tmp.136(%tmp.137, %tmp.138, %tmp.139, %tmp.140);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 146 8 ]
-        %tmp.141 = lgetv %dc;
-        symbol [ dc %tmp.141 146 8 10 ];
-        symbol [ drawLine %tmp.142 146 11 19 ];
-        %tmp.142 = getv function %tmp.141 :drawLine;
-        %tmp.143 = lgetv %rightX.13;
-        symbol [ rightX %tmp.143 146 20 26 ];
-        %tmp.144 = lgetv %rightY.14;
-        symbol [ rightY %tmp.144 146 28 34 ];
-        %tmp.145 = lgetv %tipX.5;
-        symbol [ tipX %tmp.145 146 36 40 ];
-        %tmp.146 = lgetv %tipY.6;
-        symbol [ tipY %tmp.146 146 42 46 ];
-        invoke %tmp.141 %tmp.142(%tmp.143, %tmp.144, %tmp.145, %tmp.146);
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_113_71_147_4_stop:
-    }
-    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 148; @symbol_functiondef = [drawSecondHand,148,13,27]; @symbol_param<0> = [dc,148,28,30]; @symbol_param<0>_type<0> = [Dc,148,34,36]; @symbol_param<1> = [second,148,38,44]; @symbol_param<1>_type<0> = [Number,148,48,54]; ]
-    function drawSecondHand(dc as Dc, second as Number) {
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_start:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 149 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_stop" ]
-        %secAngle.1 = local;
-        symbol [ secAngle %secAngle.1 149 12 20 ];
-        %tmp.1 = lgetv %second;
-        symbol [ second %tmp.1 149 24 30 ];
-        %tmp.2 = 60.0;
-        %tmp.3 = div %tmp.1 %tmp.2;
-        %tmp.4 = 2;
-        %tmp.5 = mul %tmp.3 %tmp.4;
-        symbol [ Math %tmp.7 149 45 49 ];
-        %tmp.7 = getv ? :Math;
-        symbol [ PI %tmp.8 149 50 52 ];
-        %tmp.8 = getv %tmp.7 :PI;
-        %tmp.9 = mul %tmp.5 %tmp.8;
-        symbol [ Math %tmp.11 149 55 59 ];
-        %tmp.11 = getv ? :Math;
-        symbol [ PI %tmp.12 149 60 62 ];
-        %tmp.12 = getv %tmp.11 :PI;
-        %tmp.13 = 2;
-        %tmp.14 = div %tmp.12 %tmp.13;
-        %tmp.15 = sub %tmp.9 %tmp.14;
-        lputv %secAngle.1 %tmp.15;
-        symbol [ secAngle %secAngle.1 149 12 20 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 150 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_stop" ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_stop" ]
         %startR.2 = local;
-        symbol [ startR %startR.2 150 12 18 ];
+        symbol [ startR %startR.2 109 12 18 ];
         %tmp.16 = lgetv %dc;
-        symbol [ dc %tmp.16 150 21 23 ];
-        symbol [ getFontHeight %tmp.17 150 24 37 ];
+        symbol [ dc %tmp.16 109 21 23 ];
+        symbol [ getFontHeight %tmp.17 109 24 37 ];
         %tmp.17 = getv function %tmp.16 :getFontHeight;
-        symbol [ Graphics %tmp.18 150 38 46 ];
+        symbol [ Graphics %tmp.18 109 38 46 ];
         %tmp.18 = getm $.Toybox.Graphics;
-        symbol [ FONT_NUMBER_MEDIUM %tmp.19 150 47 65 ];
+        symbol [ FONT_NUMBER_MEDIUM %tmp.19 109 47 65 ];
         %tmp.19 = getv %tmp.18 :FONT_NUMBER_MEDIUM;
         %tmp.20 = invoke %tmp.16 %tmp.17(%tmp.19);
         %tmp.21 = 2;
         %tmp.22 = div %tmp.20 %tmp.21;
         lputv %startR.2 %tmp.22;
-        symbol [ startR %startR.2 150 12 18 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 151 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_stop" ]
+        symbol [ startR %startR.2 109 12 18 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 110 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_stop" ]
         %endR.3 = local;
-        symbol [ endR %endR.3 151 12 16 ];
-        symbol [ radius %tmp.24 151 19 25 ];
+        symbol [ endR %endR.3 110 12 16 ];
+        symbol [ radius %tmp.24 110 19 25 ];
         %tmp.24 = getv ? :radius;
         %tmp.25 = 0.9;
         %tmp.26 = mul %tmp.24 %tmp.25;
         lputv %endR.3 %tmp.26;
-        symbol [ endR %endR.3 151 12 16 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 153 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_stop" ]
+        symbol [ endR %endR.3 110 12 16 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 112 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_stop" ]
         %x1.4 = local;
-        symbol [ x1 %x1.4 153 12 14 ];
-        symbol [ cx %tmp.28 153 17 19 ];
+        symbol [ x1 %x1.4 112 12 14 ];
+        symbol [ cx %tmp.28 112 17 19 ];
         %tmp.28 = getv ? :cx;
-        symbol [ Math %tmp.30 153 22 26 ];
+        symbol [ Math %tmp.30 112 22 26 ];
         %tmp.30 = getv ? :Math;
-        symbol [ cos %tmp.31 153 27 30 ];
+        symbol [ cos %tmp.31 112 27 30 ];
         %tmp.31 = getv function %tmp.30 :cos;
-        %tmp.32 = lgetv %secAngle.1;
-        symbol [ secAngle %tmp.32 153 31 39 ];
+        %tmp.32 = lgetv %minAngle.1;
+        symbol [ minAngle %tmp.32 112 31 39 ];
         %tmp.33 = invoke %tmp.30 %tmp.31(%tmp.32);
         %tmp.34 = lgetv %startR.2;
-        symbol [ startR %tmp.34 153 43 49 ];
+        symbol [ startR %tmp.34 112 43 49 ];
         %tmp.35 = mul %tmp.33 %tmp.34;
         %tmp.36 = add %tmp.28 %tmp.35;
         lputv %x1.4 %tmp.36;
-        symbol [ x1 %x1.4 153 12 14 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 154 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_stop" ]
+        symbol [ x1 %x1.4 112 12 14 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 113 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_stop" ]
         %y1.5 = local;
-        symbol [ y1 %y1.5 154 12 14 ];
-        symbol [ cx %tmp.38 154 17 19 ];
+        symbol [ y1 %y1.5 113 12 14 ];
+        symbol [ cx %tmp.38 113 17 19 ];
         %tmp.38 = getv ? :cx;
-        symbol [ Math %tmp.40 154 22 26 ];
+        symbol [ Math %tmp.40 113 22 26 ];
         %tmp.40 = getv ? :Math;
-        symbol [ sin %tmp.41 154 27 30 ];
+        symbol [ sin %tmp.41 113 27 30 ];
         %tmp.41 = getv function %tmp.40 :sin;
-        %tmp.42 = lgetv %secAngle.1;
-        symbol [ secAngle %tmp.42 154 31 39 ];
+        %tmp.42 = lgetv %minAngle.1;
+        symbol [ minAngle %tmp.42 113 31 39 ];
         %tmp.43 = invoke %tmp.40 %tmp.41(%tmp.42);
         %tmp.44 = lgetv %startR.2;
-        symbol [ startR %tmp.44 154 43 49 ];
+        symbol [ startR %tmp.44 113 43 49 ];
         %tmp.45 = mul %tmp.43 %tmp.44;
         %tmp.46 = add %tmp.38 %tmp.45;
         lputv %y1.5 %tmp.46;
-        symbol [ y1 %y1.5 154 12 14 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 155 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_stop" ]
+        symbol [ y1 %y1.5 113 12 14 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 114 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_stop" ]
         %x2.6 = local;
-        symbol [ x2 %x2.6 155 12 14 ];
-        symbol [ cx %tmp.48 155 17 19 ];
+        symbol [ x2 %x2.6 114 12 14 ];
+        symbol [ cx %tmp.48 114 17 19 ];
         %tmp.48 = getv ? :cx;
-        symbol [ Math %tmp.50 155 22 26 ];
+        symbol [ Math %tmp.50 114 22 26 ];
         %tmp.50 = getv ? :Math;
-        symbol [ cos %tmp.51 155 27 30 ];
+        symbol [ cos %tmp.51 114 27 30 ];
         %tmp.51 = getv function %tmp.50 :cos;
-        %tmp.52 = lgetv %secAngle.1;
-        symbol [ secAngle %tmp.52 155 31 39 ];
+        %tmp.52 = lgetv %minAngle.1;
+        symbol [ minAngle %tmp.52 114 31 39 ];
         %tmp.53 = invoke %tmp.50 %tmp.51(%tmp.52);
         %tmp.54 = lgetv %endR.3;
-        symbol [ endR %tmp.54 155 43 47 ];
+        symbol [ endR %tmp.54 114 43 47 ];
         %tmp.55 = mul %tmp.53 %tmp.54;
         %tmp.56 = add %tmp.48 %tmp.55;
         lputv %x2.6 %tmp.56;
-        symbol [ x2 %x2.6 155 12 14 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 156 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_stop" ]
+        symbol [ x2 %x2.6 114 12 14 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 115 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_stop" ]
         %y2.7 = local;
-        symbol [ y2 %y2.7 156 12 14 ];
-        symbol [ cx %tmp.58 156 17 19 ];
+        symbol [ y2 %y2.7 115 12 14 ];
+        symbol [ cx %tmp.58 115 17 19 ];
         %tmp.58 = getv ? :cx;
-        symbol [ Math %tmp.60 156 22 26 ];
+        symbol [ Math %tmp.60 115 22 26 ];
         %tmp.60 = getv ? :Math;
-        symbol [ sin %tmp.61 156 27 30 ];
+        symbol [ sin %tmp.61 115 27 30 ];
         %tmp.61 = getv function %tmp.60 :sin;
-        %tmp.62 = lgetv %secAngle.1;
-        symbol [ secAngle %tmp.62 156 31 39 ];
+        %tmp.62 = lgetv %minAngle.1;
+        symbol [ minAngle %tmp.62 115 31 39 ];
         %tmp.63 = invoke %tmp.60 %tmp.61(%tmp.62);
         %tmp.64 = lgetv %endR.3;
-        symbol [ endR %tmp.64 156 43 47 ];
+        symbol [ endR %tmp.64 115 43 47 ];
         %tmp.65 = mul %tmp.63 %tmp.64;
         %tmp.66 = add %tmp.58 %tmp.65;
         lputv %y2.7 %tmp.66;
-        symbol [ y2 %y2.7 156 12 14 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 158 8 ]
+        symbol [ y2 %y2.7 115 12 14 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 117 8 ]
         %tmp.67 = lgetv %dc;
-        symbol [ dc %tmp.67 158 8 10 ];
-        symbol [ setPenWidth %tmp.68 158 11 22 ];
+        symbol [ dc %tmp.67 117 8 10 ];
+        symbol [ setPenWidth %tmp.68 117 11 22 ];
+        %tmp.68 = getv function %tmp.67 :setPenWidth;
+        %tmp.69 = 2;
+        invoke %tmp.67 %tmp.68(%tmp.69);
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 118 8 ]
+        %tmp.70 = lgetv %dc;
+        symbol [ dc %tmp.70 118 8 10 ];
+        symbol [ setColor %tmp.71 118 11 19 ];
+        %tmp.71 = getv function %tmp.70 :setColor;
+        symbol [ HL %tmp.73 118 20 22 ];
+        %tmp.73 = getv ? :HL;
+        symbol [ Graphics %tmp.74 118 24 32 ];
+        %tmp.74 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.75 118 33 50 ];
+        %tmp.75 = getv %tmp.74 :COLOR_TRANSPARENT;
+        invoke %tmp.70 %tmp.71(%tmp.73, %tmp.75);
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 119 8 ]
+        %tmp.76 = lgetv %dc;
+        symbol [ dc %tmp.76 119 8 10 ];
+        symbol [ drawLine %tmp.77 119 11 19 ];
+        %tmp.77 = getv function %tmp.76 :drawLine;
+        %tmp.78 = lgetv %x1.4;
+        symbol [ x1 %tmp.78 119 20 22 ];
+        %tmp.79 = lgetv %y1.5;
+        symbol [ y1 %tmp.79 119 24 26 ];
+        %tmp.80 = lgetv %x2.6;
+        symbol [ x2 %tmp.80 119 28 30 ];
+        %tmp.81 = lgetv %y2.7;
+        symbol [ y2 %tmp.81 119 32 34 ];
+        invoke %tmp.76 %tmp.77(%tmp.78, %tmp.79, %tmp.80, %tmp.81);
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_107_56_120_4_stop:
+    }
+    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 121; @symbol_functiondef = [drawMinuteHandPointer,121,13,34]; @symbol_param<0> = [dc,121,35,37]; @symbol_param<0>_type<0> = [Dc,121,41,43]; @symbol_param<1> = [minute,121,45,51]; @symbol_param<1>_type<0> = [Number,121,55,61]; ]
+    function drawMinuteHandPointer(dc as Dc, minute as Number) as Void {
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_start:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 122 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_stop" ]
+        %a.1 = local;
+        symbol [ a %a.1 122 12 13 ];
+        %tmp.1 = lgetv %minute;
+        symbol [ minute %tmp.1 122 17 23 ];
+        %tmp.2 = 60.0;
+        %tmp.3 = div %tmp.1 %tmp.2;
+        %tmp.4 = 2;
+        %tmp.5 = mul %tmp.3 %tmp.4;
+        symbol [ Math %tmp.7 122 38 42 ];
+        %tmp.7 = getv ? :Math;
+        symbol [ PI %tmp.8 122 43 45 ];
+        %tmp.8 = getv %tmp.7 :PI;
+        %tmp.9 = mul %tmp.5 %tmp.8;
+        symbol [ Math %tmp.11 122 48 52 ];
+        %tmp.11 = getv ? :Math;
+        symbol [ PI %tmp.12 122 53 55 ];
+        %tmp.12 = getv %tmp.11 :PI;
+        %tmp.13 = 2;
+        %tmp.14 = div %tmp.12 %tmp.13;
+        %tmp.15 = sub %tmp.9 %tmp.14;
+        lputv %a.1 %tmp.15;
+        symbol [ a %a.1 122 12 13 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 125 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_stop" ]
+        %tipR.2 = local;
+        symbol [ tipR %tipR.2 125 12 16 ];
+        symbol [ radius %tmp.17 125 21 27 ];
+        %tmp.17 = getv ? :radius;
+        %tmp.18 = 9;
+        %tmp.19 = sub %tmp.17 %tmp.18;
+        lputv %tipR.2 %tmp.19;
+        symbol [ tipR %tipR.2 125 12 16 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 126 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_stop" ]
+        %wingR.3 = local;
+        symbol [ wingR %wingR.3 126 12 17 ];
+        symbol [ radius %tmp.21 126 21 27 ];
+        %tmp.21 = getv ? :radius;
+        %tmp.22 = 19;
+        %tmp.23 = sub %tmp.21 %tmp.22;
+        lputv %wingR.3 %tmp.23;
+        symbol [ wingR %wingR.3 126 12 17 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 127 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_stop" ]
+        %wingW.4 = local;
+        symbol [ wingW %wingW.4 127 12 17 ];
+        %tmp.24 = 10.0;
+        lputv %wingW.4 %tmp.24;
+        symbol [ wingW %wingW.4 127 12 17 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 129 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_stop" ]
+        %tipX.5 = local;
+        symbol [ tipX %tipX.5 129 12 16 ];
+        symbol [ cx %tmp.26 129 19 21 ];
+        %tmp.26 = getv ? :cx;
+        symbol [ Math %tmp.28 129 24 28 ];
+        %tmp.28 = getv ? :Math;
+        symbol [ cos %tmp.29 129 29 32 ];
+        %tmp.29 = getv function %tmp.28 :cos;
+        %tmp.30 = lgetv %a.1;
+        symbol [ a %tmp.30 129 33 34 ];
+        %tmp.31 = invoke %tmp.28 %tmp.29(%tmp.30);
+        %tmp.32 = lgetv %tipR.2;
+        symbol [ tipR %tmp.32 129 38 42 ];
+        %tmp.33 = mul %tmp.31 %tmp.32;
+        %tmp.34 = add %tmp.26 %tmp.33;
+        lputv %tipX.5 %tmp.34;
+        symbol [ tipX %tipX.5 129 12 16 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 130 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_stop" ]
+        %tipY.6 = local;
+        symbol [ tipY %tipY.6 130 12 16 ];
+        symbol [ cy %tmp.36 130 19 21 ];
+        %tmp.36 = getv ? :cy;
+        symbol [ Math %tmp.38 130 24 28 ];
+        %tmp.38 = getv ? :Math;
+        symbol [ sin %tmp.39 130 29 32 ];
+        %tmp.39 = getv function %tmp.38 :sin;
+        %tmp.40 = lgetv %a.1;
+        symbol [ a %tmp.40 130 33 34 ];
+        %tmp.41 = invoke %tmp.38 %tmp.39(%tmp.40);
+        %tmp.42 = lgetv %tipR.2;
+        symbol [ tipR %tmp.42 130 38 42 ];
+        %tmp.43 = mul %tmp.41 %tmp.42;
+        %tmp.44 = add %tmp.36 %tmp.43;
+        lputv %tipY.6 %tmp.44;
+        symbol [ tipY %tipY.6 130 12 16 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 133 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_stop" ]
+        %px.7 = local;
+        symbol [ px %px.7 133 12 14 ];
+        symbol [ Math %tmp.46 133 18 22 ];
+        %tmp.46 = getv ? :Math;
+        symbol [ sin %tmp.47 133 23 26 ];
+        %tmp.47 = getv function %tmp.46 :sin;
+        %tmp.48 = lgetv %a.1;
+        symbol [ a %tmp.48 133 27 28 ];
+        %tmp.49 = invoke %tmp.46 %tmp.47(%tmp.48);
+        %tmp.50 = sub 0 %tmp.49;
+        lputv %px.7 %tmp.50;
+        symbol [ px %px.7 133 12 14 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 134 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_stop" ]
+        %py.8 = local;
+        symbol [ py %py.8 134 12 14 ];
+        symbol [ Math %tmp.52 134 18 22 ];
+        %tmp.52 = getv ? :Math;
+        symbol [ cos %tmp.53 134 23 26 ];
+        %tmp.53 = getv function %tmp.52 :cos;
+        %tmp.54 = lgetv %a.1;
+        symbol [ a %tmp.54 134 27 28 ];
+        %tmp.55 = invoke %tmp.52 %tmp.53(%tmp.54);
+        lputv %py.8 %tmp.55;
+        symbol [ py %py.8 134 12 14 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 137 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_stop" ]
+        %baseX.9 = local;
+        symbol [ baseX %baseX.9 137 12 17 ];
+        symbol [ cx %tmp.57 137 20 22 ];
+        %tmp.57 = getv ? :cx;
+        symbol [ Math %tmp.59 137 25 29 ];
+        %tmp.59 = getv ? :Math;
+        symbol [ cos %tmp.60 137 30 33 ];
+        %tmp.60 = getv function %tmp.59 :cos;
+        %tmp.61 = lgetv %a.1;
+        symbol [ a %tmp.61 137 34 35 ];
+        %tmp.62 = invoke %tmp.59 %tmp.60(%tmp.61);
+        %tmp.63 = lgetv %wingR.3;
+        symbol [ wingR %tmp.63 137 39 44 ];
+        %tmp.64 = mul %tmp.62 %tmp.63;
+        %tmp.65 = add %tmp.57 %tmp.64;
+        lputv %baseX.9 %tmp.65;
+        symbol [ baseX %baseX.9 137 12 17 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 138 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_stop" ]
+        %baseY.10 = local;
+        symbol [ baseY %baseY.10 138 12 17 ];
+        symbol [ cy %tmp.67 138 20 22 ];
+        %tmp.67 = getv ? :cy;
+        symbol [ Math %tmp.69 138 25 29 ];
+        %tmp.69 = getv ? :Math;
+        symbol [ sin %tmp.70 138 30 33 ];
+        %tmp.70 = getv function %tmp.69 :sin;
+        %tmp.71 = lgetv %a.1;
+        symbol [ a %tmp.71 138 34 35 ];
+        %tmp.72 = invoke %tmp.69 %tmp.70(%tmp.71);
+        %tmp.73 = lgetv %wingR.3;
+        symbol [ wingR %tmp.73 138 39 44 ];
+        %tmp.74 = mul %tmp.72 %tmp.73;
+        %tmp.75 = add %tmp.67 %tmp.74;
+        lputv %baseY.10 %tmp.75;
+        symbol [ baseY %baseY.10 138 12 17 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 141 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_stop" ]
+        %leftX.11 = local;
+        symbol [ leftX %leftX.11 141 12 17 ];
+        %tmp.76 = lgetv %baseX.9;
+        symbol [ baseX %tmp.76 141 21 26 ];
+        %tmp.77 = lgetv %px.7;
+        symbol [ px %tmp.77 141 29 31 ];
+        %tmp.78 = lgetv %wingW.4;
+        symbol [ wingW %tmp.78 141 34 39 ];
+        %tmp.79 = mul %tmp.77 %tmp.78;
+        %tmp.80 = add %tmp.76 %tmp.79;
+        lputv %leftX.11 %tmp.80;
+        symbol [ leftX %leftX.11 141 12 17 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 142 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_stop" ]
+        %leftY.12 = local;
+        symbol [ leftY %leftY.12 142 12 17 ];
+        %tmp.81 = lgetv %baseY.10;
+        symbol [ baseY %tmp.81 142 21 26 ];
+        %tmp.82 = lgetv %py.8;
+        symbol [ py %tmp.82 142 29 31 ];
+        %tmp.83 = lgetv %wingW.4;
+        symbol [ wingW %tmp.83 142 34 39 ];
+        %tmp.84 = mul %tmp.82 %tmp.83;
+        %tmp.85 = add %tmp.81 %tmp.84;
+        lputv %leftY.12 %tmp.85;
+        symbol [ leftY %leftY.12 142 12 17 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 143 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_stop" ]
+        %rightX.13 = local;
+        symbol [ rightX %rightX.13 143 12 18 ];
+        %tmp.86 = lgetv %baseX.9;
+        symbol [ baseX %tmp.86 143 21 26 ];
+        %tmp.87 = lgetv %px.7;
+        symbol [ px %tmp.87 143 29 31 ];
+        %tmp.88 = lgetv %wingW.4;
+        symbol [ wingW %tmp.88 143 34 39 ];
+        %tmp.89 = mul %tmp.87 %tmp.88;
+        %tmp.90 = sub %tmp.86 %tmp.89;
+        lputv %rightX.13 %tmp.90;
+        symbol [ rightX %rightX.13 143 12 18 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 144 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_stop" ]
+        %rightY.14 = local;
+        symbol [ rightY %rightY.14 144 12 18 ];
+        %tmp.91 = lgetv %baseY.10;
+        symbol [ baseY %tmp.91 144 21 26 ];
+        %tmp.92 = lgetv %py.8;
+        symbol [ py %tmp.92 144 29 31 ];
+        %tmp.93 = lgetv %wingW.4;
+        symbol [ wingW %tmp.93 144 34 39 ];
+        %tmp.94 = mul %tmp.92 %tmp.93;
+        %tmp.95 = sub %tmp.91 %tmp.94;
+        lputv %rightY.14 %tmp.95;
+        symbol [ rightY %rightY.14 144 12 18 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 147 8 ]
+        symbol [ Math %tmp.97 147 15 19 ];
+        %tmp.97 = getv ? :Math;
+        symbol [ round %tmp.98 147 20 25 ];
+        %tmp.98 = getv function %tmp.97 :round;
+        %tmp.99 = lgetv %tipX.5;
+        symbol [ tipX %tmp.99 147 26 30 ];
+        %tmp.100 = invoke %tmp.97 %tmp.98(%tmp.99);
+        lputv %tipX.5 %tmp.100;
+        symbol [ tipX %tipX.5 147 8 12 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 147 35 ]
+        symbol [ Math %tmp.102 147 42 46 ];
+        %tmp.102 = getv ? :Math;
+        symbol [ round %tmp.103 147 47 52 ];
+        %tmp.103 = getv function %tmp.102 :round;
+        %tmp.104 = lgetv %tipY.6;
+        symbol [ tipY %tmp.104 147 53 57 ];
+        %tmp.105 = invoke %tmp.102 %tmp.103(%tmp.104);
+        lputv %tipY.6 %tmp.105;
+        symbol [ tipY %tipY.6 147 35 39 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 148 8 ]
+        symbol [ Math %tmp.107 148 16 20 ];
+        %tmp.107 = getv ? :Math;
+        symbol [ round %tmp.108 148 21 26 ];
+        %tmp.108 = getv function %tmp.107 :round;
+        %tmp.109 = lgetv %leftX.11;
+        symbol [ leftX %tmp.109 148 27 32 ];
+        %tmp.110 = invoke %tmp.107 %tmp.108(%tmp.109);
+        lputv %leftX.11 %tmp.110;
+        symbol [ leftX %leftX.11 148 8 13 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 148 35 ]
+        symbol [ Math %tmp.112 148 43 47 ];
+        %tmp.112 = getv ? :Math;
+        symbol [ round %tmp.113 148 48 53 ];
+        %tmp.113 = getv function %tmp.112 :round;
+        %tmp.114 = lgetv %leftY.12;
+        symbol [ leftY %tmp.114 148 54 59 ];
+        %tmp.115 = invoke %tmp.112 %tmp.113(%tmp.114);
+        lputv %leftY.12 %tmp.115;
+        symbol [ leftY %leftY.12 148 35 40 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 149 8 ]
+        symbol [ Math %tmp.117 149 17 21 ];
+        %tmp.117 = getv ? :Math;
+        symbol [ round %tmp.118 149 22 27 ];
+        %tmp.118 = getv function %tmp.117 :round;
+        %tmp.119 = lgetv %rightX.13;
+        symbol [ rightX %tmp.119 149 28 34 ];
+        %tmp.120 = invoke %tmp.117 %tmp.118(%tmp.119);
+        lputv %rightX.13 %tmp.120;
+        symbol [ rightX %rightX.13 149 8 14 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 149 37 ]
+        symbol [ Math %tmp.122 149 46 50 ];
+        %tmp.122 = getv ? :Math;
+        symbol [ round %tmp.123 149 51 56 ];
+        %tmp.123 = getv function %tmp.122 :round;
+        %tmp.124 = lgetv %rightY.14;
+        symbol [ rightY %tmp.124 149 57 63 ];
+        %tmp.125 = invoke %tmp.122 %tmp.123(%tmp.124);
+        lputv %rightY.14 %tmp.125;
+        symbol [ rightY %rightY.14 149 37 43 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 151 8 ]
+        %tmp.126 = lgetv %dc;
+        symbol [ dc %tmp.126 151 8 10 ];
+        symbol [ setColor %tmp.127 151 11 19 ];
+        %tmp.127 = getv function %tmp.126 :setColor;
+        symbol [ HL %tmp.129 151 20 22 ];
+        %tmp.129 = getv ? :HL;
+        symbol [ Graphics %tmp.130 151 24 32 ];
+        %tmp.130 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.131 151 33 50 ];
+        %tmp.131 = getv %tmp.130 :COLOR_TRANSPARENT;
+        invoke %tmp.126 %tmp.127(%tmp.129, %tmp.131);
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 152 8 ]
+        %tmp.132 = lgetv %dc;
+        symbol [ dc %tmp.132 152 8 10 ];
+        symbol [ setPenWidth %tmp.133 152 11 22 ];
+        %tmp.133 = getv function %tmp.132 :setPenWidth;
+        %tmp.134 = 2;
+        invoke %tmp.132 %tmp.133(%tmp.134);
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 153 8 ]
+        %tmp.135 = lgetv %dc;
+        symbol [ dc %tmp.135 153 8 10 ];
+        symbol [ drawLine %tmp.136 153 11 19 ];
+        %tmp.136 = getv function %tmp.135 :drawLine;
+        %tmp.137 = lgetv %leftX.11;
+        symbol [ leftX %tmp.137 153 20 25 ];
+        %tmp.138 = lgetv %leftY.12;
+        symbol [ leftY %tmp.138 153 27 32 ];
+        %tmp.139 = lgetv %tipX.5;
+        symbol [ tipX %tmp.139 153 34 38 ];
+        %tmp.140 = lgetv %tipY.6;
+        symbol [ tipY %tmp.140 153 40 44 ];
+        invoke %tmp.135 %tmp.136(%tmp.137, %tmp.138, %tmp.139, %tmp.140);
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 154 8 ]
+        %tmp.141 = lgetv %dc;
+        symbol [ dc %tmp.141 154 8 10 ];
+        symbol [ drawLine %tmp.142 154 11 19 ];
+        %tmp.142 = getv function %tmp.141 :drawLine;
+        %tmp.143 = lgetv %rightX.13;
+        symbol [ rightX %tmp.143 154 20 26 ];
+        %tmp.144 = lgetv %rightY.14;
+        symbol [ rightY %tmp.144 154 28 34 ];
+        %tmp.145 = lgetv %tipX.5;
+        symbol [ tipX %tmp.145 154 36 40 ];
+        %tmp.146 = lgetv %tipY.6;
+        symbol [ tipY %tmp.146 154 42 46 ];
+        invoke %tmp.141 %tmp.142(%tmp.143, %tmp.144, %tmp.145, %tmp.146);
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_121_71_155_4_stop:
+    }
+    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 156; @symbol_functiondef = [drawSecondHand,156,13,27]; @symbol_param<0> = [dc,156,28,30]; @symbol_param<0>_type<0> = [Dc,156,34,36]; @symbol_param<1> = [second,156,38,44]; @symbol_param<1>_type<0> = [Number,156,48,54]; ]
+    function drawSecondHand(dc as Dc, second as Number) {
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_start:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 157 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_stop" ]
+        %secAngle.1 = local;
+        symbol [ secAngle %secAngle.1 157 12 20 ];
+        %tmp.1 = lgetv %second;
+        symbol [ second %tmp.1 157 24 30 ];
+        %tmp.2 = 60.0;
+        %tmp.3 = div %tmp.1 %tmp.2;
+        %tmp.4 = 2;
+        %tmp.5 = mul %tmp.3 %tmp.4;
+        symbol [ Math %tmp.7 157 45 49 ];
+        %tmp.7 = getv ? :Math;
+        symbol [ PI %tmp.8 157 50 52 ];
+        %tmp.8 = getv %tmp.7 :PI;
+        %tmp.9 = mul %tmp.5 %tmp.8;
+        symbol [ Math %tmp.11 157 55 59 ];
+        %tmp.11 = getv ? :Math;
+        symbol [ PI %tmp.12 157 60 62 ];
+        %tmp.12 = getv %tmp.11 :PI;
+        %tmp.13 = 2;
+        %tmp.14 = div %tmp.12 %tmp.13;
+        %tmp.15 = sub %tmp.9 %tmp.14;
+        lputv %secAngle.1 %tmp.15;
+        symbol [ secAngle %secAngle.1 157 12 20 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 158 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_stop" ]
+        %startR.2 = local;
+        symbol [ startR %startR.2 158 12 18 ];
+        %tmp.16 = lgetv %dc;
+        symbol [ dc %tmp.16 158 21 23 ];
+        symbol [ getFontHeight %tmp.17 158 24 37 ];
+        %tmp.17 = getv function %tmp.16 :getFontHeight;
+        symbol [ Graphics %tmp.18 158 38 46 ];
+        %tmp.18 = getm $.Toybox.Graphics;
+        symbol [ FONT_NUMBER_MEDIUM %tmp.19 158 47 65 ];
+        %tmp.19 = getv %tmp.18 :FONT_NUMBER_MEDIUM;
+        %tmp.20 = invoke %tmp.16 %tmp.17(%tmp.19);
+        %tmp.21 = 2;
+        %tmp.22 = div %tmp.20 %tmp.21;
+        lputv %startR.2 %tmp.22;
+        symbol [ startR %startR.2 158 12 18 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 159 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_stop" ]
+        %endR.3 = local;
+        symbol [ endR %endR.3 159 12 16 ];
+        symbol [ radius %tmp.24 159 19 25 ];
+        %tmp.24 = getv ? :radius;
+        %tmp.25 = 0.9;
+        %tmp.26 = mul %tmp.24 %tmp.25;
+        lputv %endR.3 %tmp.26;
+        symbol [ endR %endR.3 159 12 16 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 161 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_stop" ]
+        %x1.4 = local;
+        symbol [ x1 %x1.4 161 12 14 ];
+        symbol [ cx %tmp.28 161 17 19 ];
+        %tmp.28 = getv ? :cx;
+        symbol [ Math %tmp.30 161 22 26 ];
+        %tmp.30 = getv ? :Math;
+        symbol [ cos %tmp.31 161 27 30 ];
+        %tmp.31 = getv function %tmp.30 :cos;
+        %tmp.32 = lgetv %secAngle.1;
+        symbol [ secAngle %tmp.32 161 31 39 ];
+        %tmp.33 = invoke %tmp.30 %tmp.31(%tmp.32);
+        %tmp.34 = lgetv %startR.2;
+        symbol [ startR %tmp.34 161 43 49 ];
+        %tmp.35 = mul %tmp.33 %tmp.34;
+        %tmp.36 = add %tmp.28 %tmp.35;
+        lputv %x1.4 %tmp.36;
+        symbol [ x1 %x1.4 161 12 14 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 162 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_stop" ]
+        %y1.5 = local;
+        symbol [ y1 %y1.5 162 12 14 ];
+        symbol [ cx %tmp.38 162 17 19 ];
+        %tmp.38 = getv ? :cx;
+        symbol [ Math %tmp.40 162 22 26 ];
+        %tmp.40 = getv ? :Math;
+        symbol [ sin %tmp.41 162 27 30 ];
+        %tmp.41 = getv function %tmp.40 :sin;
+        %tmp.42 = lgetv %secAngle.1;
+        symbol [ secAngle %tmp.42 162 31 39 ];
+        %tmp.43 = invoke %tmp.40 %tmp.41(%tmp.42);
+        %tmp.44 = lgetv %startR.2;
+        symbol [ startR %tmp.44 162 43 49 ];
+        %tmp.45 = mul %tmp.43 %tmp.44;
+        %tmp.46 = add %tmp.38 %tmp.45;
+        lputv %y1.5 %tmp.46;
+        symbol [ y1 %y1.5 162 12 14 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 163 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_stop" ]
+        %x2.6 = local;
+        symbol [ x2 %x2.6 163 12 14 ];
+        symbol [ cx %tmp.48 163 17 19 ];
+        %tmp.48 = getv ? :cx;
+        symbol [ Math %tmp.50 163 22 26 ];
+        %tmp.50 = getv ? :Math;
+        symbol [ cos %tmp.51 163 27 30 ];
+        %tmp.51 = getv function %tmp.50 :cos;
+        %tmp.52 = lgetv %secAngle.1;
+        symbol [ secAngle %tmp.52 163 31 39 ];
+        %tmp.53 = invoke %tmp.50 %tmp.51(%tmp.52);
+        %tmp.54 = lgetv %endR.3;
+        symbol [ endR %tmp.54 163 43 47 ];
+        %tmp.55 = mul %tmp.53 %tmp.54;
+        %tmp.56 = add %tmp.48 %tmp.55;
+        lputv %x2.6 %tmp.56;
+        symbol [ x2 %x2.6 163 12 14 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 164 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_stop" ]
+        %y2.7 = local;
+        symbol [ y2 %y2.7 164 12 14 ];
+        symbol [ cx %tmp.58 164 17 19 ];
+        %tmp.58 = getv ? :cx;
+        symbol [ Math %tmp.60 164 22 26 ];
+        %tmp.60 = getv ? :Math;
+        symbol [ sin %tmp.61 164 27 30 ];
+        %tmp.61 = getv function %tmp.60 :sin;
+        %tmp.62 = lgetv %secAngle.1;
+        symbol [ secAngle %tmp.62 164 31 39 ];
+        %tmp.63 = invoke %tmp.60 %tmp.61(%tmp.62);
+        %tmp.64 = lgetv %endR.3;
+        symbol [ endR %tmp.64 164 43 47 ];
+        %tmp.65 = mul %tmp.63 %tmp.64;
+        %tmp.66 = add %tmp.58 %tmp.65;
+        lputv %y2.7 %tmp.66;
+        symbol [ y2 %y2.7 164 12 14 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 166 8 ]
+        %tmp.67 = lgetv %dc;
+        symbol [ dc %tmp.67 166 8 10 ];
+        symbol [ setPenWidth %tmp.68 166 11 22 ];
         %tmp.68 = getv function %tmp.67 :setPenWidth;
         %tmp.69 = 1;
         invoke %tmp.67 %tmp.68(%tmp.69);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 159 8 ]
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 167 8 ]
         %tmp.70 = lgetv %dc;
-        symbol [ dc %tmp.70 159 8 10 ];
-        symbol [ setColor %tmp.71 159 11 19 ];
+        symbol [ dc %tmp.70 167 8 10 ];
+        symbol [ setColor %tmp.71 167 11 19 ];
         %tmp.71 = getv function %tmp.70 :setColor;
-        symbol [ SEC %tmp.73 159 20 23 ];
+        symbol [ SEC %tmp.73 167 20 23 ];
         %tmp.73 = getv ? :SEC;
-        symbol [ Graphics %tmp.74 159 25 33 ];
+        symbol [ Graphics %tmp.74 167 25 33 ];
         %tmp.74 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.75 159 34 51 ];
+        symbol [ COLOR_TRANSPARENT %tmp.75 167 34 51 ];
         %tmp.75 = getv %tmp.74 :COLOR_TRANSPARENT;
         invoke %tmp.70 %tmp.71(%tmp.73, %tmp.75);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 160 8 ]
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 168 8 ]
         %tmp.76 = lgetv %dc;
-        symbol [ dc %tmp.76 160 8 10 ];
-        symbol [ drawLine %tmp.77 160 11 19 ];
+        symbol [ dc %tmp.76 168 8 10 ];
+        symbol [ drawLine %tmp.77 168 11 19 ];
         %tmp.77 = getv function %tmp.76 :drawLine;
         %tmp.78 = lgetv %x1.4;
-        symbol [ x1 %tmp.78 160 20 22 ];
+        symbol [ x1 %tmp.78 168 20 22 ];
         %tmp.79 = lgetv %y1.5;
-        symbol [ y1 %tmp.79 160 24 26 ];
+        symbol [ y1 %tmp.79 168 24 26 ];
         %tmp.80 = lgetv %x2.6;
-        symbol [ x2 %tmp.80 160 28 30 ];
+        symbol [ x2 %tmp.80 168 28 30 ];
         %tmp.81 = lgetv %y2.7;
-        symbol [ y2 %tmp.81 160 32 34 ];
+        symbol [ y2 %tmp.81 168 32 34 ];
         invoke %tmp.76 %tmp.77(%tmp.78, %tmp.79, %tmp.80, %tmp.81);
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_148_56_161_4_stop:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_156_56_169_4_stop:
     }
-    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 162; @symbol_functiondef = [formatTime,162,13,23]; @symbol_param<0> = [h,162,24,25]; @symbol_param<0>_type<0> = [Number,162,29,35]; @symbol_param<1> = [m,162,37,38]; @symbol_param<1>_type<0> = [Number,162,42,48]; @symbol_return<0> = [String,162,53,59]; ]
+    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 170; @symbol_functiondef = [formatTime,170,13,23]; @symbol_param<0> = [h,170,24,25]; @symbol_param<0>_type<0> = [Number,170,29,35]; @symbol_param<1> = [m,170,37,38]; @symbol_param<1>_type<0> = [Number,170,42,48]; @symbol_return<0> = [String,170,53,59]; ]
     function formatTime(h as Number, m as Number) as String {
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_162_60_168_4_start:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 163 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_162_60_168_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_162_60_168_4_stop" ]
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_170_60_176_4_start:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 171 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_170_60_176_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_170_60_176_4_stop" ]
         %hour.1 = local;
-        symbol [ hour %hour.1 163 12 16 ];
+        symbol [ hour %hour.1 171 12 16 ];
         %tmp.1 = lgetv %h;
-        symbol [ h %tmp.1 163 19 20 ];
+        symbol [ h %tmp.1 171 19 20 ];
         %tmp.2 = 12;
         %tmp.3 = mod %tmp.1 %tmp.2;
         lputv %hour.1 %tmp.3;
-        symbol [ hour %hour.1 163 12 16 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 164 8 ]
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_164_8_164_36_if_stmt:
+        symbol [ hour %hour.1 171 12 16 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 172 8 ]
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_172_8_172_36_if_stmt:
         %tmp.4 = lgetv %hour.1;
-        symbol [ hour %tmp.4 164 12 16 ];
+        symbol [ hour %tmp.4 172 12 16 ];
         %tmp.5 = 0;
         %tmp.6 = eq %tmp.4 %tmp.5;
-        bf %tmp.6 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_164_8_164_36_if_end;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_164_8_164_36_if_true:
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_164_23_164_36_start:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 164 25 ]
+        bf %tmp.6 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_172_8_172_36_if_end;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_172_8_172_36_if_true:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_172_23_172_36_start:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 172 25 ]
         %tmp.7 = 12;
         lputv %hour.1 %tmp.7;
-        symbol [ hour %hour.1 164 25 29 ];
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_164_23_164_36_stop:
-        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_164_8_164_36_if_end;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_164_8_164_36_if_end:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 166 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_162_60_168_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_162_60_168_4_stop" ]
+        symbol [ hour %hour.1 172 25 29 ];
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_172_23_172_36_stop:
+        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_172_8_172_36_if_end;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_172_8_172_36_if_end:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 174 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_170_60_176_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_170_60_176_4_stop" ]
         %minStr.2 = local;
-        symbol [ minStr %minStr.2 166 12 18 ];
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_166_21_166_55_begin:
+        symbol [ minStr %minStr.2 174 12 18 ];
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_174_21_174_55_begin:
         %tmp.8 = lgetv %m;
-        symbol [ m %tmp.8 166 22 23 ];
+        symbol [ m %tmp.8 174 22 23 ];
         %tmp.9 = 10;
         %tmp.10 = lt %tmp.8 %tmp.9;
-        bf %tmp.10 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_166_21_166_55_else_false;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_166_21_166_55_true:
+        bf %tmp.10 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_174_21_174_55_else_false;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_174_21_174_55_true:
         %tmp.11 = "0";
         %tmp.12 = lgetv %m;
-        symbol [ m %tmp.12 166 39 40 ];
+        symbol [ m %tmp.12 174 39 40 ];
         %tmp.13 = add %tmp.11 %tmp.12;
         push %tmp.13;
-        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_166_21_166_55_end;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_166_21_166_55_else_false:
+        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_174_21_174_55_end;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_174_21_174_55_else_false:
         %tmp.14 = lgetv %m;
-        symbol [ m %tmp.14 166 44 45 ];
-        symbol [ toString %tmp.15 166 46 54 ];
+        symbol [ m %tmp.14 174 44 45 ];
+        symbol [ toString %tmp.15 174 46 54 ];
         %tmp.15 = getv function %tmp.14 :toString;
         %tmp.16 = invoke %tmp.14 %tmp.15();
         push %tmp.16;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_166_21_166_55_end:
-        %tmp.17 = phi [%tmp.10 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_166_21_166_55_begin] [%tmp.13 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_166_21_166_55_true] [%tmp.16 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_166_21_166_55_else_false] [%tmp.17 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_166_21_166_55_end];
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_174_21_174_55_end:
+        %tmp.17 = phi [%tmp.10 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_174_21_174_55_begin] [%tmp.13 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_174_21_174_55_true] [%tmp.16 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_174_21_174_55_else_false] [%tmp.17 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_174_21_174_55_end];
         lputv %minStr.2 %tmp.17;
-        symbol [ minStr %minStr.2 166 12 18 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 167 8 ]
+        symbol [ minStr %minStr.2 174 12 18 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 175 8 ]
         %tmp.18 = lgetv %hour.1;
-        symbol [ hour %tmp.18 167 15 19 ];
+        symbol [ hour %tmp.18 175 15 19 ];
         %tmp.19 = ":";
         %tmp.20 = add %tmp.18 %tmp.19;
         %tmp.21 = lgetv %minStr.2;
-        symbol [ minStr %tmp.21 167 28 34 ];
+        symbol [ minStr %tmp.21 175 28 34 ];
         %tmp.22 = add %tmp.20 %tmp.21;
         ret %tmp.22;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_162_60_168_4_stop:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_170_60_176_4_stop:
     }
-    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 169; @symbol_functiondef = [drawDateString,169,13,27]; @symbol_param<0> = [dc,169,28,30]; @symbol_param<0>_type<0> = [Dc,169,34,36]; ]
+    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 177; @symbol_functiondef = [drawDateString,177,13,27]; @symbol_param<0> = [dc,177,28,30]; @symbol_param<0>_type<0> = [Dc,177,34,36]; ]
     function drawDateString(dc as Dc) {
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_start:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 171 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_stop" ]
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_start:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 180 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_stop" ]
         %x.1 = local;
-        symbol [ x %x.1 171 12 13 ];
-        symbol [ cx %tmp.2 171 16 18 ];
+        symbol [ x %x.1 180 12 13 ];
+        symbol [ cx %tmp.2 180 16 18 ];
         %tmp.2 = getv ? :cx;
-        %tmp.3 = 1.5;
+        %tmp.3 = 1.6;
         %tmp.4 = mul %tmp.2 %tmp.3;
         lputv %x.1 %tmp.4;
-        symbol [ x %x.1 171 12 13 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 172 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_stop" ]
+        symbol [ x %x.1 180 12 13 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 181 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_stop" ]
         %y.2 = local;
-        symbol [ y %y.2 172 12 13 ];
-        symbol [ cy %tmp.6 172 16 18 ];
+        symbol [ y %y.2 181 12 13 ];
+        symbol [ cy %tmp.6 181 16 18 ];
         %tmp.6 = getv ? :cy;
         lputv %y.2 %tmp.6;
-        symbol [ y %y.2 172 12 13 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 174 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_stop" ]
+        symbol [ y %y.2 181 12 13 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 183 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_stop" ]
         %now.3 = local;
-        symbol [ now %now.3 174 12 15 ];
-        symbol [ Time %tmp.7 174 18 22 ];
+        symbol [ now %now.3 183 12 15 ];
+        symbol [ Time %tmp.7 183 18 22 ];
         %tmp.7 = getm $.Toybox.Time;
-        symbol [ Gregorian %tmp.8 174 23 32 ];
+        symbol [ Gregorian %tmp.8 183 23 32 ];
         %tmp.8 = getv %tmp.7 :Gregorian;
-        symbol [ info %tmp.9 174 33 37 ];
+        symbol [ info %tmp.9 183 33 37 ];
         %tmp.9 = getv function %tmp.8 :info;
-        symbol [ Time %tmp.10 174 38 42 ];
+        symbol [ Time %tmp.10 183 38 42 ];
         %tmp.10 = getm $.Toybox.Time;
-        symbol [ now %tmp.11 174 43 46 ];
+        symbol [ now %tmp.11 183 43 46 ];
         %tmp.11 = getv function %tmp.10 :now;
         %tmp.12 = invoke %tmp.10 %tmp.11();
-        symbol [ Time %tmp.13 174 50 54 ];
+        symbol [ Time %tmp.13 183 50 54 ];
         %tmp.13 = getm $.Toybox.Time;
-        symbol [ FORMAT_MEDIUM %tmp.14 174 55 68 ];
+        symbol [ FORMAT_MEDIUM %tmp.14 183 55 68 ];
         %tmp.14 = getv %tmp.13 :FORMAT_MEDIUM;
         %tmp.15 = invoke %tmp.8 %tmp.9(%tmp.12, %tmp.14);
         lputv %now.3 %tmp.15;
-        symbol [ now %now.3 174 12 15 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 175 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_stop" ]
+        symbol [ now %now.3 183 12 15 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 184 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_stop" ]
         %day_of_week.4 = local;
-        symbol [ day_of_week %day_of_week.4 175 12 23 ];
+        symbol [ day_of_week %day_of_week.4 184 12 23 ];
         %tmp.16 = lgetv %now.3;
-        symbol [ now %tmp.16 175 26 29 ];
-        symbol [ day_of_week %tmp.17 175 30 41 ];
+        symbol [ now %tmp.16 184 26 29 ];
+        symbol [ day_of_week %tmp.17 184 30 41 ];
         %tmp.17 = getv %tmp.16 :day_of_week;
         lputv %day_of_week.4 %tmp.17;
-        symbol [ day_of_week %day_of_week.4 175 12 23 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 176 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_stop" ]
+        symbol [ day_of_week %day_of_week.4 184 12 23 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 185 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_stop" ]
         %month.5 = local;
-        symbol [ month %month.5 176 12 17 ];
+        symbol [ month %month.5 185 12 17 ];
         %tmp.18 = lgetv %now.3;
-        symbol [ now %tmp.18 176 20 23 ];
-        symbol [ month %tmp.19 176 24 29 ];
+        symbol [ now %tmp.18 185 20 23 ];
+        symbol [ month %tmp.19 185 24 29 ];
         %tmp.19 = getv %tmp.18 :month;
         lputv %month.5 %tmp.19;
-        symbol [ month %month.5 176 12 17 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 177 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_stop" ]
+        symbol [ month %month.5 185 12 17 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 186 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_stop" ]
         %day.6 = local;
-        symbol [ day %day.6 177 12 15 ];
+        symbol [ day %day.6 186 12 15 ];
         %tmp.20 = lgetv %now.3;
-        symbol [ now %tmp.20 177 18 21 ];
-        symbol [ day %tmp.21 177 22 25 ];
+        symbol [ now %tmp.20 186 18 21 ];
+        symbol [ day %tmp.21 186 22 25 ];
         %tmp.21 = getv %tmp.20 :day;
         lputv %day.6 %tmp.21;
-        symbol [ day %day.6 177 12 15 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 179 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_stop" ]
+        symbol [ day %day.6 186 12 15 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 189 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_stop" ]
         %dateStr.7 = local;
-        symbol [ dateStr %dateStr.7 179 12 19 ];
+        symbol [ dateStr %dateStr.7 189 12 19 ];
         %tmp.22 = lgetv %day_of_week.4;
-        symbol [ day_of_week %tmp.22 179 23 34 ];
-        %tmp.23 = ", ";
+        symbol [ day_of_week %tmp.22 189 23 34 ];
+        %tmp.23 = " ";
         %tmp.24 = add %tmp.22 %tmp.23;
-        %tmp.25 = lgetv %month.5;
-        symbol [ month %tmp.25 179 44 49 ];
+        %tmp.25 = lgetv %day.6;
+        symbol [ day %tmp.25 189 43 46 ];
         %tmp.26 = add %tmp.24 %tmp.25;
-        %tmp.27 = " ";
-        %tmp.28 = add %tmp.26 %tmp.27;
-        %tmp.29 = lgetv %day.6;
-        symbol [ day %tmp.29 179 58 61 ];
-        %tmp.30 = add %tmp.28 %tmp.29;
-        lputv %dateStr.7 %tmp.30;
-        symbol [ dateStr %dateStr.7 179 12 19 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 180 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_stop" ]
+        lputv %dateStr.7 %tmp.26;
+        symbol [ dateStr %dateStr.7 189 12 19 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 190 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_stop" ]
         %textHeight.8 = local;
-        symbol [ textHeight %textHeight.8 180 12 22 ];
-        %tmp.31 = lgetv %dc;
-        symbol [ dc %tmp.31 180 25 27 ];
-        symbol [ getFontHeight %tmp.32 180 28 41 ];
-        %tmp.32 = getv function %tmp.31 :getFontHeight;
-        symbol [ Graphics %tmp.33 180 42 50 ];
-        %tmp.33 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.34 180 51 61 ];
-        %tmp.34 = getv %tmp.33 :FONT_XTINY;
-        %tmp.35 = invoke %tmp.31 %tmp.32(%tmp.34);
-        lputv %textHeight.8 %tmp.35;
-        symbol [ textHeight %textHeight.8 180 12 22 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 182 8 ]
-        %tmp.36 = lgetv %dc;
-        symbol [ dc %tmp.36 182 8 10 ];
-        symbol [ setColor %tmp.37 182 11 19 ];
-        %tmp.37 = getv function %tmp.36 :setColor;
-        symbol [ FG %tmp.39 182 20 22 ];
-        %tmp.39 = getv ? :FG;
-        symbol [ Graphics %tmp.40 182 24 32 ];
-        %tmp.40 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.41 182 33 50 ];
-        %tmp.41 = getv %tmp.40 :COLOR_TRANSPARENT;
-        invoke %tmp.36 %tmp.37(%tmp.39, %tmp.41);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 183 8 ]
-        %tmp.42 = lgetv %dc;
-        symbol [ dc %tmp.42 183 8 10 ];
-        symbol [ drawText %tmp.43 183 11 19 ];
-        %tmp.43 = getv function %tmp.42 :drawText;
-        %tmp.44 = lgetv %x.1;
-        symbol [ x %tmp.44 183 20 21 ];
-        %tmp.45 = lgetv %y.2;
-        symbol [ y %tmp.45 183 23 24 ];
-        %tmp.46 = lgetv %textHeight.8;
-        symbol [ textHeight %tmp.46 183 27 37 ];
-        %tmp.47 = 2;
-        %tmp.48 = div %tmp.46 %tmp.47;
-        %tmp.49 = sub %tmp.45 %tmp.48;
-        symbol [ Graphics %tmp.50 183 43 51 ];
-        %tmp.50 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.51 183 52 62 ];
-        %tmp.51 = getv %tmp.50 :FONT_XTINY;
-        %tmp.52 = lgetv %dateStr.7;
-        symbol [ dateStr %tmp.52 183 64 71 ];
-        symbol [ Graphics %tmp.53 183 73 81 ];
-        %tmp.53 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.54 183 82 101 ];
-        %tmp.54 = getv %tmp.53 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.42 %tmp.43(%tmp.44, %tmp.49, %tmp.51, %tmp.52, %tmp.54);
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_169_38_184_4_stop:
+        symbol [ textHeight %textHeight.8 190 12 22 ];
+        %tmp.27 = lgetv %dc;
+        symbol [ dc %tmp.27 190 25 27 ];
+        symbol [ getFontHeight %tmp.28 190 28 41 ];
+        %tmp.28 = getv function %tmp.27 :getFontHeight;
+        symbol [ Graphics %tmp.29 190 42 50 ];
+        %tmp.29 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.30 190 51 61 ];
+        %tmp.30 = getv %tmp.29 :FONT_XTINY;
+        %tmp.31 = invoke %tmp.27 %tmp.28(%tmp.30);
+        lputv %textHeight.8 %tmp.31;
+        symbol [ textHeight %textHeight.8 190 12 22 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 192 8 ]
+        %tmp.32 = lgetv %dc;
+        symbol [ dc %tmp.32 192 8 10 ];
+        symbol [ setColor %tmp.33 192 11 19 ];
+        %tmp.33 = getv function %tmp.32 :setColor;
+        symbol [ FG %tmp.35 192 20 22 ];
+        %tmp.35 = getv ? :FG;
+        symbol [ Graphics %tmp.36 192 24 32 ];
+        %tmp.36 = getm $.Toybox.Graphics;
+        symbol [ COLOR_TRANSPARENT %tmp.37 192 33 50 ];
+        %tmp.37 = getv %tmp.36 :COLOR_TRANSPARENT;
+        invoke %tmp.32 %tmp.33(%tmp.35, %tmp.37);
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 193 8 ]
+        %tmp.38 = lgetv %dc;
+        symbol [ dc %tmp.38 193 8 10 ];
+        symbol [ drawText %tmp.39 193 11 19 ];
+        %tmp.39 = getv function %tmp.38 :drawText;
+        %tmp.40 = lgetv %x.1;
+        symbol [ x %tmp.40 193 20 21 ];
+        %tmp.41 = lgetv %y.2;
+        symbol [ y %tmp.41 193 23 24 ];
+        %tmp.42 = lgetv %textHeight.8;
+        symbol [ textHeight %tmp.42 193 27 37 ];
+        %tmp.43 = 2;
+        %tmp.44 = div %tmp.42 %tmp.43;
+        %tmp.45 = sub %tmp.41 %tmp.44;
+        symbol [ Graphics %tmp.46 193 43 51 ];
+        %tmp.46 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.47 193 52 62 ];
+        %tmp.47 = getv %tmp.46 :FONT_XTINY;
+        %tmp.48 = lgetv %dateStr.7;
+        symbol [ dateStr %tmp.48 193 64 71 ];
+        symbol [ Graphics %tmp.49 193 73 81 ];
+        %tmp.49 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.50 193 82 101 ];
+        %tmp.50 = getv %tmp.49 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.38 %tmp.39(%tmp.40, %tmp.45, %tmp.47, %tmp.48, %tmp.50);
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_177_38_194_4_stop:
     }
-    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 185; @symbol_functiondef = [drawClasses,185,13,24]; @symbol_param<0> = [dc,185,25,27]; @symbol_param<0>_type<0> = [Dc,185,31,33]; ]
+    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 195; @symbol_functiondef = [drawClasses,195,13,24]; @symbol_param<0> = [dc,195,25,27]; @symbol_param<0>_type<0> = [Dc,195,31,33]; ]
     function drawClasses(dc as Dc) {
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_185_35_213_4_start:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 187 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_185_35_213_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_185_35_213_4_stop" ]
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_195_35_223_4_start:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 197 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_195_35_223_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_195_35_223_4_stop" ]
         %x.1 = local;
-        symbol [ x %x.1 187 12 13 ];
-        symbol [ cx %tmp.2 187 16 18 ];
+        symbol [ x %x.1 197 12 13 ];
+        symbol [ cx %tmp.2 197 16 18 ];
         %tmp.2 = getv ? :cx;
         lputv %x.1 %tmp.2;
-        symbol [ x %x.1 187 12 13 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 188 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_185_35_213_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_185_35_213_4_stop" ]
+        symbol [ x %x.1 197 12 13 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 198 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_195_35_223_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_195_35_223_4_stop" ]
         %y.2 = local;
-        symbol [ y %y.2 188 12 13 ];
-        symbol [ cy %tmp.4 188 16 18 ];
+        symbol [ y %y.2 198 12 13 ];
+        symbol [ cy %tmp.4 198 16 18 ];
         %tmp.4 = getv ? :cy;
-        %tmp.5 = 1.2;
+        %tmp.5 = 1.3;
         %tmp.6 = mul %tmp.4 %tmp.5;
         lputv %y.2 %tmp.6;
-        symbol [ y %y.2 188 12 13 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 189 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_185_35_213_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_185_35_213_4_stop" ]
+        symbol [ y %y.2 198 12 13 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 199 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_195_35_223_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_195_35_223_4_stop" ]
         %lineH.3 = local;
-        symbol [ lineH %lineH.3 189 12 17 ];
+        symbol [ lineH %lineH.3 199 12 17 ];
         %tmp.7 = 20;
         lputv %lineH.3 %tmp.7;
-        symbol [ lineH %lineH.3 189 12 17 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 191 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_185_35_213_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_185_35_213_4_stop" ]
+        symbol [ lineH %lineH.3 199 12 17 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 201 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_195_35_223_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_195_35_223_4_stop" ]
         %now.4 = local;
-        symbol [ now %now.4 191 12 15 ];
-        symbol [ Time %tmp.8 191 18 22 ];
+        symbol [ now %now.4 201 12 15 ];
+        symbol [ Time %tmp.8 201 18 22 ];
         %tmp.8 = getm $.Toybox.Time;
-        symbol [ Gregorian %tmp.9 191 23 32 ];
+        symbol [ Gregorian %tmp.9 201 23 32 ];
         %tmp.9 = getv %tmp.8 :Gregorian;
-        symbol [ info %tmp.10 191 33 37 ];
+        symbol [ info %tmp.10 201 33 37 ];
         %tmp.10 = getv function %tmp.9 :info;
-        symbol [ Time %tmp.11 191 38 42 ];
+        symbol [ Time %tmp.11 201 38 42 ];
         %tmp.11 = getm $.Toybox.Time;
-        symbol [ now %tmp.12 191 43 46 ];
+        symbol [ now %tmp.12 201 43 46 ];
         %tmp.12 = getv function %tmp.11 :now;
         %tmp.13 = invoke %tmp.11 %tmp.12();
-        symbol [ Time %tmp.14 191 50 54 ];
+        symbol [ Time %tmp.14 201 50 54 ];
         %tmp.14 = getm $.Toybox.Time;
-        symbol [ FORMAT_SHORT %tmp.15 191 55 67 ];
+        symbol [ FORMAT_SHORT %tmp.15 201 55 67 ];
         %tmp.15 = getv %tmp.14 :FORMAT_SHORT;
         %tmp.16 = invoke %tmp.9 %tmp.10(%tmp.13, %tmp.15);
         lputv %now.4 %tmp.16;
-        symbol [ now %now.4 191 12 15 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 192 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_185_35_213_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_185_35_213_4_stop" ]
+        symbol [ now %now.4 201 12 15 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 202 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_195_35_223_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_195_35_223_4_stop" ]
         %day_of_week.5 = local;
-        symbol [ day_of_week %day_of_week.5 192 12 23 ];
+        symbol [ day_of_week %day_of_week.5 202 12 23 ];
         %tmp.17 = lgetv %now.4;
-        symbol [ now %tmp.17 192 26 29 ];
-        symbol [ day_of_week %tmp.18 192 30 41 ];
+        symbol [ now %tmp.17 202 26 29 ];
+        symbol [ day_of_week %tmp.18 202 30 41 ];
         %tmp.18 = getv %tmp.17 :day_of_week;
         lputv %day_of_week.5 %tmp.18;
-        symbol [ day_of_week %day_of_week.5 192 12 23 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 194 8 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_185_35_213_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_185_35_213_4_stop" ]
+        symbol [ day_of_week %day_of_week.5 202 12 23 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 204 8 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_195_35_223_4_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_195_35_223_4_stop" ]
         %classes.6 = local;
-        symbol [ classes %classes.6 194 12 19 ];
-        symbol [ ClassSchedule %tmp.19 194 22 35 ];
+        symbol [ classes %classes.6 204 12 19 ];
+        symbol [ ClassSchedule %tmp.19 204 22 35 ];
         %tmp.19 = getm $.ClassSchedule;
-        symbol [ getClassesForDow %tmp.20 194 36 52 ];
+        symbol [ getClassesForDow %tmp.20 204 36 52 ];
         %tmp.20 = getv function %tmp.19 :getClassesForDow;
         %tmp.21 = lgetv %day_of_week.5;
-        symbol [ day_of_week %tmp.21 194 53 64 ];
+        symbol [ day_of_week %tmp.21 204 53 64 ];
         %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
         lputv %classes.6 %tmp.22;
-        symbol [ classes %classes.6 194 12 19 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 196 8 ]
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_196_8_198_8_if_stmt:
+        symbol [ classes %classes.6 204 12 19 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 206 8 ]
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_206_8_208_8_if_stmt:
         %tmp.23 = lgetv %classes.6;
-        symbol [ classes %tmp.23 196 12 19 ];
-        symbol [ size %tmp.24 196 20 24 ];
+        symbol [ classes %tmp.23 206 12 19 ];
+        symbol [ size %tmp.24 206 20 24 ];
         %tmp.24 = getv function %tmp.23 :size;
         %tmp.25 = invoke %tmp.23 %tmp.24();
         %tmp.26 = 0;
         %tmp.27 = eq %tmp.25 %tmp.26;
-        bf %tmp.27 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_196_8_198_8_if_end;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_196_8_198_8_if_true:
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_196_33_198_8_start:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 197 12 ]
+        bf %tmp.27 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_206_8_208_8_if_end;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_206_8_208_8_if_true:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_206_33_208_8_start:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 207 12 ]
         ret ?;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_196_33_198_8_stop:
-        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_196_8_198_8_if_end;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_196_8_198_8_if_end:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 200 8 ]
-        for @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_8_212_8_for_test @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_8_212_8_for_incr @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_8_212_8_for_end;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_8_212_8_for_init:
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_8_212_8_for_begin" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_8_212_8_for_end" ]
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_206_33_208_8_stop:
+        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_206_8_208_8_if_end;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_206_8_208_8_if_end:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 210 8 ]
+        for @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_8_222_8_for_test @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_8_222_8_for_incr @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_8_222_8_for_end;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_8_222_8_for_init:
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_8_222_8_for_begin" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_8_222_8_for_end" ]
         %i.7 = local;
-        symbol [ i %i.7 200 17 18 ];
+        symbol [ i %i.7 210 17 18 ];
         %tmp.28 = 0;
         lputv %i.7 %tmp.28;
-        symbol [ i %i.7 200 17 18 ];
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_8_212_8_for_test:
+        symbol [ i %i.7 210 17 18 ];
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_8_222_8_for_test:
         %tmp.29 = lgetv %i.7;
-        symbol [ i %tmp.29 200 24 25 ];
+        symbol [ i %tmp.29 210 24 25 ];
         %tmp.30 = lgetv %classes.6;
-        symbol [ classes %tmp.30 200 28 35 ];
-        symbol [ size %tmp.31 200 36 40 ];
+        symbol [ classes %tmp.30 210 28 35 ];
+        symbol [ size %tmp.31 210 36 40 ];
         %tmp.31 = getv function %tmp.30 :size;
         %tmp.32 = invoke %tmp.30 %tmp.31();
         %tmp.33 = lt %tmp.29 %tmp.32;
-        bf %tmp.33 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_8_212_8_for_end;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_8_212_8_for_begin:
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_49_212_8_start:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 201 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_49_212_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_49_212_8_stop" ]
+        bf %tmp.33 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_8_222_8_for_end;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_8_222_8_for_begin:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_49_222_8_start:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 211 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_49_222_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_49_222_8_stop" ]
         %c.8 = local;
-        symbol [ c %c.8 201 16 17 ];
+        symbol [ c %c.8 211 16 17 ];
         %tmp.34 = lgetv %classes.6;
-        symbol [ classes %tmp.34 201 20 27 ];
+        symbol [ classes %tmp.34 211 20 27 ];
         %tmp.35 = lgetv %i.7;
-        symbol [ i %tmp.35 201 28 29 ];
+        symbol [ i %tmp.35 211 28 29 ];
         %tmp.36 = agetv %tmp.34 %tmp.35;
         lputv %c.8 %tmp.36;
-        symbol [ c %c.8 201 16 17 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 202 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_49_212_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_49_212_8_stop" ]
+        symbol [ c %c.8 211 16 17 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 212 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_49_222_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_49_222_8_stop" ]
         %start.9 = local;
-        symbol [ start %start.9 202 16 21 ];
+        symbol [ start %start.9 212 16 21 ];
         %tmp.37 = lgetv %c.8;
-        symbol [ c %tmp.37 202 24 25 ];
+        symbol [ c %tmp.37 212 24 25 ];
         %tmp.39 = const :start;
-        symbol [ start %tmp.39 202 27 32 const ];
+        symbol [ start %tmp.39 212 27 32 const ];
         %tmp.40 = agetv %tmp.37 %tmp.39;
         lputv %start.9 %tmp.40;
-        symbol [ start %start.9 202 16 21 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 203 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_49_212_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_49_212_8_stop" ]
+        symbol [ start %start.9 212 16 21 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 213 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_49_222_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_49_222_8_stop" ]
         %end.10 = local;
-        symbol [ end %end.10 203 16 19 ];
+        symbol [ end %end.10 213 16 19 ];
         %tmp.41 = lgetv %c.8;
-        symbol [ c %tmp.41 203 24 25 ];
+        symbol [ c %tmp.41 213 24 25 ];
         %tmp.43 = const :end;
-        symbol [ end %tmp.43 203 27 30 const ];
+        symbol [ end %tmp.43 213 27 30 const ];
         %tmp.44 = agetv %tmp.41 %tmp.43;
         lputv %end.10 %tmp.44;
-        symbol [ end %end.10 203 16 19 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 204 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_49_212_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_49_212_8_stop" ]
+        symbol [ end %end.10 213 16 19 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 214 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_49_222_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_49_222_8_stop" ]
         %loc.11 = local;
-        symbol [ loc %loc.11 204 16 19 ];
+        symbol [ loc %loc.11 214 16 19 ];
         %tmp.45 = lgetv %c.8;
-        symbol [ c %tmp.45 204 24 25 ];
+        symbol [ c %tmp.45 214 24 25 ];
         %tmp.47 = const :loc;
-        symbol [ loc %tmp.47 204 27 30 const ];
+        symbol [ loc %tmp.47 214 27 30 const ];
         %tmp.48 = agetv %tmp.45 %tmp.47;
         lputv %loc.11 %tmp.48;
-        symbol [ loc %loc.11 204 16 19 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 206 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_49_212_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_49_212_8_stop" ]
+        symbol [ loc %loc.11 214 16 19 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 216 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_49_222_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_49_222_8_stop" ]
         %timeStr.12 = local;
-        symbol [ timeStr %timeStr.12 206 16 23 ];
+        symbol [ timeStr %timeStr.12 216 16 23 ];
         %tmp.49 = self;
-        symbol [ formatTime %tmp.50 206 26 36 ];
+        symbol [ formatTime %tmp.50 216 26 36 ];
         %tmp.50 = getv function %tmp.49 :formatTime;
         %tmp.51 = lgetv %start.9;
-        symbol [ start %tmp.51 206 37 42 ];
+        symbol [ start %tmp.51 216 37 42 ];
         %tmp.52 = 0;
         %tmp.53 = agetv %tmp.51 %tmp.52;
         %tmp.54 = lgetv %start.9;
-        symbol [ start %tmp.54 206 47 52 ];
+        symbol [ start %tmp.54 216 47 52 ];
         %tmp.55 = 1;
         %tmp.56 = agetv %tmp.54 %tmp.55;
         %tmp.57 = invoke %tmp.49 %tmp.50(%tmp.53, %tmp.56);
         %tmp.58 = "-";
         %tmp.59 = add %tmp.57 %tmp.58;
         %tmp.60 = self;
-        symbol [ formatTime %tmp.61 206 65 75 ];
+        symbol [ formatTime %tmp.61 216 65 75 ];
         %tmp.61 = getv function %tmp.60 :formatTime;
         %tmp.62 = lgetv %end.10;
-        symbol [ end %tmp.62 206 76 79 ];
+        symbol [ end %tmp.62 216 76 79 ];
         %tmp.63 = 0;
         %tmp.64 = agetv %tmp.62 %tmp.63;
         %tmp.65 = lgetv %end.10;
-        symbol [ end %tmp.65 206 84 87 ];
+        symbol [ end %tmp.65 216 84 87 ];
         %tmp.66 = 1;
         %tmp.67 = agetv %tmp.65 %tmp.66;
         %tmp.68 = invoke %tmp.60 %tmp.61(%tmp.64, %tmp.67);
         %tmp.69 = add %tmp.59 %tmp.68;
         lputv %timeStr.12 %tmp.69;
-        symbol [ timeStr %timeStr.12 206 16 23 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 207 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_49_212_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_49_212_8_stop" ]
+        symbol [ timeStr %timeStr.12 216 16 23 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 217 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_49_222_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_49_222_8_stop" ]
         %line.13 = local;
-        symbol [ line %line.13 207 16 20 ];
+        symbol [ line %line.13 217 16 20 ];
         %tmp.70 = lgetv %c.8;
-        symbol [ c %tmp.70 207 23 24 ];
+        symbol [ c %tmp.70 217 23 24 ];
         %tmp.72 = const :title;
-        symbol [ title %tmp.72 207 26 31 const ];
+        symbol [ title %tmp.72 217 26 31 const ];
         %tmp.73 = agetv %tmp.70 %tmp.72;
-        %tmp.74 = " ";
+        %tmp.74 = " / ";
         %tmp.75 = add %tmp.73 %tmp.74;
         %tmp.76 = lgetv %timeStr.12;
-        symbol [ timeStr %tmp.76 207 41 48 ];
+        symbol [ timeStr %tmp.76 217 43 50 ];
         %tmp.77 = add %tmp.75 %tmp.76;
-        %tmp.78 = " ";
+        %tmp.78 = " / ";
         %tmp.79 = add %tmp.77 %tmp.78;
         %tmp.80 = lgetv %loc.11;
-        symbol [ loc %tmp.80 207 57 60 ];
+        symbol [ loc %tmp.80 217 61 64 ];
         %tmp.81 = add %tmp.79 %tmp.80;
         lputv %line.13 %tmp.81;
-        symbol [ line %line.13 207 16 20 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 209 12 ]
+        symbol [ line %line.13 217 16 20 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 219 12 ]
         %tmp.82 = lgetv %dc;
-        symbol [ dc %tmp.82 209 12 14 ];
-        symbol [ setColor %tmp.83 209 15 23 ];
+        symbol [ dc %tmp.82 219 12 14 ];
+        symbol [ setColor %tmp.83 219 15 23 ];
         %tmp.83 = getv function %tmp.82 :setColor;
-        symbol [ FG %tmp.85 209 24 26 ];
+        symbol [ FG %tmp.85 219 24 26 ];
         %tmp.85 = getv ? :FG;
-        symbol [ Graphics %tmp.86 209 28 36 ];
+        symbol [ Graphics %tmp.86 219 28 36 ];
         %tmp.86 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.87 209 37 54 ];
+        symbol [ COLOR_TRANSPARENT %tmp.87 219 37 54 ];
         %tmp.87 = getv %tmp.86 :COLOR_TRANSPARENT;
         invoke %tmp.82 %tmp.83(%tmp.85, %tmp.87);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 210 12 ]
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 220 12 ]
         %tmp.88 = lgetv %dc;
-        symbol [ dc %tmp.88 210 12 14 ];
-        symbol [ drawText %tmp.89 210 15 23 ];
+        symbol [ dc %tmp.88 220 12 14 ];
+        symbol [ drawText %tmp.89 220 15 23 ];
         %tmp.89 = getv function %tmp.88 :drawText;
         %tmp.90 = lgetv %x.1;
-        symbol [ x %tmp.90 210 24 25 ];
+        symbol [ x %tmp.90 220 24 25 ];
         %tmp.91 = lgetv %y.2;
-        symbol [ y %tmp.91 210 27 28 ];
-        symbol [ Graphics %tmp.92 210 30 38 ];
+        symbol [ y %tmp.91 220 27 28 ];
+        symbol [ Graphics %tmp.92 220 30 38 ];
         %tmp.92 = getm $.Toybox.Graphics;
-        symbol [ FONT_XTINY %tmp.93 210 39 49 ];
+        symbol [ FONT_XTINY %tmp.93 220 39 49 ];
         %tmp.93 = getv %tmp.92 :FONT_XTINY;
         %tmp.94 = lgetv %line.13;
-        symbol [ line %tmp.94 210 51 55 ];
-        symbol [ Graphics %tmp.95 210 57 65 ];
+        symbol [ line %tmp.94 220 51 55 ];
+        symbol [ Graphics %tmp.95 220 57 65 ];
         %tmp.95 = getm $.Toybox.Graphics;
-        symbol [ TEXT_JUSTIFY_CENTER %tmp.96 210 66 85 ];
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.96 220 66 85 ];
         %tmp.96 = getv %tmp.95 :TEXT_JUSTIFY_CENTER;
         invoke %tmp.88 %tmp.89(%tmp.90, %tmp.91, %tmp.93, %tmp.94, %tmp.96);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 211 12 ]
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 221 12 ]
         %tmp.97 = lgetv %y.2;
-        symbol [ y %tmp.97 211 12 13 ];
+        symbol [ y %tmp.97 221 12 13 ];
         %tmp.98 = lgetv %lineH.3;
-        symbol [ lineH %tmp.98 211 17 22 ];
+        symbol [ lineH %tmp.98 221 17 22 ];
         %tmp.99 = add %tmp.97 %tmp.98;
         lputv %y.2 %tmp.99;
-        symbol [ y %y.2 211 12 13 ];
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_49_212_8_stop:
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_8_212_8_for_incr:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 200 ]
+        symbol [ y %y.2 221 12 13 ];
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_49_222_8_stop:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_8_222_8_for_incr:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 210 ]
         %tmp.102 = lgetv %i.7;
-        symbol [ i %tmp.102 200 44 45 ];
+        symbol [ i %tmp.102 210 44 45 ];
         %tmp.103 = add %tmp.102 1;
         lputv %i.7 %tmp.103;
-        symbol [ i %i.7 200 44 45 ];
-        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_8_212_8_for_test;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_200_8_212_8_for_end:
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_185_35_213_4_stop:
+        symbol [ i %i.7 210 44 45 ];
+        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_8_222_8_for_test;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_210_8_222_8_for_end:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_195_35_223_4_stop:
     }
-    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 218; @symbol_functiondef = [onHide,218,13,19]; ]
+    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 228; @symbol_functiondef = [onHide,228,13,19]; ]
     function onHide() as Void {
     }
-    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 222; @symbol_functiondef = [onExitSleep,222,13,24]; ]
+    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 232; @symbol_functiondef = [onExitSleep,232,13,24]; ]
     function onExitSleep() as Void {
     }
-    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 226; @symbol_functiondef = [onEnterSleep,226,13,25]; ]
+    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 236; @symbol_functiondef = [onEnterSleep,236,13,25]; ]
     function onEnterSleep() as Void {
     }
-    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 230; @symbol_functiondef = [drawHexagonalTicks,230,13,31]; @symbol_param<0> = [dc,230,32,34]; @symbol_param<0>_type<0> = [Dc,230,38,40]; @symbol_param<1> = [minute,230,42,48]; @symbol_param<1>_type<0> = [Number,230,52,58]; ]
+    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 240; @symbol_functiondef = [drawHexagonalTicks,240,13,31]; @symbol_param<0> = [dc,240,32,34]; @symbol_param<0>_type<0> = [Dc,240,38,40]; @symbol_param<1> = [minute,240,42,48]; @symbol_param<1>_type<0> = [Number,240,52,58]; ]
     function drawHexagonalTicks(dc as Dc, minute as Number) as Void {
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_230_68_280_4_start:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 231 8 ]
-        for @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_8_279_8_for_test @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_8_279_8_for_incr @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_8_279_8_for_end;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_8_279_8_for_init:
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_8_279_8_for_begin" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_8_279_8_for_end" ]
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_240_68_290_4_start:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 241 8 ]
+        for @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_8_289_8_for_test @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_8_289_8_for_incr @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_8_289_8_for_end;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_8_289_8_for_init:
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_8_289_8_for_begin" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_8_289_8_for_end" ]
         %i.1 = local;
-        symbol [ i %i.1 231 17 18 ];
+        symbol [ i %i.1 241 17 18 ];
         %tmp.1 = 0;
         lputv %i.1 %tmp.1;
-        symbol [ i %i.1 231 17 18 ];
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_8_279_8_for_test:
+        symbol [ i %i.1 241 17 18 ];
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_8_289_8_for_test:
         %tmp.2 = lgetv %i.1;
-        symbol [ i %tmp.2 231 24 25 ];
+        symbol [ i %tmp.2 241 24 25 ];
         %tmp.3 = lgetv %minute;
-        symbol [ minute %tmp.3 231 29 35 ];
+        symbol [ minute %tmp.3 241 29 35 ];
         %tmp.4 = lte %tmp.2 %tmp.3;
-        bf %tmp.4 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_8_279_8_for_end;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_8_279_8_for_begin:
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_45_279_8_start:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 232 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_45_279_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_45_279_8_stop" ]
+        bf %tmp.4 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_8_289_8_for_end;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_8_289_8_for_begin:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_45_289_8_start:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 242 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_45_289_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_45_289_8_stop" ]
         %angle.2 = local;
-        symbol [ angle %angle.2 232 16 21 ];
+        symbol [ angle %angle.2 242 16 21 ];
         %tmp.5 = lgetv %i.1;
-        symbol [ i %tmp.5 232 25 26 ];
+        symbol [ i %tmp.5 242 25 26 ];
         %tmp.6 = 60.0;
         %tmp.7 = div %tmp.5 %tmp.6;
         %tmp.8 = 2;
         %tmp.9 = mul %tmp.7 %tmp.8;
-        symbol [ Math %tmp.11 232 41 45 ];
+        symbol [ Math %tmp.11 242 41 45 ];
         %tmp.11 = getv ? :Math;
-        symbol [ PI %tmp.12 232 46 48 ];
+        symbol [ PI %tmp.12 242 46 48 ];
         %tmp.12 = getv %tmp.11 :PI;
         %tmp.13 = mul %tmp.9 %tmp.12;
-        symbol [ Math %tmp.15 232 51 55 ];
+        symbol [ Math %tmp.15 242 51 55 ];
         %tmp.15 = getv ? :Math;
-        symbol [ PI %tmp.16 232 56 58 ];
+        symbol [ PI %tmp.16 242 56 58 ];
         %tmp.16 = getv %tmp.15 :PI;
         %tmp.17 = 2;
         %tmp.18 = div %tmp.16 %tmp.17;
         %tmp.19 = sub %tmp.13 %tmp.18;
         lputv %angle.2 %tmp.19;
-        symbol [ angle %angle.2 232 16 21 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 234 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_45_279_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_45_279_8_stop" ]
+        symbol [ angle %angle.2 242 16 21 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 244 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_45_289_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_45_289_8_stop" ]
         %isMajor.3 = local;
-        symbol [ isMajor %isMajor.3 234 16 23 ];
+        symbol [ isMajor %isMajor.3 244 16 23 ];
         %tmp.20 = lgetv %i.1;
-        symbol [ i %tmp.20 234 27 28 ];
+        symbol [ i %tmp.20 244 27 28 ];
         %tmp.21 = 5;
         %tmp.22 = mod %tmp.20 %tmp.21;
         %tmp.23 = 0;
         %tmp.24 = eq %tmp.22 %tmp.23;
         lputv %isMajor.3 %tmp.24;
-        symbol [ isMajor %isMajor.3 234 16 23 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 235 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_45_279_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_45_279_8_stop" ]
+        symbol [ isMajor %isMajor.3 244 16 23 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 245 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_45_289_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_45_289_8_stop" ]
         %isCardinal.4 = local;
-        symbol [ isCardinal %isCardinal.4 235 16 26 ];
+        symbol [ isCardinal %isCardinal.4 245 16 26 ];
         %tmp.25 = lgetv %i.1;
-        symbol [ i %tmp.25 235 30 31 ];
+        symbol [ i %tmp.25 245 30 31 ];
         %tmp.26 = 10;
         %tmp.27 = mod %tmp.25 %tmp.26;
         %tmp.28 = 0;
         %tmp.29 = eq %tmp.27 %tmp.28;
         lputv %isCardinal.4 %tmp.29;
-        symbol [ isCardinal %isCardinal.4 235 16 26 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 237 12 ]
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_12_278_12_if_stmt:
+        symbol [ isCardinal %isCardinal.4 245 16 26 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 247 12 ]
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_12_288_12_if_stmt:
         %tmp.30 = lgetv %isCardinal.4;
-        symbol [ isCardinal %tmp.30 237 16 26 ];
-        bf %tmp.30 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_12_278_12_if_else_false;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_12_278_12_if_true:
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_start:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 238 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_stop" ]
+        symbol [ isCardinal %tmp.30 247 16 26 ];
+        bf %tmp.30 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_12_288_12_if_else_false;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_12_288_12_if_true:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_start:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 248 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_stop" ]
         %tipLen.5 = local;
-        symbol [ tipLen %tipLen.5 238 20 26 ];
+        symbol [ tipLen %tipLen.5 248 20 26 ];
         %tmp.31 = 9.0;
         lputv %tipLen.5 %tmp.31;
-        symbol [ tipLen %tipLen.5 238 20 26 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 239 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_stop" ]
+        symbol [ tipLen %tipLen.5 248 20 26 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 249 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_stop" ]
         %baseHalf.6 = local;
-        symbol [ baseHalf %baseHalf.6 239 20 28 ];
+        symbol [ baseHalf %baseHalf.6 249 20 28 ];
         %tmp.32 = 6.0;
         lputv %baseHalf.6 %tmp.32;
-        symbol [ baseHalf %baseHalf.6 239 20 28 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 242 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_stop" ]
+        symbol [ baseHalf %baseHalf.6 249 20 28 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 252 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_stop" ]
         %baseCx.7 = local;
-        symbol [ baseCx %baseCx.7 242 20 26 ];
-        symbol [ cx %tmp.34 242 29 31 ];
+        symbol [ baseCx %baseCx.7 252 20 26 ];
+        symbol [ cx %tmp.34 252 29 31 ];
         %tmp.34 = getv ? :cx;
-        symbol [ Math %tmp.36 242 34 38 ];
+        symbol [ Math %tmp.36 252 34 38 ];
         %tmp.36 = getv ? :Math;
-        symbol [ cos %tmp.37 242 39 42 ];
+        symbol [ cos %tmp.37 252 39 42 ];
         %tmp.37 = getv function %tmp.36 :cos;
         %tmp.38 = lgetv %angle.2;
-        symbol [ angle %tmp.38 242 43 48 ];
+        symbol [ angle %tmp.38 252 43 48 ];
         %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
-        symbol [ radius %tmp.41 242 52 58 ];
+        symbol [ radius %tmp.41 252 52 58 ];
         %tmp.41 = getv ? :radius;
         %tmp.42 = mul %tmp.39 %tmp.41;
         %tmp.43 = add %tmp.34 %tmp.42;
         lputv %baseCx.7 %tmp.43;
-        symbol [ baseCx %baseCx.7 242 20 26 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 243 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_stop" ]
+        symbol [ baseCx %baseCx.7 252 20 26 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 253 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_stop" ]
         %baseCy.8 = local;
-        symbol [ baseCy %baseCy.8 243 20 26 ];
-        symbol [ cy %tmp.45 243 29 31 ];
+        symbol [ baseCy %baseCy.8 253 20 26 ];
+        symbol [ cy %tmp.45 253 29 31 ];
         %tmp.45 = getv ? :cy;
-        symbol [ Math %tmp.47 243 34 38 ];
+        symbol [ Math %tmp.47 253 34 38 ];
         %tmp.47 = getv ? :Math;
-        symbol [ sin %tmp.48 243 39 42 ];
+        symbol [ sin %tmp.48 253 39 42 ];
         %tmp.48 = getv function %tmp.47 :sin;
         %tmp.49 = lgetv %angle.2;
-        symbol [ angle %tmp.49 243 43 48 ];
+        symbol [ angle %tmp.49 253 43 48 ];
         %tmp.50 = invoke %tmp.47 %tmp.48(%tmp.49);
-        symbol [ radius %tmp.52 243 52 58 ];
+        symbol [ radius %tmp.52 253 52 58 ];
         %tmp.52 = getv ? :radius;
         %tmp.53 = mul %tmp.50 %tmp.52;
         %tmp.54 = add %tmp.45 %tmp.53;
         lputv %baseCy.8 %tmp.54;
-        symbol [ baseCy %baseCy.8 243 20 26 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 246 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_stop" ]
+        symbol [ baseCy %baseCy.8 253 20 26 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 256 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_stop" ]
         %tipR.9 = local;
-        symbol [ tipR %tipR.9 246 20 24 ];
-        symbol [ radius %tmp.56 246 28 34 ];
+        symbol [ tipR %tipR.9 256 20 24 ];
+        symbol [ radius %tmp.56 256 28 34 ];
         %tmp.56 = getv ? :radius;
         %tmp.57 = lgetv %tipLen.5;
-        symbol [ tipLen %tmp.57 246 37 43 ];
+        symbol [ tipLen %tmp.57 256 37 43 ];
         %tmp.58 = sub %tmp.56 %tmp.57;
         lputv %tipR.9 %tmp.58;
-        symbol [ tipR %tipR.9 246 20 24 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 247 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_stop" ]
+        symbol [ tipR %tipR.9 256 20 24 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 257 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_stop" ]
         %tipX.10 = local;
-        symbol [ tipX %tipX.10 247 20 24 ];
-        symbol [ cx %tmp.60 247 28 30 ];
+        symbol [ tipX %tipX.10 257 20 24 ];
+        symbol [ cx %tmp.60 257 28 30 ];
         %tmp.60 = getv ? :cx;
-        symbol [ Math %tmp.62 247 33 37 ];
+        symbol [ Math %tmp.62 257 33 37 ];
         %tmp.62 = getv ? :Math;
-        symbol [ cos %tmp.63 247 38 41 ];
+        symbol [ cos %tmp.63 257 38 41 ];
         %tmp.63 = getv function %tmp.62 :cos;
         %tmp.64 = lgetv %angle.2;
-        symbol [ angle %tmp.64 247 42 47 ];
+        symbol [ angle %tmp.64 257 42 47 ];
         %tmp.65 = invoke %tmp.62 %tmp.63(%tmp.64);
         %tmp.66 = lgetv %tipR.9;
-        symbol [ tipR %tmp.66 247 51 55 ];
+        symbol [ tipR %tmp.66 257 51 55 ];
         %tmp.67 = mul %tmp.65 %tmp.66;
         %tmp.68 = add %tmp.60 %tmp.67;
         lputv %tipX.10 %tmp.68;
-        symbol [ tipX %tipX.10 247 20 24 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 248 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_stop" ]
+        symbol [ tipX %tipX.10 257 20 24 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 258 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_stop" ]
         %tipY.11 = local;
-        symbol [ tipY %tipY.11 248 20 24 ];
-        symbol [ cy %tmp.70 248 28 30 ];
+        symbol [ tipY %tipY.11 258 20 24 ];
+        symbol [ cy %tmp.70 258 28 30 ];
         %tmp.70 = getv ? :cy;
-        symbol [ Math %tmp.72 248 33 37 ];
+        symbol [ Math %tmp.72 258 33 37 ];
         %tmp.72 = getv ? :Math;
-        symbol [ sin %tmp.73 248 38 41 ];
+        symbol [ sin %tmp.73 258 38 41 ];
         %tmp.73 = getv function %tmp.72 :sin;
         %tmp.74 = lgetv %angle.2;
-        symbol [ angle %tmp.74 248 42 47 ];
+        symbol [ angle %tmp.74 258 42 47 ];
         %tmp.75 = invoke %tmp.72 %tmp.73(%tmp.74);
         %tmp.76 = lgetv %tipR.9;
-        symbol [ tipR %tmp.76 248 51 55 ];
+        symbol [ tipR %tmp.76 258 51 55 ];
         %tmp.77 = mul %tmp.75 %tmp.76;
         %tmp.78 = add %tmp.70 %tmp.77;
         lputv %tipY.11 %tmp.78;
-        symbol [ tipY %tipY.11 248 20 24 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 251 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_stop" ]
+        symbol [ tipY %tipY.11 258 20 24 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 261 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_stop" ]
         %px.12 = local;
-        symbol [ px %px.12 251 20 22 ];
-        symbol [ Math %tmp.80 251 26 30 ];
+        symbol [ px %px.12 261 20 22 ];
+        symbol [ Math %tmp.80 261 26 30 ];
         %tmp.80 = getv ? :Math;
-        symbol [ sin %tmp.81 251 31 34 ];
+        symbol [ sin %tmp.81 261 31 34 ];
         %tmp.81 = getv function %tmp.80 :sin;
         %tmp.82 = lgetv %angle.2;
-        symbol [ angle %tmp.82 251 35 40 ];
+        symbol [ angle %tmp.82 261 35 40 ];
         %tmp.83 = invoke %tmp.80 %tmp.81(%tmp.82);
         %tmp.84 = sub 0 %tmp.83;
         lputv %px.12 %tmp.84;
-        symbol [ px %px.12 251 20 22 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 252 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_stop" ]
+        symbol [ px %px.12 261 20 22 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 262 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_stop" ]
         %py.13 = local;
-        symbol [ py %py.13 252 20 22 ];
-        symbol [ Math %tmp.86 252 26 30 ];
+        symbol [ py %py.13 262 20 22 ];
+        symbol [ Math %tmp.86 262 26 30 ];
         %tmp.86 = getv ? :Math;
-        symbol [ cos %tmp.87 252 31 34 ];
+        symbol [ cos %tmp.87 262 31 34 ];
         %tmp.87 = getv function %tmp.86 :cos;
         %tmp.88 = lgetv %angle.2;
-        symbol [ angle %tmp.88 252 35 40 ];
+        symbol [ angle %tmp.88 262 35 40 ];
         %tmp.89 = invoke %tmp.86 %tmp.87(%tmp.88);
         lputv %py.13 %tmp.89;
-        symbol [ py %py.13 252 20 22 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 254 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_stop" ]
+        symbol [ py %py.13 262 20 22 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 264 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_stop" ]
         %b1x.14 = local;
-        symbol [ b1x %b1x.14 254 20 23 ];
+        symbol [ b1x %b1x.14 264 20 23 ];
         %tmp.90 = lgetv %baseCx.7;
-        symbol [ baseCx %tmp.90 254 26 32 ];
+        symbol [ baseCx %tmp.90 264 26 32 ];
         %tmp.91 = lgetv %px.12;
-        symbol [ px %tmp.91 254 35 37 ];
+        symbol [ px %tmp.91 264 35 37 ];
         %tmp.92 = lgetv %baseHalf.6;
-        symbol [ baseHalf %tmp.92 254 40 48 ];
+        symbol [ baseHalf %tmp.92 264 40 48 ];
         %tmp.93 = mul %tmp.91 %tmp.92;
         %tmp.94 = add %tmp.90 %tmp.93;
         lputv %b1x.14 %tmp.94;
-        symbol [ b1x %b1x.14 254 20 23 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 255 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_stop" ]
+        symbol [ b1x %b1x.14 264 20 23 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 265 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_stop" ]
         %b1y.15 = local;
-        symbol [ b1y %b1y.15 255 20 23 ];
+        symbol [ b1y %b1y.15 265 20 23 ];
         %tmp.95 = lgetv %baseCy.8;
-        symbol [ baseCy %tmp.95 255 26 32 ];
+        symbol [ baseCy %tmp.95 265 26 32 ];
         %tmp.96 = lgetv %py.13;
-        symbol [ py %tmp.96 255 35 37 ];
+        symbol [ py %tmp.96 265 35 37 ];
         %tmp.97 = lgetv %baseHalf.6;
-        symbol [ baseHalf %tmp.97 255 40 48 ];
+        symbol [ baseHalf %tmp.97 265 40 48 ];
         %tmp.98 = mul %tmp.96 %tmp.97;
         %tmp.99 = add %tmp.95 %tmp.98;
         lputv %b1y.15 %tmp.99;
-        symbol [ b1y %b1y.15 255 20 23 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 256 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_stop" ]
+        symbol [ b1y %b1y.15 265 20 23 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 266 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_stop" ]
         %b2x.16 = local;
-        symbol [ b2x %b2x.16 256 20 23 ];
+        symbol [ b2x %b2x.16 266 20 23 ];
         %tmp.100 = lgetv %baseCx.7;
-        symbol [ baseCx %tmp.100 256 26 32 ];
+        symbol [ baseCx %tmp.100 266 26 32 ];
         %tmp.101 = lgetv %px.12;
-        symbol [ px %tmp.101 256 35 37 ];
+        symbol [ px %tmp.101 266 35 37 ];
         %tmp.102 = lgetv %baseHalf.6;
-        symbol [ baseHalf %tmp.102 256 40 48 ];
+        symbol [ baseHalf %tmp.102 266 40 48 ];
         %tmp.103 = mul %tmp.101 %tmp.102;
         %tmp.104 = sub %tmp.100 %tmp.103;
         lputv %b2x.16 %tmp.104;
-        symbol [ b2x %b2x.16 256 20 23 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 257 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_stop" ]
+        symbol [ b2x %b2x.16 266 20 23 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 267 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_stop" ]
         %b2y.17 = local;
-        symbol [ b2y %b2y.17 257 20 23 ];
+        symbol [ b2y %b2y.17 267 20 23 ];
         %tmp.105 = lgetv %baseCy.8;
-        symbol [ baseCy %tmp.105 257 26 32 ];
+        symbol [ baseCy %tmp.105 267 26 32 ];
         %tmp.106 = lgetv %py.13;
-        symbol [ py %tmp.106 257 35 37 ];
+        symbol [ py %tmp.106 267 35 37 ];
         %tmp.107 = lgetv %baseHalf.6;
-        symbol [ baseHalf %tmp.107 257 40 48 ];
+        symbol [ baseHalf %tmp.107 267 40 48 ];
         %tmp.108 = mul %tmp.106 %tmp.107;
         %tmp.109 = sub %tmp.105 %tmp.108;
         lputv %b2y.17 %tmp.109;
-        symbol [ b2y %b2y.17 257 20 23 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 260 16 ]
-        symbol [ Math %tmp.111 260 23 27 ];
+        symbol [ b2y %b2y.17 267 20 23 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 270 16 ]
+        symbol [ Math %tmp.111 270 23 27 ];
         %tmp.111 = getv ? :Math;
-        symbol [ round %tmp.112 260 28 33 ];
+        symbol [ round %tmp.112 270 28 33 ];
         %tmp.112 = getv function %tmp.111 :round;
         %tmp.113 = lgetv %tipX.10;
-        symbol [ tipX %tmp.113 260 34 38 ];
+        symbol [ tipX %tmp.113 270 34 38 ];
         %tmp.114 = invoke %tmp.111 %tmp.112(%tmp.113);
         lputv %tipX.10 %tmp.114;
-        symbol [ tipX %tipX.10 260 16 20 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 260 41 ]
-        symbol [ Math %tmp.116 260 48 52 ];
+        symbol [ tipX %tipX.10 270 16 20 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 270 41 ]
+        symbol [ Math %tmp.116 270 48 52 ];
         %tmp.116 = getv ? :Math;
-        symbol [ round %tmp.117 260 53 58 ];
+        symbol [ round %tmp.117 270 53 58 ];
         %tmp.117 = getv function %tmp.116 :round;
         %tmp.118 = lgetv %tipY.11;
-        symbol [ tipY %tmp.118 260 59 63 ];
+        symbol [ tipY %tmp.118 270 59 63 ];
         %tmp.119 = invoke %tmp.116 %tmp.117(%tmp.118);
         lputv %tipY.11 %tmp.119;
-        symbol [ tipY %tipY.11 260 41 45 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 261 16 ]
-        symbol [ Math %tmp.121 261 23 27 ];
+        symbol [ tipY %tipY.11 270 41 45 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 271 16 ]
+        symbol [ Math %tmp.121 271 23 27 ];
         %tmp.121 = getv ? :Math;
-        symbol [ round %tmp.122 261 28 33 ];
+        symbol [ round %tmp.122 271 28 33 ];
         %tmp.122 = getv function %tmp.121 :round;
         %tmp.123 = lgetv %b1x.14;
-        symbol [ b1x %tmp.123 261 34 37 ];
+        symbol [ b1x %tmp.123 271 34 37 ];
         %tmp.124 = invoke %tmp.121 %tmp.122(%tmp.123);
         lputv %b1x.14 %tmp.124;
-        symbol [ b1x %b1x.14 261 16 19 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 261 41 ]
-        symbol [ Math %tmp.126 261 48 52 ];
+        symbol [ b1x %b1x.14 271 16 19 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 271 41 ]
+        symbol [ Math %tmp.126 271 48 52 ];
         %tmp.126 = getv ? :Math;
-        symbol [ round %tmp.127 261 53 58 ];
+        symbol [ round %tmp.127 271 53 58 ];
         %tmp.127 = getv function %tmp.126 :round;
         %tmp.128 = lgetv %b1y.15;
-        symbol [ b1y %tmp.128 261 59 62 ];
+        symbol [ b1y %tmp.128 271 59 62 ];
         %tmp.129 = invoke %tmp.126 %tmp.127(%tmp.128);
         lputv %b1y.15 %tmp.129;
-        symbol [ b1y %b1y.15 261 41 44 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 262 16 ]
-        symbol [ Math %tmp.131 262 23 27 ];
+        symbol [ b1y %b1y.15 271 41 44 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 272 16 ]
+        symbol [ Math %tmp.131 272 23 27 ];
         %tmp.131 = getv ? :Math;
-        symbol [ round %tmp.132 262 28 33 ];
+        symbol [ round %tmp.132 272 28 33 ];
         %tmp.132 = getv function %tmp.131 :round;
         %tmp.133 = lgetv %b2x.16;
-        symbol [ b2x %tmp.133 262 34 37 ];
+        symbol [ b2x %tmp.133 272 34 37 ];
         %tmp.134 = invoke %tmp.131 %tmp.132(%tmp.133);
         lputv %b2x.16 %tmp.134;
-        symbol [ b2x %b2x.16 262 16 19 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 262 41 ]
-        symbol [ Math %tmp.136 262 48 52 ];
+        symbol [ b2x %b2x.16 272 16 19 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 272 41 ]
+        symbol [ Math %tmp.136 272 48 52 ];
         %tmp.136 = getv ? :Math;
-        symbol [ round %tmp.137 262 53 58 ];
+        symbol [ round %tmp.137 272 53 58 ];
         %tmp.137 = getv function %tmp.136 :round;
         %tmp.138 = lgetv %b2y.17;
-        symbol [ b2y %tmp.138 262 59 62 ];
+        symbol [ b2y %tmp.138 272 59 62 ];
         %tmp.139 = invoke %tmp.136 %tmp.137(%tmp.138);
         lputv %b2y.17 %tmp.139;
-        symbol [ b2y %b2y.17 262 41 44 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 264 16 ]
+        symbol [ b2y %b2y.17 272 41 44 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 274 16 ]
         %tmp.140 = lgetv %dc;
-        symbol [ dc %tmp.140 264 16 18 ];
-        symbol [ setColor %tmp.141 264 19 27 ];
+        symbol [ dc %tmp.140 274 16 18 ];
+        symbol [ setColor %tmp.141 274 19 27 ];
         %tmp.141 = getv function %tmp.140 :setColor;
-        symbol [ FG %tmp.143 264 28 30 ];
+        symbol [ FG %tmp.143 274 28 30 ];
         %tmp.143 = getv ? :FG;
-        symbol [ Graphics %tmp.144 264 32 40 ];
+        symbol [ Graphics %tmp.144 274 32 40 ];
         %tmp.144 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.145 264 41 58 ];
+        symbol [ COLOR_TRANSPARENT %tmp.145 274 41 58 ];
         %tmp.145 = getv %tmp.144 :COLOR_TRANSPARENT;
         invoke %tmp.140 %tmp.141(%tmp.143, %tmp.145);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 265 16 ]
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 275 16 ]
         %tmp.146 = lgetv %dc;
-        symbol [ dc %tmp.146 265 16 18 ];
-        symbol [ fillPolygon %tmp.147 265 19 30 ];
+        symbol [ dc %tmp.146 275 16 18 ];
+        symbol [ fillPolygon %tmp.147 275 19 30 ];
         %tmp.147 = getv function %tmp.146 :fillPolygon;
         %tmp.148 = newa 3;
         %tmp.149 = newa 2;
         %tmp.150 = lgetv %tipX.10;
-        symbol [ tipX %tmp.150 265 33 37 ];
+        symbol [ tipX %tmp.150 275 33 37 ];
         %tmp.151 = dup %tmp.149;
         %tmp.152 = aputv %tmp.151 0 %tmp.150;
         %tmp.153 = lgetv %tipY.11;
-        symbol [ tipY %tmp.153 265 39 43 ];
+        symbol [ tipY %tmp.153 275 39 43 ];
         %tmp.154 = dup %tmp.152;
         %tmp.155 = aputv %tmp.154 1 %tmp.153;
         %tmp.156 = dup %tmp.148;
         %tmp.157 = aputv %tmp.156 0 %tmp.155;
         %tmp.158 = newa 2;
         %tmp.159 = lgetv %b1x.14;
-        symbol [ b1x %tmp.159 265 47 50 ];
+        symbol [ b1x %tmp.159 275 47 50 ];
         %tmp.160 = dup %tmp.158;
         %tmp.161 = aputv %tmp.160 0 %tmp.159;
         %tmp.162 = lgetv %b1y.15;
-        symbol [ b1y %tmp.162 265 52 55 ];
+        symbol [ b1y %tmp.162 275 52 55 ];
         %tmp.163 = dup %tmp.161;
         %tmp.164 = aputv %tmp.163 1 %tmp.162;
         %tmp.165 = dup %tmp.157;
         %tmp.166 = aputv %tmp.165 1 %tmp.164;
         %tmp.167 = newa 2;
         %tmp.168 = lgetv %b2x.16;
-        symbol [ b2x %tmp.168 265 59 62 ];
+        symbol [ b2x %tmp.168 275 59 62 ];
         %tmp.169 = dup %tmp.167;
         %tmp.170 = aputv %tmp.169 0 %tmp.168;
         %tmp.171 = lgetv %b2y.17;
-        symbol [ b2y %tmp.171 265 64 67 ];
+        symbol [ b2y %tmp.171 275 64 67 ];
         %tmp.172 = dup %tmp.170;
         %tmp.173 = aputv %tmp.172 1 %tmp.171;
         %tmp.174 = dup %tmp.166;
         %tmp.175 = aputv %tmp.174 2 %tmp.173;
         invoke %tmp.146 %tmp.147(%tmp.175);
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_28_266_12_stop:
-        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_12_278_12_if_end;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_12_278_12_if_else_false:
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_266_19_278_12_start:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 267 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_266_19_278_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_266_19_278_12_stop" ]
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_28_276_12_stop:
+        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_12_288_12_if_end;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_12_288_12_if_else_false:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_19_288_12_start:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 277 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_19_288_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_19_288_12_stop" ]
         %rOuter.18 = local;
-        symbol [ rOuter %rOuter.18 267 20 26 ];
-        symbol [ radius %tmp.177 267 29 35 ];
+        symbol [ rOuter %rOuter.18 277 20 26 ];
+        symbol [ radius %tmp.177 277 29 35 ];
         %tmp.177 = getv ? :radius;
         lputv %rOuter.18 %tmp.177;
-        symbol [ rOuter %rOuter.18 267 20 26 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 268 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_266_19_278_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_266_19_278_12_stop" ]
+        symbol [ rOuter %rOuter.18 277 20 26 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 278 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_19_288_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_19_288_12_stop" ]
         %rInner.19 = local;
-        symbol [ rInner %rInner.19 268 20 26 ];
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_268_29_268_66_begin:
+        symbol [ rInner %rInner.19 278 20 26 ];
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_278_29_278_66_begin:
         %tmp.178 = lgetv %isMajor.3;
-        symbol [ isMajor %tmp.178 268 29 36 ];
-        bf %tmp.178 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_268_29_268_66_else_false;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_268_29_268_66_true:
-        symbol [ radius %tmp.180 268 40 46 ];
+        symbol [ isMajor %tmp.178 278 29 36 ];
+        bf %tmp.178 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_278_29_278_66_else_false;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_278_29_278_66_true:
+        symbol [ radius %tmp.180 278 40 46 ];
         %tmp.180 = getv ? :radius;
         %tmp.181 = 10;
         %tmp.182 = sub %tmp.180 %tmp.181;
         push %tmp.182;
-        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_268_29_268_66_end;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_268_29_268_66_else_false:
-        symbol [ radius %tmp.184 268 56 62 ];
+        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_278_29_278_66_end;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_278_29_278_66_else_false:
+        symbol [ radius %tmp.184 278 56 62 ];
         %tmp.184 = getv ? :radius;
         %tmp.185 = 5;
         %tmp.186 = sub %tmp.184 %tmp.185;
         push %tmp.186;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_268_29_268_66_end:
-        %tmp.187 = phi [%tmp.178 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_268_29_268_66_begin] [%tmp.182 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_268_29_268_66_true] [%tmp.186 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_268_29_268_66_else_false] [%tmp.187 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_268_29_268_66_end];
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_278_29_278_66_end:
+        %tmp.187 = phi [%tmp.178 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_278_29_278_66_begin] [%tmp.182 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_278_29_278_66_true] [%tmp.186 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_278_29_278_66_else_false] [%tmp.187 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_278_29_278_66_end];
         lputv %rInner.19 %tmp.187;
-        symbol [ rInner %rInner.19 268 20 26 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 270 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_266_19_278_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_266_19_278_12_stop" ]
+        symbol [ rInner %rInner.19 278 20 26 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 280 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_19_288_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_19_288_12_stop" ]
         %xOuter.20 = local;
-        symbol [ xOuter %xOuter.20 270 20 26 ];
-        symbol [ cx %tmp.189 270 29 31 ];
+        symbol [ xOuter %xOuter.20 280 20 26 ];
+        symbol [ cx %tmp.189 280 29 31 ];
         %tmp.189 = getv ? :cx;
-        symbol [ Math %tmp.191 270 34 38 ];
+        symbol [ Math %tmp.191 280 34 38 ];
         %tmp.191 = getv ? :Math;
-        symbol [ cos %tmp.192 270 39 42 ];
+        symbol [ cos %tmp.192 280 39 42 ];
         %tmp.192 = getv function %tmp.191 :cos;
         %tmp.193 = lgetv %angle.2;
-        symbol [ angle %tmp.193 270 43 48 ];
+        symbol [ angle %tmp.193 280 43 48 ];
         %tmp.194 = invoke %tmp.191 %tmp.192(%tmp.193);
         %tmp.195 = lgetv %rOuter.18;
-        symbol [ rOuter %tmp.195 270 52 58 ];
+        symbol [ rOuter %tmp.195 280 52 58 ];
         %tmp.196 = mul %tmp.194 %tmp.195;
         %tmp.197 = add %tmp.189 %tmp.196;
         lputv %xOuter.20 %tmp.197;
-        symbol [ xOuter %xOuter.20 270 20 26 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 271 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_266_19_278_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_266_19_278_12_stop" ]
+        symbol [ xOuter %xOuter.20 280 20 26 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 281 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_19_288_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_19_288_12_stop" ]
         %yOuter.21 = local;
-        symbol [ yOuter %yOuter.21 271 20 26 ];
-        symbol [ cy %tmp.199 271 29 31 ];
+        symbol [ yOuter %yOuter.21 281 20 26 ];
+        symbol [ cy %tmp.199 281 29 31 ];
         %tmp.199 = getv ? :cy;
-        symbol [ Math %tmp.201 271 34 38 ];
+        symbol [ Math %tmp.201 281 34 38 ];
         %tmp.201 = getv ? :Math;
-        symbol [ sin %tmp.202 271 39 42 ];
+        symbol [ sin %tmp.202 281 39 42 ];
         %tmp.202 = getv function %tmp.201 :sin;
         %tmp.203 = lgetv %angle.2;
-        symbol [ angle %tmp.203 271 43 48 ];
+        symbol [ angle %tmp.203 281 43 48 ];
         %tmp.204 = invoke %tmp.201 %tmp.202(%tmp.203);
         %tmp.205 = lgetv %rOuter.18;
-        symbol [ rOuter %tmp.205 271 52 58 ];
+        symbol [ rOuter %tmp.205 281 52 58 ];
         %tmp.206 = mul %tmp.204 %tmp.205;
         %tmp.207 = add %tmp.199 %tmp.206;
         lputv %yOuter.21 %tmp.207;
-        symbol [ yOuter %yOuter.21 271 20 26 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 272 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_266_19_278_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_266_19_278_12_stop" ]
+        symbol [ yOuter %yOuter.21 281 20 26 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 282 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_19_288_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_19_288_12_stop" ]
         %xInner.22 = local;
-        symbol [ xInner %xInner.22 272 20 26 ];
-        symbol [ cx %tmp.209 272 29 31 ];
+        symbol [ xInner %xInner.22 282 20 26 ];
+        symbol [ cx %tmp.209 282 29 31 ];
         %tmp.209 = getv ? :cx;
-        symbol [ Math %tmp.211 272 34 38 ];
+        symbol [ Math %tmp.211 282 34 38 ];
         %tmp.211 = getv ? :Math;
-        symbol [ cos %tmp.212 272 39 42 ];
+        symbol [ cos %tmp.212 282 39 42 ];
         %tmp.212 = getv function %tmp.211 :cos;
         %tmp.213 = lgetv %angle.2;
-        symbol [ angle %tmp.213 272 43 48 ];
+        symbol [ angle %tmp.213 282 43 48 ];
         %tmp.214 = invoke %tmp.211 %tmp.212(%tmp.213);
         %tmp.215 = lgetv %rInner.19;
-        symbol [ rInner %tmp.215 272 52 58 ];
+        symbol [ rInner %tmp.215 282 52 58 ];
         %tmp.216 = mul %tmp.214 %tmp.215;
         %tmp.217 = add %tmp.209 %tmp.216;
         lputv %xInner.22 %tmp.217;
-        symbol [ xInner %xInner.22 272 20 26 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 273 16 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_266_19_278_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_266_19_278_12_stop" ]
+        symbol [ xInner %xInner.22 282 20 26 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 283 16 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_19_288_12_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_19_288_12_stop" ]
         %yInner.23 = local;
-        symbol [ yInner %yInner.23 273 20 26 ];
-        symbol [ cy %tmp.219 273 29 31 ];
+        symbol [ yInner %yInner.23 283 20 26 ];
+        symbol [ cy %tmp.219 283 29 31 ];
         %tmp.219 = getv ? :cy;
-        symbol [ Math %tmp.221 273 34 38 ];
+        symbol [ Math %tmp.221 283 34 38 ];
         %tmp.221 = getv ? :Math;
-        symbol [ sin %tmp.222 273 39 42 ];
+        symbol [ sin %tmp.222 283 39 42 ];
         %tmp.222 = getv function %tmp.221 :sin;
         %tmp.223 = lgetv %angle.2;
-        symbol [ angle %tmp.223 273 43 48 ];
+        symbol [ angle %tmp.223 283 43 48 ];
         %tmp.224 = invoke %tmp.221 %tmp.222(%tmp.223);
         %tmp.225 = lgetv %rInner.19;
-        symbol [ rInner %tmp.225 273 52 58 ];
+        symbol [ rInner %tmp.225 283 52 58 ];
         %tmp.226 = mul %tmp.224 %tmp.225;
         %tmp.227 = add %tmp.219 %tmp.226;
         lputv %yInner.23 %tmp.227;
-        symbol [ yInner %yInner.23 273 20 26 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 275 16 ]
+        symbol [ yInner %yInner.23 283 20 26 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 285 16 ]
         %tmp.228 = lgetv %dc;
-        symbol [ dc %tmp.228 275 16 18 ];
-        symbol [ setPenWidth %tmp.229 275 19 30 ];
+        symbol [ dc %tmp.228 285 16 18 ];
+        symbol [ setPenWidth %tmp.229 285 19 30 ];
         %tmp.229 = getv function %tmp.228 :setPenWidth;
         %tmp.230 = 1;
         invoke %tmp.228 %tmp.229(%tmp.230);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 276 16 ]
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 286 16 ]
         %tmp.231 = lgetv %dc;
-        symbol [ dc %tmp.231 276 16 18 ];
-        symbol [ setColor %tmp.232 276 19 27 ];
+        symbol [ dc %tmp.231 286 16 18 ];
+        symbol [ setColor %tmp.232 286 19 27 ];
         %tmp.232 = getv function %tmp.231 :setColor;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_28_276_43_begin:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_286_28_286_43_begin:
         %tmp.233 = lgetv %isMajor.3;
-        symbol [ isMajor %tmp.233 276 28 35 ];
-        bf %tmp.233 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_28_276_43_else_false;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_28_276_43_true:
-        symbol [ FG %tmp.235 276 38 40 ];
+        symbol [ isMajor %tmp.233 286 28 35 ];
+        bf %tmp.233 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_286_28_286_43_else_false;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_286_28_286_43_true:
+        symbol [ FG %tmp.235 286 38 40 ];
         %tmp.235 = getv ? :FG;
         push %tmp.235;
-        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_28_276_43_end;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_28_276_43_else_false:
+        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_286_28_286_43_end;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_286_28_286_43_else_false:
         %tmp.236 = 0x666666;
         push %tmp.236;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_28_276_43_end:
-        %tmp.237 = phi [%tmp.233 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_28_276_43_begin] [%tmp.235 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_28_276_43_true] [%tmp.236 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_28_276_43_else_false] [%tmp.237 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_28_276_43_end];
-        symbol [ Graphics %tmp.238 276 53 61 ];
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_286_28_286_43_end:
+        %tmp.237 = phi [%tmp.233 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_286_28_286_43_begin] [%tmp.235 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_286_28_286_43_true] [%tmp.236 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_286_28_286_43_else_false] [%tmp.237 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_286_28_286_43_end];
+        symbol [ Graphics %tmp.238 286 53 61 ];
         %tmp.238 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.239 276 62 79 ];
+        symbol [ COLOR_TRANSPARENT %tmp.239 286 62 79 ];
         %tmp.239 = getv %tmp.238 :COLOR_TRANSPARENT;
         invoke %tmp.231 %tmp.232(%tmp.237, %tmp.239);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 277 16 ]
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 287 16 ]
         %tmp.240 = lgetv %dc;
-        symbol [ dc %tmp.240 277 16 18 ];
-        symbol [ drawLine %tmp.241 277 19 27 ];
+        symbol [ dc %tmp.240 287 16 18 ];
+        symbol [ drawLine %tmp.241 287 19 27 ];
         %tmp.241 = getv function %tmp.240 :drawLine;
         %tmp.242 = lgetv %xInner.22;
-        symbol [ xInner %tmp.242 277 28 34 ];
+        symbol [ xInner %tmp.242 287 28 34 ];
         %tmp.243 = lgetv %yInner.23;
-        symbol [ yInner %tmp.243 277 36 42 ];
+        symbol [ yInner %tmp.243 287 36 42 ];
         %tmp.244 = lgetv %xOuter.20;
-        symbol [ xOuter %tmp.244 277 44 50 ];
+        symbol [ xOuter %tmp.244 287 44 50 ];
         %tmp.245 = lgetv %yOuter.21;
-        symbol [ yOuter %tmp.245 277 52 58 ];
+        symbol [ yOuter %tmp.245 287 52 58 ];
         invoke %tmp.240 %tmp.241(%tmp.242, %tmp.243, %tmp.244, %tmp.245);
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_266_19_278_12_stop:
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_237_12_278_12_if_end:
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_45_279_8_stop:
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_8_279_8_for_incr:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 231 ]
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_276_19_288_12_stop:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_247_12_288_12_if_end:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_45_289_8_stop:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_8_289_8_for_incr:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 241 ]
         %tmp.246 = lgetv %i.1;
-        symbol [ i %tmp.246 231 37 38 ];
+        symbol [ i %tmp.246 241 37 38 ];
         %tmp.247 = 1;
         %tmp.248 = add %tmp.246 %tmp.247;
         lputv %i.1 %tmp.248;
-        symbol [ i %i.1 231 37 38 ];
-        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_8_279_8_for_test;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_231_8_279_8_for_end:
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_230_68_280_4_stop:
+        symbol [ i %i.1 241 37 38 ];
+        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_8_289_8_for_test;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_241_8_289_8_for_end:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_240_68_290_4_stop:
     }
-    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 283; @symbol_functiondef = [drawCardinalTicks,283,13,30]; @symbol_param<0> = [dc,283,31,33]; @symbol_param<0>_type<0> = [Dc,283,37,39]; ]
+    [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 293; @symbol_functiondef = [drawCardinalTicks,293,13,30]; @symbol_param<0> = [dc,293,31,33]; @symbol_param<0>_type<0> = [Dc,293,37,39]; ]
     function drawCardinalTicks(dc as Dc) {
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_283_41_315_4_start:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 284 8 ]
-        for @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_8_314_8_for_test @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_8_314_8_for_incr @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_8_314_8_for_end;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_8_314_8_for_init:
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_8_314_8_for_begin" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_8_314_8_for_end" ]
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_293_41_325_4_start:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 294 8 ]
+        for @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_8_324_8_for_test @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_8_324_8_for_incr @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_8_324_8_for_end;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_8_324_8_for_init:
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_8_324_8_for_begin" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_8_324_8_for_end" ]
         %i.1 = local;
-        symbol [ i %i.1 284 17 18 ];
+        symbol [ i %i.1 294 17 18 ];
         %tmp.1 = 0;
         lputv %i.1 %tmp.1;
-        symbol [ i %i.1 284 17 18 ];
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_8_314_8_for_test:
+        symbol [ i %i.1 294 17 18 ];
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_8_324_8_for_test:
         %tmp.2 = lgetv %i.1;
-        symbol [ i %tmp.2 284 24 25 ];
+        symbol [ i %tmp.2 294 24 25 ];
         %tmp.3 = 60;
         %tmp.4 = lte %tmp.2 %tmp.3;
-        bf %tmp.4 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_8_314_8_for_end;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_8_314_8_for_begin:
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_start:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 285 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_stop" ]
+        bf %tmp.4 @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_8_324_8_for_end;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_8_324_8_for_begin:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_start:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 295 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_stop" ]
         %angle.2 = local;
-        symbol [ angle %angle.2 285 16 21 ];
+        symbol [ angle %angle.2 295 16 21 ];
         %tmp.5 = lgetv %i.1;
-        symbol [ i %tmp.5 285 25 26 ];
+        symbol [ i %tmp.5 295 25 26 ];
         %tmp.6 = 60.0;
         %tmp.7 = div %tmp.5 %tmp.6;
         %tmp.8 = 2;
         %tmp.9 = mul %tmp.7 %tmp.8;
-        symbol [ Math %tmp.11 285 41 45 ];
+        symbol [ Math %tmp.11 295 41 45 ];
         %tmp.11 = getv ? :Math;
-        symbol [ PI %tmp.12 285 46 48 ];
+        symbol [ PI %tmp.12 295 46 48 ];
         %tmp.12 = getv %tmp.11 :PI;
         %tmp.13 = mul %tmp.9 %tmp.12;
-        symbol [ Math %tmp.15 285 51 55 ];
+        symbol [ Math %tmp.15 295 51 55 ];
         %tmp.15 = getv ? :Math;
-        symbol [ PI %tmp.16 285 56 58 ];
+        symbol [ PI %tmp.16 295 56 58 ];
         %tmp.16 = getv %tmp.15 :PI;
         %tmp.17 = 2;
         %tmp.18 = div %tmp.16 %tmp.17;
         %tmp.19 = sub %tmp.13 %tmp.18;
         lputv %angle.2 %tmp.19;
-        symbol [ angle %angle.2 285 16 21 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 286 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_stop" ]
+        symbol [ angle %angle.2 295 16 21 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 296 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_stop" ]
         %tipLen.3 = local;
-        symbol [ tipLen %tipLen.3 286 16 22 ];
+        symbol [ tipLen %tipLen.3 296 16 22 ];
         %tmp.20 = 9.0;
         lputv %tipLen.3 %tmp.20;
-        symbol [ tipLen %tipLen.3 286 16 22 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 287 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_stop" ]
+        symbol [ tipLen %tipLen.3 296 16 22 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 297 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_stop" ]
         %baseHalf.4 = local;
-        symbol [ baseHalf %baseHalf.4 287 16 24 ];
+        symbol [ baseHalf %baseHalf.4 297 16 24 ];
         %tmp.21 = 6.0;
         lputv %baseHalf.4 %tmp.21;
-        symbol [ baseHalf %baseHalf.4 287 16 24 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 290 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_stop" ]
+        symbol [ baseHalf %baseHalf.4 297 16 24 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 300 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_stop" ]
         %baseCx.5 = local;
-        symbol [ baseCx %baseCx.5 290 16 22 ];
-        symbol [ cx %tmp.23 290 25 27 ];
+        symbol [ baseCx %baseCx.5 300 16 22 ];
+        symbol [ cx %tmp.23 300 25 27 ];
         %tmp.23 = getv ? :cx;
-        symbol [ Math %tmp.25 290 30 34 ];
+        symbol [ Math %tmp.25 300 30 34 ];
         %tmp.25 = getv ? :Math;
-        symbol [ cos %tmp.26 290 35 38 ];
+        symbol [ cos %tmp.26 300 35 38 ];
         %tmp.26 = getv function %tmp.25 :cos;
         %tmp.27 = lgetv %angle.2;
-        symbol [ angle %tmp.27 290 39 44 ];
+        symbol [ angle %tmp.27 300 39 44 ];
         %tmp.28 = invoke %tmp.25 %tmp.26(%tmp.27);
-        symbol [ radius %tmp.30 290 48 54 ];
+        symbol [ radius %tmp.30 300 48 54 ];
         %tmp.30 = getv ? :radius;
         %tmp.31 = mul %tmp.28 %tmp.30;
         %tmp.32 = add %tmp.23 %tmp.31;
         lputv %baseCx.5 %tmp.32;
-        symbol [ baseCx %baseCx.5 290 16 22 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 291 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_stop" ]
+        symbol [ baseCx %baseCx.5 300 16 22 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 301 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_stop" ]
         %baseCy.6 = local;
-        symbol [ baseCy %baseCy.6 291 16 22 ];
-        symbol [ cy %tmp.34 291 25 27 ];
+        symbol [ baseCy %baseCy.6 301 16 22 ];
+        symbol [ cy %tmp.34 301 25 27 ];
         %tmp.34 = getv ? :cy;
-        symbol [ Math %tmp.36 291 30 34 ];
+        symbol [ Math %tmp.36 301 30 34 ];
         %tmp.36 = getv ? :Math;
-        symbol [ sin %tmp.37 291 35 38 ];
+        symbol [ sin %tmp.37 301 35 38 ];
         %tmp.37 = getv function %tmp.36 :sin;
         %tmp.38 = lgetv %angle.2;
-        symbol [ angle %tmp.38 291 39 44 ];
+        symbol [ angle %tmp.38 301 39 44 ];
         %tmp.39 = invoke %tmp.36 %tmp.37(%tmp.38);
-        symbol [ radius %tmp.41 291 48 54 ];
+        symbol [ radius %tmp.41 301 48 54 ];
         %tmp.41 = getv ? :radius;
         %tmp.42 = mul %tmp.39 %tmp.41;
         %tmp.43 = add %tmp.34 %tmp.42;
         lputv %baseCy.6 %tmp.43;
-        symbol [ baseCy %baseCy.6 291 16 22 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 294 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_stop" ]
+        symbol [ baseCy %baseCy.6 301 16 22 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 304 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_stop" ]
         %tipR.7 = local;
-        symbol [ tipR %tipR.7 294 16 20 ];
-        symbol [ radius %tmp.45 294 24 30 ];
+        symbol [ tipR %tipR.7 304 16 20 ];
+        symbol [ radius %tmp.45 304 24 30 ];
         %tmp.45 = getv ? :radius;
         %tmp.46 = lgetv %tipLen.3;
-        symbol [ tipLen %tmp.46 294 33 39 ];
+        symbol [ tipLen %tmp.46 304 33 39 ];
         %tmp.47 = sub %tmp.45 %tmp.46;
         lputv %tipR.7 %tmp.47;
-        symbol [ tipR %tipR.7 294 16 20 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 295 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_stop" ]
+        symbol [ tipR %tipR.7 304 16 20 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 305 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_stop" ]
         %tipX.8 = local;
-        symbol [ tipX %tipX.8 295 16 20 ];
-        symbol [ cx %tmp.49 295 24 26 ];
+        symbol [ tipX %tipX.8 305 16 20 ];
+        symbol [ cx %tmp.49 305 24 26 ];
         %tmp.49 = getv ? :cx;
-        symbol [ Math %tmp.51 295 29 33 ];
+        symbol [ Math %tmp.51 305 29 33 ];
         %tmp.51 = getv ? :Math;
-        symbol [ cos %tmp.52 295 34 37 ];
+        symbol [ cos %tmp.52 305 34 37 ];
         %tmp.52 = getv function %tmp.51 :cos;
         %tmp.53 = lgetv %angle.2;
-        symbol [ angle %tmp.53 295 38 43 ];
+        symbol [ angle %tmp.53 305 38 43 ];
         %tmp.54 = invoke %tmp.51 %tmp.52(%tmp.53);
         %tmp.55 = lgetv %tipR.7;
-        symbol [ tipR %tmp.55 295 47 51 ];
+        symbol [ tipR %tmp.55 305 47 51 ];
         %tmp.56 = mul %tmp.54 %tmp.55;
         %tmp.57 = add %tmp.49 %tmp.56;
         lputv %tipX.8 %tmp.57;
-        symbol [ tipX %tipX.8 295 16 20 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 296 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_stop" ]
+        symbol [ tipX %tipX.8 305 16 20 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 306 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_stop" ]
         %tipY.9 = local;
-        symbol [ tipY %tipY.9 296 16 20 ];
-        symbol [ cy %tmp.59 296 24 26 ];
+        symbol [ tipY %tipY.9 306 16 20 ];
+        symbol [ cy %tmp.59 306 24 26 ];
         %tmp.59 = getv ? :cy;
-        symbol [ Math %tmp.61 296 29 33 ];
+        symbol [ Math %tmp.61 306 29 33 ];
         %tmp.61 = getv ? :Math;
-        symbol [ sin %tmp.62 296 34 37 ];
+        symbol [ sin %tmp.62 306 34 37 ];
         %tmp.62 = getv function %tmp.61 :sin;
         %tmp.63 = lgetv %angle.2;
-        symbol [ angle %tmp.63 296 38 43 ];
+        symbol [ angle %tmp.63 306 38 43 ];
         %tmp.64 = invoke %tmp.61 %tmp.62(%tmp.63);
         %tmp.65 = lgetv %tipR.7;
-        symbol [ tipR %tmp.65 296 47 51 ];
+        symbol [ tipR %tmp.65 306 47 51 ];
         %tmp.66 = mul %tmp.64 %tmp.65;
         %tmp.67 = add %tmp.59 %tmp.66;
         lputv %tipY.9 %tmp.67;
-        symbol [ tipY %tipY.9 296 16 20 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 299 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_stop" ]
+        symbol [ tipY %tipY.9 306 16 20 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 309 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_stop" ]
         %px.10 = local;
-        symbol [ px %px.10 299 16 18 ];
-        symbol [ Math %tmp.69 299 22 26 ];
+        symbol [ px %px.10 309 16 18 ];
+        symbol [ Math %tmp.69 309 22 26 ];
         %tmp.69 = getv ? :Math;
-        symbol [ sin %tmp.70 299 27 30 ];
+        symbol [ sin %tmp.70 309 27 30 ];
         %tmp.70 = getv function %tmp.69 :sin;
         %tmp.71 = lgetv %angle.2;
-        symbol [ angle %tmp.71 299 31 36 ];
+        symbol [ angle %tmp.71 309 31 36 ];
         %tmp.72 = invoke %tmp.69 %tmp.70(%tmp.71);
         %tmp.73 = sub 0 %tmp.72;
         lputv %px.10 %tmp.73;
-        symbol [ px %px.10 299 16 18 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 300 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_stop" ]
+        symbol [ px %px.10 309 16 18 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 310 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_stop" ]
         %py.11 = local;
-        symbol [ py %py.11 300 16 18 ];
-        symbol [ Math %tmp.75 300 22 26 ];
+        symbol [ py %py.11 310 16 18 ];
+        symbol [ Math %tmp.75 310 22 26 ];
         %tmp.75 = getv ? :Math;
-        symbol [ cos %tmp.76 300 27 30 ];
+        symbol [ cos %tmp.76 310 27 30 ];
         %tmp.76 = getv function %tmp.75 :cos;
         %tmp.77 = lgetv %angle.2;
-        symbol [ angle %tmp.77 300 31 36 ];
+        symbol [ angle %tmp.77 310 31 36 ];
         %tmp.78 = invoke %tmp.75 %tmp.76(%tmp.77);
         lputv %py.11 %tmp.78;
-        symbol [ py %py.11 300 16 18 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 302 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_stop" ]
+        symbol [ py %py.11 310 16 18 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 312 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_stop" ]
         %b1x.12 = local;
-        symbol [ b1x %b1x.12 302 16 19 ];
+        symbol [ b1x %b1x.12 312 16 19 ];
         %tmp.79 = lgetv %baseCx.5;
-        symbol [ baseCx %tmp.79 302 22 28 ];
+        symbol [ baseCx %tmp.79 312 22 28 ];
         %tmp.80 = lgetv %px.10;
-        symbol [ px %tmp.80 302 31 33 ];
+        symbol [ px %tmp.80 312 31 33 ];
         %tmp.81 = lgetv %baseHalf.4;
-        symbol [ baseHalf %tmp.81 302 36 44 ];
+        symbol [ baseHalf %tmp.81 312 36 44 ];
         %tmp.82 = mul %tmp.80 %tmp.81;
         %tmp.83 = add %tmp.79 %tmp.82;
         lputv %b1x.12 %tmp.83;
-        symbol [ b1x %b1x.12 302 16 19 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 303 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_stop" ]
+        symbol [ b1x %b1x.12 312 16 19 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 313 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_stop" ]
         %b1y.13 = local;
-        symbol [ b1y %b1y.13 303 16 19 ];
+        symbol [ b1y %b1y.13 313 16 19 ];
         %tmp.84 = lgetv %baseCy.6;
-        symbol [ baseCy %tmp.84 303 22 28 ];
+        symbol [ baseCy %tmp.84 313 22 28 ];
         %tmp.85 = lgetv %py.11;
-        symbol [ py %tmp.85 303 31 33 ];
+        symbol [ py %tmp.85 313 31 33 ];
         %tmp.86 = lgetv %baseHalf.4;
-        symbol [ baseHalf %tmp.86 303 36 44 ];
+        symbol [ baseHalf %tmp.86 313 36 44 ];
         %tmp.87 = mul %tmp.85 %tmp.86;
         %tmp.88 = add %tmp.84 %tmp.87;
         lputv %b1y.13 %tmp.88;
-        symbol [ b1y %b1y.13 303 16 19 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 304 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_stop" ]
+        symbol [ b1y %b1y.13 313 16 19 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 314 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_stop" ]
         %b2x.14 = local;
-        symbol [ b2x %b2x.14 304 16 19 ];
+        symbol [ b2x %b2x.14 314 16 19 ];
         %tmp.89 = lgetv %baseCx.5;
-        symbol [ baseCx %tmp.89 304 22 28 ];
+        symbol [ baseCx %tmp.89 314 22 28 ];
         %tmp.90 = lgetv %px.10;
-        symbol [ px %tmp.90 304 31 33 ];
+        symbol [ px %tmp.90 314 31 33 ];
         %tmp.91 = lgetv %baseHalf.4;
-        symbol [ baseHalf %tmp.91 304 36 44 ];
+        symbol [ baseHalf %tmp.91 314 36 44 ];
         %tmp.92 = mul %tmp.90 %tmp.91;
         %tmp.93 = sub %tmp.89 %tmp.92;
         lputv %b2x.14 %tmp.93;
-        symbol [ b2x %b2x.14 304 16 19 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 305 12 ]
-        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_stop" ]
+        symbol [ b2x %b2x.14 314 16 19 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 315 12 ]
+        [ "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_start" "C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_stop" ]
         %b2y.15 = local;
-        symbol [ b2y %b2y.15 305 16 19 ];
+        symbol [ b2y %b2y.15 315 16 19 ];
         %tmp.94 = lgetv %baseCy.6;
-        symbol [ baseCy %tmp.94 305 22 28 ];
+        symbol [ baseCy %tmp.94 315 22 28 ];
         %tmp.95 = lgetv %py.11;
-        symbol [ py %tmp.95 305 31 33 ];
+        symbol [ py %tmp.95 315 31 33 ];
         %tmp.96 = lgetv %baseHalf.4;
-        symbol [ baseHalf %tmp.96 305 36 44 ];
+        symbol [ baseHalf %tmp.96 315 36 44 ];
         %tmp.97 = mul %tmp.95 %tmp.96;
         %tmp.98 = sub %tmp.94 %tmp.97;
         lputv %b2y.15 %tmp.98;
-        symbol [ b2y %b2y.15 305 16 19 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 308 12 ]
-        symbol [ Math %tmp.100 308 19 23 ];
+        symbol [ b2y %b2y.15 315 16 19 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 318 12 ]
+        symbol [ Math %tmp.100 318 19 23 ];
         %tmp.100 = getv ? :Math;
-        symbol [ round %tmp.101 308 24 29 ];
+        symbol [ round %tmp.101 318 24 29 ];
         %tmp.101 = getv function %tmp.100 :round;
         %tmp.102 = lgetv %tipX.8;
-        symbol [ tipX %tmp.102 308 30 34 ];
+        symbol [ tipX %tmp.102 318 30 34 ];
         %tmp.103 = invoke %tmp.100 %tmp.101(%tmp.102);
         lputv %tipX.8 %tmp.103;
-        symbol [ tipX %tipX.8 308 12 16 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 308 37 ]
-        symbol [ Math %tmp.105 308 44 48 ];
+        symbol [ tipX %tipX.8 318 12 16 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 318 37 ]
+        symbol [ Math %tmp.105 318 44 48 ];
         %tmp.105 = getv ? :Math;
-        symbol [ round %tmp.106 308 49 54 ];
+        symbol [ round %tmp.106 318 49 54 ];
         %tmp.106 = getv function %tmp.105 :round;
         %tmp.107 = lgetv %tipY.9;
-        symbol [ tipY %tmp.107 308 55 59 ];
+        symbol [ tipY %tmp.107 318 55 59 ];
         %tmp.108 = invoke %tmp.105 %tmp.106(%tmp.107);
         lputv %tipY.9 %tmp.108;
-        symbol [ tipY %tipY.9 308 37 41 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 309 12 ]
-        symbol [ Math %tmp.110 309 19 23 ];
+        symbol [ tipY %tipY.9 318 37 41 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 319 12 ]
+        symbol [ Math %tmp.110 319 19 23 ];
         %tmp.110 = getv ? :Math;
-        symbol [ round %tmp.111 309 24 29 ];
+        symbol [ round %tmp.111 319 24 29 ];
         %tmp.111 = getv function %tmp.110 :round;
         %tmp.112 = lgetv %b1x.12;
-        symbol [ b1x %tmp.112 309 30 33 ];
+        symbol [ b1x %tmp.112 319 30 33 ];
         %tmp.113 = invoke %tmp.110 %tmp.111(%tmp.112);
         lputv %b1x.12 %tmp.113;
-        symbol [ b1x %b1x.12 309 12 15 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 309 37 ]
-        symbol [ Math %tmp.115 309 44 48 ];
+        symbol [ b1x %b1x.12 319 12 15 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 319 37 ]
+        symbol [ Math %tmp.115 319 44 48 ];
         %tmp.115 = getv ? :Math;
-        symbol [ round %tmp.116 309 49 54 ];
+        symbol [ round %tmp.116 319 49 54 ];
         %tmp.116 = getv function %tmp.115 :round;
         %tmp.117 = lgetv %b1y.13;
-        symbol [ b1y %tmp.117 309 55 58 ];
+        symbol [ b1y %tmp.117 319 55 58 ];
         %tmp.118 = invoke %tmp.115 %tmp.116(%tmp.117);
         lputv %b1y.13 %tmp.118;
-        symbol [ b1y %b1y.13 309 37 40 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 310 12 ]
-        symbol [ Math %tmp.120 310 19 23 ];
+        symbol [ b1y %b1y.13 319 37 40 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 320 12 ]
+        symbol [ Math %tmp.120 320 19 23 ];
         %tmp.120 = getv ? :Math;
-        symbol [ round %tmp.121 310 24 29 ];
+        symbol [ round %tmp.121 320 24 29 ];
         %tmp.121 = getv function %tmp.120 :round;
         %tmp.122 = lgetv %b2x.14;
-        symbol [ b2x %tmp.122 310 30 33 ];
+        symbol [ b2x %tmp.122 320 30 33 ];
         %tmp.123 = invoke %tmp.120 %tmp.121(%tmp.122);
         lputv %b2x.14 %tmp.123;
-        symbol [ b2x %b2x.14 310 12 15 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 310 37 ]
-        symbol [ Math %tmp.125 310 44 48 ];
+        symbol [ b2x %b2x.14 320 12 15 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 320 37 ]
+        symbol [ Math %tmp.125 320 44 48 ];
         %tmp.125 = getv ? :Math;
-        symbol [ round %tmp.126 310 49 54 ];
+        symbol [ round %tmp.126 320 49 54 ];
         %tmp.126 = getv function %tmp.125 :round;
         %tmp.127 = lgetv %b2y.15;
-        symbol [ b2y %tmp.127 310 55 58 ];
+        symbol [ b2y %tmp.127 320 55 58 ];
         %tmp.128 = invoke %tmp.125 %tmp.126(%tmp.127);
         lputv %b2y.15 %tmp.128;
-        symbol [ b2y %b2y.15 310 37 40 ];
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 312 12 ]
+        symbol [ b2y %b2y.15 320 37 40 ];
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 322 12 ]
         %tmp.129 = lgetv %dc;
-        symbol [ dc %tmp.129 312 12 14 ];
-        symbol [ setColor %tmp.130 312 15 23 ];
+        symbol [ dc %tmp.129 322 12 14 ];
+        symbol [ setColor %tmp.130 322 15 23 ];
         %tmp.130 = getv function %tmp.129 :setColor;
-        symbol [ FG %tmp.132 312 24 26 ];
+        symbol [ FG %tmp.132 322 24 26 ];
         %tmp.132 = getv ? :FG;
-        symbol [ Graphics %tmp.133 312 28 36 ];
+        symbol [ Graphics %tmp.133 322 28 36 ];
         %tmp.133 = getm $.Toybox.Graphics;
-        symbol [ COLOR_TRANSPARENT %tmp.134 312 37 54 ];
+        symbol [ COLOR_TRANSPARENT %tmp.134 322 37 54 ];
         %tmp.134 = getv %tmp.133 :COLOR_TRANSPARENT;
         invoke %tmp.129 %tmp.130(%tmp.132, %tmp.134);
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 313 12 ]
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 323 12 ]
         %tmp.135 = lgetv %dc;
-        symbol [ dc %tmp.135 313 12 14 ];
-        symbol [ fillPolygon %tmp.136 313 15 26 ];
+        symbol [ dc %tmp.135 323 12 14 ];
+        symbol [ fillPolygon %tmp.136 323 15 26 ];
         %tmp.136 = getv function %tmp.135 :fillPolygon;
         %tmp.137 = newa 3;
         %tmp.138 = newa 2;
         %tmp.139 = lgetv %tipX.8;
-        symbol [ tipX %tmp.139 313 29 33 ];
+        symbol [ tipX %tmp.139 323 29 33 ];
         %tmp.140 = dup %tmp.138;
         %tmp.141 = aputv %tmp.140 0 %tmp.139;
         %tmp.142 = lgetv %tipY.9;
-        symbol [ tipY %tmp.142 313 35 39 ];
+        symbol [ tipY %tmp.142 323 35 39 ];
         %tmp.143 = dup %tmp.141;
         %tmp.144 = aputv %tmp.143 1 %tmp.142;
         %tmp.145 = dup %tmp.137;
         %tmp.146 = aputv %tmp.145 0 %tmp.144;
         %tmp.147 = newa 2;
         %tmp.148 = lgetv %b1x.12;
-        symbol [ b1x %tmp.148 313 43 46 ];
+        symbol [ b1x %tmp.148 323 43 46 ];
         %tmp.149 = dup %tmp.147;
         %tmp.150 = aputv %tmp.149 0 %tmp.148;
         %tmp.151 = lgetv %b1y.13;
-        symbol [ b1y %tmp.151 313 48 51 ];
+        symbol [ b1y %tmp.151 323 48 51 ];
         %tmp.152 = dup %tmp.150;
         %tmp.153 = aputv %tmp.152 1 %tmp.151;
         %tmp.154 = dup %tmp.146;
         %tmp.155 = aputv %tmp.154 1 %tmp.153;
         %tmp.156 = newa 2;
         %tmp.157 = lgetv %b2x.14;
-        symbol [ b2x %tmp.157 313 55 58 ];
+        symbol [ b2x %tmp.157 323 55 58 ];
         %tmp.158 = dup %tmp.156;
         %tmp.159 = aputv %tmp.158 0 %tmp.157;
         %tmp.160 = lgetv %b2y.15;
-        symbol [ b2y %tmp.160 313 60 63 ];
+        symbol [ b2y %tmp.160 323 60 63 ];
         %tmp.161 = dup %tmp.159;
         %tmp.162 = aputv %tmp.161 1 %tmp.160;
         %tmp.163 = dup %tmp.155;
         %tmp.164 = aputv %tmp.163 2 %tmp.162;
         invoke %tmp.135 %tmp.136(%tmp.164);
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_42_314_8_stop:
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_8_314_8_for_incr:
-[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 284 ]
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_42_324_8_stop:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_8_324_8_for_incr:
+[ "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc" 294 ]
         %tmp.165 = lgetv %i.1;
-        symbol [ i %tmp.165 284 33 34 ];
+        symbol [ i %tmp.165 294 33 34 ];
         %tmp.166 = 15;
         %tmp.167 = add %tmp.165 %tmp.166;
         lputv %i.1 %tmp.167;
-        symbol [ i %i.1 284 33 34 ];
-        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_8_314_8_for_test;
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_284_8_314_8_for_end:
-C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_283_41_315_4_stop:
+        symbol [ i %i.1 294 33 34 ];
+        goto @C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_8_324_8_for_test;
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_294_8_324_8_for_end:
+C__Users_swoli_Garmin_Dev_WatchFace1_source_WatchFace1View_mc_293_41_325_4_stop:
     }
 }
 [ @file = "C:\Users\swoli\Garmin Dev\WatchFace1\source\WatchFace1View.mc"; @line = 1; ]
